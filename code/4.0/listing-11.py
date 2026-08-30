@@ -1,0 +1,33 @@
+"""Compare adoption-gap distributions by onboarding status."""
+
+import sys
+from pathlib import Path
+
+import matplotlib.pyplot as plt
+
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "src"))
+
+from bookdata import load_frame
+
+df = load_frame("business_customers")
+df["adoption_gap"] = 1.0 - df["adoption"]
+
+groups = [
+    (True, "Onboarding complete", "0.2"),
+    (False, "Onboarding incomplete", "0.6"),
+]
+for flag, label, color in groups:
+    values = df.loc[df["onboarding_complete"] == flag, "adoption_gap"]
+    plt.hist(values, bins=20, density=True, alpha=0.55, color=color, label=label)
+
+plt.xlabel("Adoption gap (1 - adoption)")
+plt.ylabel("Density")
+plt.legend()
+plt.tight_layout()
+
+img_dir = ROOT / "img"
+img_dir.mkdir(exist_ok=True)
+plt.savefig(img_dir / "ch4_adoption_gap_by_onboarding.png", dpi=300, bbox_inches="tight")
+plt.close()
+print("Saved img/ch4_adoption_gap_by_onboarding.png")

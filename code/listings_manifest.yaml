@@ -1,0 +1,12 @@
+# Traceability for reader-facing listings. Not printed in the book.
+version: 1
+contract:
+  standalone: load or generate inputs, run the advertised computation, exit nonzero on failure
+  fragment: must be labeled in the manuscript and tested inside a companion example
+  skip_guards: forbidden
+  expected_output: qa/expected_results.yaml (numerical claims) plus advertised img/ artifacts
+qa:
+  runner: scripts/qa.py
+  listing_audit: scripts/audit_listings.py
+  numerical_audit: scripts/audit_outputs.py
+listings: []

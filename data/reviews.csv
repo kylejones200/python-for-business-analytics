@@ -1,0 +1,2001 @@
+review_id,product,rating,text,date
+R000001,Refill Pack,4,Love the Refill Pack — works exactly as described.,2024-12-27
+R000002,Doodad Max,4,Love the Doodad Max — setup was quick.,2025-11-25
+R000003,Service Plan,4,Love the Service Plan — great value for the price.,2024-09-09
+R000004,Gizmo Air,1,Disappointed with the Gizmo Air — support never followed up.,2025-09-28
+R000005,Refill Pack,4,Love the Refill Pack — great value for the price.,2024-04-19
+R000006,Widget Mini,5,Love the Widget Mini — shipping was fast.,2024-08-29
+R000007,Widget Mini,4,Love the Widget Mini — the packaging was excellent.,2025-02-16
+R000008,Gizmo Plus,5,Love the Gizmo Plus — great value for the price.,2025-10-11
+R000009,Starter Kit,4,Love the Starter Kit — setup was quick.,2025-11-04
+R000010,Widget Mini,3,The Widget Mini is okay — average quality.,2024-10-23
+R000011,Doodad Max,5,Love the Doodad Max — setup was quick.,2025-09-11
+R000012,Gizmo Plus,1,Disappointed with the Gizmo Plus — not worth the price.,2024-11-10
+R000013,Doodad Lite,5,Love the Doodad Lite — the quality feels premium.,2025-08-16
+R000014,Service Plan,4,Love the Service Plan — shipping was fast.,2024-12-11
+R000015,Doodad Max,5,Love the Doodad Max — setup was quick.,2025-04-14
+R000016,Widget Pro,4,Love the Widget Pro — the quality feels premium.,2025-12-07
+R000017,Doodad Max,2,Disappointed with the Doodad Max — stopped working after a week.,2024-11-29
+R000018,Doodad Max,1,Disappointed with the Doodad Max — stopped working after a week.,2025-10-25
+R000019,Widget Mini,3,The Widget Mini is okay — average quality.,2025-12-16
+R000020,Premium Bundle,5,Love the Premium Bundle — customer support was helpful.,2024-09-05
+R000021,Refill Pack,4,Love the Refill Pack — the packaging was excellent.,2025-08-10
+R000022,Gizmo Plus,4,Love the Gizmo Plus — the packaging was excellent.,2024-03-22
+R000023,Refill Pack,3,"The Refill Pack is okay — nothing special, but fine.",2024-07-05
+R000024,Starter Kit,5,Love the Starter Kit — works exactly as described.,2024-08-31
+R000025,Starter Kit,5,Love the Starter Kit — great value for the price.,2025-11-12
+R000026,Doodad Max,4,Love the Doodad Max — works exactly as described.,2024-05-01
+R000027,Doodad Max,4,Love the Doodad Max — shipping was fast.,2024-04-13
+R000028,Refill Pack,3,The Refill Pack is okay — average quality.,2025-08-24
+R000029,Refill Pack,1,Disappointed with the Refill Pack — arrived damaged.,2025-01-20
+R000030,Starter Kit,4,Love the Starter Kit — the packaging was excellent.,2025-08-30
+R000031,Refill Pack,3,The Refill Pack is okay — instructions could be clearer.,2024-11-20
+R000032,Refill Pack,4,Love the Refill Pack — works exactly as described.,2025-02-07
+R000033,Gizmo Air,5,Love the Gizmo Air — works exactly as described.,2024-02-08
+R000034,Premium Bundle,3,The Premium Bundle is okay — it met my expectations.,2025-06-11
+R000035,Doodad Lite,4,Love the Doodad Lite — great value for the price.,2025-08-03
+R000036,Service Plan,1,Disappointed with the Service Plan — the fit was off.,2025-10-09
+R000037,Doodad Lite,4,Love the Doodad Lite — setup was quick.,2025-12-09
+R000038,Gizmo Plus,2,Disappointed with the Gizmo Plus — missing a key part.,2024-06-30
+R000039,Doodad Lite,5,Love the Doodad Lite — customer support was helpful.,2024-09-28
+R000040,Refill Pack,5,Love the Refill Pack — customer support was helpful.,2024-06-21
+R000041,Doodad Lite,5,Love the Doodad Lite — the quality feels premium.,2024-10-15
+R000042,Refill Pack,5,Love the Refill Pack — the quality feels premium.,2024-12-15
+R000043,Doodad Max,5,Love the Doodad Max — setup was quick.,2026-01-12
+R000044,Starter Kit,5,Love the Starter Kit — customer support was helpful.,2024-06-11
+R000045,Gizmo Plus,4,Love the Gizmo Plus — the packaging was excellent.,2025-08-21
+R000046,Widget Pro,3,The Widget Pro is okay — average quality.,2024-12-16
+R000047,Widget Pro,3,"The Widget Pro is okay — nothing special, but fine.",2024-10-07
+R000048,Doodad Lite,5,Love the Doodad Lite — works exactly as described.,2024-05-17
+R000049,Starter Kit,4,Love the Starter Kit — great value for the price.,2025-03-25
+R000050,Doodad Max,1,Disappointed with the Doodad Max — the fit was off.,2025-08-30
+R000051,Widget Mini,3,"The Widget Mini is okay — nothing special, but fine.",2026-01-30
+R000052,Premium Bundle,1,Disappointed with the Premium Bundle — quality control seems inconsistent.,2025-05-14
+R000053,Gizmo Air,5,Love the Gizmo Air — the quality feels premium.,2025-03-19
+R000054,Service Plan,5,Love the Service Plan — great value for the price.,2024-04-06
+R000055,Doodad Max,5,Love the Doodad Max — shipping was fast.,2025-05-09
+R000056,Service Plan,4,Love the Service Plan — shipping was fast.,2025-06-10
+R000057,Doodad Lite,3,The Doodad Lite is okay — shipping was okay.,2025-10-24
+R000058,Premium Bundle,5,Love the Premium Bundle — shipping was fast.,2025-07-17
+R000059,Widget Mini,4,Love the Widget Mini — great value for the price.,2025-05-14
+R000060,Doodad Max,3,The Doodad Max is okay — instructions could be clearer.,2025-09-28
+R000061,Gizmo Air,2,Disappointed with the Gizmo Air — missing a key part.,2024-04-22
+R000062,Premium Bundle,5,Love the Premium Bundle — customer support was helpful.,2024-02-19
+R000063,Gizmo Air,3,The Gizmo Air is okay — it met my expectations.,2024-02-29
+R000064,Service Plan,3,The Service Plan is okay — instructions could be clearer.,2024-03-11
+R000065,Service Plan,1,Disappointed with the Service Plan — not worth the price.,2024-08-03
+R000066,Doodad Max,5,Love the Doodad Max — the quality feels premium.,2024-02-09
+R000067,Starter Kit,5,Love the Starter Kit — works exactly as described.,2026-01-14
+R000068,Gizmo Air,3,The Gizmo Air is okay — it met my expectations.,2025-07-17
+R000069,Gizmo Air,4,Love the Gizmo Air — works exactly as described.,2024-04-17
+R000070,Premium Bundle,5,Love the Premium Bundle — the packaging was excellent.,2024-12-01
+R000071,Premium Bundle,1,Disappointed with the Premium Bundle — support never followed up.,2026-01-08
+R000072,Gizmo Air,1,Disappointed with the Gizmo Air — missing a key part.,2025-05-20
+R000073,Starter Kit,3,The Starter Kit is okay — average quality.,2024-10-12
+R000074,Gizmo Air,4,Love the Gizmo Air — setup was quick.,2024-04-27
+R000075,Refill Pack,4,Love the Refill Pack — the quality feels premium.,2024-09-01
+R000076,Starter Kit,5,Love the Starter Kit — the packaging was excellent.,2025-10-26
+R000077,Refill Pack,3,The Refill Pack is okay — average quality.,2024-04-06
+R000078,Premium Bundle,5,Love the Premium Bundle — the quality feels premium.,2025-06-21
+R000079,Premium Bundle,4,Love the Premium Bundle — setup was quick.,2024-09-30
+R000080,Service Plan,5,Love the Service Plan — customer support was helpful.,2026-01-26
+R000081,Premium Bundle,4,Love the Premium Bundle — great value for the price.,2025-12-11
+R000082,Widget Mini,5,Love the Widget Mini — works exactly as described.,2025-01-02
+R000083,Premium Bundle,5,Love the Premium Bundle — customer support was helpful.,2026-01-30
+R000084,Refill Pack,2,Disappointed with the Refill Pack — support never followed up.,2025-11-30
+R000085,Gizmo Plus,5,Love the Gizmo Plus — the packaging was excellent.,2025-01-26
+R000086,Doodad Max,5,Love the Doodad Max — great value for the price.,2024-05-08
+R000087,Starter Kit,4,Love the Starter Kit — works exactly as described.,2025-09-29
+R000088,Refill Pack,4,Love the Refill Pack — the quality feels premium.,2025-08-06
+R000089,Service Plan,3,The Service Plan is okay — it met my expectations.,2025-11-10
+R000090,Gizmo Air,3,The Gizmo Air is okay — it does the job.,2024-03-27
+R000091,Gizmo Plus,3,The Gizmo Plus is okay — average quality.,2026-01-23
+R000092,Widget Pro,3,The Widget Pro is okay — instructions could be clearer.,2025-11-02
+R000093,Doodad Lite,5,Love the Doodad Lite — the quality feels premium.,2024-03-08
+R000094,Service Plan,4,Love the Service Plan — works exactly as described.,2025-03-24
+R000095,Service Plan,4,Love the Service Plan — setup was quick.,2026-01-20
+R000096,Widget Mini,5,Love the Widget Mini — great value for the price.,2025-04-08
+R000097,Gizmo Air,5,Love the Gizmo Air — works exactly as described.,2025-06-05
+R000098,Widget Pro,3,The Widget Pro is okay — it does the job.,2025-02-11
+R000099,Doodad Max,5,Love the Doodad Max — the packaging was excellent.,2026-01-09
+R000100,Gizmo Air,3,The Gizmo Air is okay — average quality.,2024-09-23
+R000101,Service Plan,4,Love the Service Plan — setup was quick.,2025-01-02
+R000102,Refill Pack,2,Disappointed with the Refill Pack — arrived damaged.,2025-10-30
+R000103,Doodad Lite,3,The Doodad Lite is okay — average quality.,2025-03-22
+R000104,Premium Bundle,3,"The Premium Bundle is okay — nothing special, but fine.",2025-09-25
+R000105,Widget Mini,5,Love the Widget Mini — shipping was fast.,2024-05-25
+R000106,Doodad Lite,2,Disappointed with the Doodad Lite — the fit was off.,2024-06-11
+R000107,Gizmo Air,3,The Gizmo Air is okay — average quality.,2024-07-09
+R000108,Widget Mini,4,Love the Widget Mini — great value for the price.,2024-07-12
+R000109,Doodad Lite,4,Love the Doodad Lite — the quality feels premium.,2025-04-07
+R000110,Gizmo Plus,4,Love the Gizmo Plus — customer support was helpful.,2026-01-29
+R000111,Gizmo Plus,4,Love the Gizmo Plus — great value for the price.,2025-03-28
+R000112,Widget Mini,4,Love the Widget Mini — setup was quick.,2024-07-30
+R000113,Widget Mini,5,Love the Widget Mini — the packaging was excellent.,2024-09-22
+R000114,Gizmo Air,3,The Gizmo Air is okay — shipping was okay.,2024-04-06
+R000115,Gizmo Air,4,Love the Gizmo Air — customer support was helpful.,2025-08-15
+R000116,Premium Bundle,3,"The Premium Bundle is okay — nothing special, but fine.",2025-12-11
+R000117,Gizmo Air,4,Love the Gizmo Air — setup was quick.,2025-03-13
+R000118,Starter Kit,3,The Starter Kit is okay — instructions could be clearer.,2026-01-20
+R000119,Gizmo Plus,4,Love the Gizmo Plus — setup was quick.,2025-05-25
+R000120,Refill Pack,3,The Refill Pack is okay — it does the job.,2025-04-15
+R000121,Gizmo Plus,5,Love the Gizmo Plus — shipping was fast.,2025-04-06
+R000122,Widget Pro,4,Love the Widget Pro — setup was quick.,2025-03-22
+R000123,Starter Kit,5,Love the Starter Kit — customer support was helpful.,2025-11-15
+R000124,Gizmo Air,2,Disappointed with the Gizmo Air — quality control seems inconsistent.,2025-09-18
+R000125,Widget Pro,5,Love the Widget Pro — shipping was fast.,2024-09-24
+R000126,Starter Kit,5,Love the Starter Kit — works exactly as described.,2024-07-20
+R000127,Gizmo Air,5,Love the Gizmo Air — shipping was fast.,2026-01-31
+R000128,Gizmo Air,5,Love the Gizmo Air — the quality feels premium.,2024-05-05
+R000129,Refill Pack,4,Love the Refill Pack — great value for the price.,2025-03-14
+R000130,Doodad Max,3,The Doodad Max is okay — it does the job.,2025-10-04
+R000131,Service Plan,5,Love the Service Plan — the quality feels premium.,2026-01-21
+R000132,Widget Pro,2,Disappointed with the Widget Pro — quality control seems inconsistent.,2024-04-19
+R000133,Doodad Lite,1,Disappointed with the Doodad Lite — not worth the price.,2025-01-28
+R000134,Starter Kit,4,Love the Starter Kit — shipping was fast.,2025-11-23
+R000135,Gizmo Air,5,Love the Gizmo Air — the packaging was excellent.,2024-02-29
+R000136,Widget Mini,4,Love the Widget Mini — customer support was helpful.,2025-02-02
+R000137,Gizmo Plus,5,Love the Gizmo Plus — works exactly as described.,2025-09-13
+R000138,Doodad Lite,2,Disappointed with the Doodad Lite — support never followed up.,2025-07-19
+R000139,Doodad Max,5,Love the Doodad Max — customer support was helpful.,2025-07-19
+R000140,Service Plan,3,"The Service Plan is okay — nothing special, but fine.",2024-09-03
+R000141,Widget Mini,2,Disappointed with the Widget Mini — missing a key part.,2025-01-29
+R000142,Refill Pack,4,Love the Refill Pack — shipping was fast.,2025-03-23
+R000143,Doodad Max,5,Love the Doodad Max — shipping was fast.,2025-12-11
+R000144,Service Plan,3,The Service Plan is okay — it does the job.,2024-09-21
+R000145,Service Plan,5,Love the Service Plan — works exactly as described.,2024-10-13
+R000146,Gizmo Plus,4,Love the Gizmo Plus — shipping was fast.,2025-06-03
+R000147,Gizmo Plus,4,Love the Gizmo Plus — the quality feels premium.,2025-06-28
+R000148,Widget Mini,4,Love the Widget Mini — the packaging was excellent.,2026-01-24
+R000149,Doodad Max,4,Love the Doodad Max — the packaging was excellent.,2025-06-10
+R000150,Gizmo Plus,3,The Gizmo Plus is okay — it does the job.,2025-03-25
+R000151,Gizmo Plus,4,Love the Gizmo Plus — customer support was helpful.,2024-08-30
+R000152,Service Plan,4,Love the Service Plan — the quality feels premium.,2024-12-08
+R000153,Widget Mini,3,The Widget Mini is okay — average quality.,2025-09-24
+R000154,Starter Kit,4,Love the Starter Kit — the quality feels premium.,2024-04-17
+R000155,Widget Mini,5,Love the Widget Mini — great value for the price.,2024-10-28
+R000156,Widget Pro,4,Love the Widget Pro — works exactly as described.,2025-06-07
+R000157,Refill Pack,3,The Refill Pack is okay — average quality.,2024-08-03
+R000158,Widget Pro,4,Love the Widget Pro — works exactly as described.,2025-01-02
+R000159,Starter Kit,3,The Starter Kit is okay — average quality.,2024-11-06
+R000160,Doodad Lite,5,Love the Doodad Lite — shipping was fast.,2025-09-07
+R000161,Starter Kit,4,Love the Starter Kit — the quality feels premium.,2024-10-14
+R000162,Widget Mini,3,The Widget Mini is okay — shipping was okay.,2024-09-13
+R000163,Starter Kit,4,Love the Starter Kit — works exactly as described.,2024-11-30
+R000164,Starter Kit,5,Love the Starter Kit — shipping was fast.,2024-06-01
+R000165,Doodad Lite,2,Disappointed with the Doodad Lite — support never followed up.,2025-02-11
+R000166,Widget Mini,5,Love the Widget Mini — setup was quick.,2025-02-20
+R000167,Gizmo Plus,4,Love the Gizmo Plus — shipping was fast.,2024-05-28
+R000168,Premium Bundle,4,Love the Premium Bundle — works exactly as described.,2024-02-07
+R000169,Gizmo Plus,3,The Gizmo Plus is okay — it does the job.,2025-07-13
+R000170,Doodad Max,5,Love the Doodad Max — works exactly as described.,2024-08-01
+R000171,Starter Kit,4,Love the Starter Kit — works exactly as described.,2025-10-08
+R000172,Doodad Lite,4,Love the Doodad Lite — great value for the price.,2025-03-13
+R000173,Starter Kit,1,Disappointed with the Starter Kit — quality control seems inconsistent.,2024-05-21
+R000174,Refill Pack,4,Love the Refill Pack — the quality feels premium.,2024-02-23
+R000175,Starter Kit,4,Love the Starter Kit — setup was quick.,2025-12-05
+R000176,Widget Pro,5,Love the Widget Pro — great value for the price.,2024-12-21
+R000177,Starter Kit,3,"The Starter Kit is okay — nothing special, but fine.",2024-07-11
+R000178,Gizmo Air,2,Disappointed with the Gizmo Air — support never followed up.,2025-07-09
+R000179,Doodad Max,3,"The Doodad Max is okay — nothing special, but fine.",2024-12-12
+R000180,Refill Pack,2,Disappointed with the Refill Pack — stopped working after a week.,2025-05-29
+R000181,Refill Pack,4,Love the Refill Pack — the quality feels premium.,2025-12-13
+R000182,Gizmo Plus,2,Disappointed with the Gizmo Plus — quality control seems inconsistent.,2024-04-30
+R000183,Widget Mini,3,"The Widget Mini is okay — nothing special, but fine.",2025-07-01
+R000184,Widget Pro,5,Love the Widget Pro — customer support was helpful.,2025-03-02
+R000185,Widget Mini,1,Disappointed with the Widget Mini — support never followed up.,2025-02-28
+R000186,Starter Kit,4,Love the Starter Kit — the quality feels premium.,2024-02-20
+R000187,Widget Mini,2,Disappointed with the Widget Mini — support never followed up.,2024-08-15
+R000188,Doodad Max,4,Love the Doodad Max — the packaging was excellent.,2025-03-30
+R000189,Premium Bundle,5,Love the Premium Bundle — the quality feels premium.,2024-06-08
+R000190,Doodad Max,3,"The Doodad Max is okay — nothing special, but fine.",2024-04-14
+R000191,Starter Kit,5,Love the Starter Kit — setup was quick.,2024-03-13
+R000192,Refill Pack,5,Love the Refill Pack — the quality feels premium.,2024-08-16
+R000193,Gizmo Plus,4,Love the Gizmo Plus — the packaging was excellent.,2024-03-20
+R000194,Widget Mini,5,Love the Widget Mini — shipping was fast.,2025-01-17
+R000195,Refill Pack,1,Disappointed with the Refill Pack — arrived damaged.,2024-03-01
+R000196,Premium Bundle,5,Love the Premium Bundle — setup was quick.,2024-12-29
+R000197,Gizmo Plus,2,Disappointed with the Gizmo Plus — the fit was off.,2025-08-23
+R000198,Doodad Max,2,Disappointed with the Doodad Max — stopped working after a week.,2025-02-16
+R000199,Service Plan,2,Disappointed with the Service Plan — arrived damaged.,2024-11-05
+R000200,Service Plan,4,Love the Service Plan — great value for the price.,2024-12-12
+R000201,Doodad Max,5,Love the Doodad Max — great value for the price.,2024-09-17
+R000202,Widget Pro,4,Love the Widget Pro — shipping was fast.,2025-08-20
+R000203,Starter Kit,5,Love the Starter Kit — customer support was helpful.,2024-11-17
+R000204,Starter Kit,5,Love the Starter Kit — the quality feels premium.,2024-05-19
+R000205,Premium Bundle,2,Disappointed with the Premium Bundle — support never followed up.,2024-04-09
+R000206,Gizmo Air,5,Love the Gizmo Air — customer support was helpful.,2025-11-19
+R000207,Doodad Max,4,Love the Doodad Max — the quality feels premium.,2024-12-26
+R000208,Doodad Max,1,Disappointed with the Doodad Max — support never followed up.,2026-01-10
+R000209,Starter Kit,2,Disappointed with the Starter Kit — stopped working after a week.,2025-02-08
+R000210,Widget Mini,4,Love the Widget Mini — setup was quick.,2025-04-20
+R000211,Widget Pro,5,Love the Widget Pro — the packaging was excellent.,2024-06-14
+R000212,Service Plan,4,Love the Service Plan — the packaging was excellent.,2024-12-19
+R000213,Widget Mini,2,Disappointed with the Widget Mini — stopped working after a week.,2024-02-25
+R000214,Service Plan,2,Disappointed with the Service Plan — arrived damaged.,2024-07-12
+R000215,Doodad Lite,2,Disappointed with the Doodad Lite — stopped working after a week.,2025-11-08
+R000216,Service Plan,3,The Service Plan is okay — shipping was okay.,2024-07-06
+R000217,Starter Kit,3,The Starter Kit is okay — instructions could be clearer.,2025-05-12
+R000218,Refill Pack,4,Love the Refill Pack — setup was quick.,2025-03-12
+R000219,Gizmo Plus,2,Disappointed with the Gizmo Plus — support never followed up.,2025-07-27
+R000220,Refill Pack,5,Love the Refill Pack — the quality feels premium.,2024-05-18
+R000221,Gizmo Air,2,Disappointed with the Gizmo Air — not worth the price.,2024-07-09
+R000222,Premium Bundle,3,The Premium Bundle is okay — instructions could be clearer.,2025-01-26
+R000223,Starter Kit,4,Love the Starter Kit — customer support was helpful.,2025-03-27
+R000224,Widget Pro,5,Love the Widget Pro — setup was quick.,2025-10-05
+R000225,Refill Pack,4,Love the Refill Pack — the packaging was excellent.,2025-10-11
+R000226,Gizmo Plus,4,Love the Gizmo Plus — great value for the price.,2024-12-09
+R000227,Doodad Max,5,Love the Doodad Max — the quality feels premium.,2025-06-06
+R000228,Doodad Max,5,Love the Doodad Max — setup was quick.,2025-11-30
+R000229,Gizmo Plus,3,The Gizmo Plus is okay — average quality.,2025-05-15
+R000230,Doodad Lite,5,Love the Doodad Lite — works exactly as described.,2024-06-19
+R000231,Gizmo Air,4,Love the Gizmo Air — the packaging was excellent.,2024-12-18
+R000232,Doodad Max,3,The Doodad Max is okay — average quality.,2024-07-19
+R000233,Widget Mini,5,Love the Widget Mini — the packaging was excellent.,2025-03-05
+R000234,Service Plan,4,Love the Service Plan — shipping was fast.,2024-11-19
+R000235,Doodad Lite,5,Love the Doodad Lite — the packaging was excellent.,2025-07-21
+R000236,Doodad Max,2,Disappointed with the Doodad Max — support never followed up.,2025-12-19
+R000237,Premium Bundle,5,Love the Premium Bundle — the packaging was excellent.,2025-02-14
+R000238,Gizmo Air,4,Love the Gizmo Air — the packaging was excellent.,2025-06-09
+R000239,Doodad Lite,5,Love the Doodad Lite — customer support was helpful.,2025-11-10
+R000240,Widget Mini,2,Disappointed with the Widget Mini — arrived damaged.,2024-05-24
+R000241,Widget Mini,2,Disappointed with the Widget Mini — quality control seems inconsistent.,2024-12-16
+R000242,Service Plan,5,Love the Service Plan — great value for the price.,2024-03-16
+R000243,Starter Kit,4,Love the Starter Kit — shipping was fast.,2024-05-09
+R000244,Starter Kit,4,Love the Starter Kit — works exactly as described.,2025-03-16
+R000245,Doodad Lite,5,Love the Doodad Lite — works exactly as described.,2025-04-20
+R000246,Gizmo Plus,5,Love the Gizmo Plus — setup was quick.,2025-06-02
+R000247,Service Plan,5,Love the Service Plan — the quality feels premium.,2024-08-10
+R000248,Premium Bundle,5,Love the Premium Bundle — great value for the price.,2025-01-08
+R000249,Refill Pack,4,Love the Refill Pack — customer support was helpful.,2024-08-20
+R000250,Widget Mini,4,Love the Widget Mini — the quality feels premium.,2025-02-02
+R000251,Service Plan,5,Love the Service Plan — the quality feels premium.,2025-05-06
+R000252,Widget Pro,3,The Widget Pro is okay — it met my expectations.,2025-05-20
+R000253,Gizmo Plus,5,Love the Gizmo Plus — shipping was fast.,2025-03-11
+R000254,Doodad Max,4,Love the Doodad Max — setup was quick.,2025-10-15
+R000255,Refill Pack,3,"The Refill Pack is okay — nothing special, but fine.",2024-03-09
+R000256,Refill Pack,4,Love the Refill Pack — great value for the price.,2024-12-10
+R000257,Doodad Max,5,Love the Doodad Max — customer support was helpful.,2024-07-11
+R000258,Doodad Lite,4,Love the Doodad Lite — works exactly as described.,2025-02-20
+R000259,Refill Pack,5,Love the Refill Pack — customer support was helpful.,2025-02-05
+R000260,Gizmo Air,5,Love the Gizmo Air — the quality feels premium.,2024-05-20
+R000261,Gizmo Plus,2,Disappointed with the Gizmo Plus — not worth the price.,2024-08-31
+R000262,Refill Pack,3,The Refill Pack is okay — average quality.,2025-02-06
+R000263,Gizmo Plus,1,Disappointed with the Gizmo Plus — stopped working after a week.,2025-08-12
+R000264,Widget Pro,1,Disappointed with the Widget Pro — stopped working after a week.,2024-06-09
+R000265,Widget Pro,1,Disappointed with the Widget Pro — not worth the price.,2024-06-30
+R000266,Widget Mini,5,Love the Widget Mini — the quality feels premium.,2024-05-24
+R000267,Premium Bundle,3,"The Premium Bundle is okay — nothing special, but fine.",2025-04-16
+R000268,Premium Bundle,3,"The Premium Bundle is okay — nothing special, but fine.",2025-10-07
+R000269,Refill Pack,5,Love the Refill Pack — the packaging was excellent.,2024-08-14
+R000270,Doodad Lite,3,The Doodad Lite is okay — shipping was okay.,2026-01-05
+R000271,Doodad Max,5,Love the Doodad Max — the quality feels premium.,2024-02-06
+R000272,Widget Mini,4,Love the Widget Mini — the packaging was excellent.,2024-03-08
+R000273,Gizmo Air,4,Love the Gizmo Air — shipping was fast.,2025-12-31
+R000274,Gizmo Air,5,Love the Gizmo Air — shipping was fast.,2024-06-01
+R000275,Service Plan,5,Love the Service Plan — customer support was helpful.,2024-09-11
+R000276,Gizmo Air,5,Love the Gizmo Air — the packaging was excellent.,2024-02-06
+R000277,Doodad Max,5,Love the Doodad Max — great value for the price.,2024-03-01
+R000278,Gizmo Plus,1,Disappointed with the Gizmo Plus — missing a key part.,2024-09-25
+R000279,Gizmo Air,2,Disappointed with the Gizmo Air — arrived damaged.,2025-09-19
+R000280,Gizmo Plus,5,Love the Gizmo Plus — customer support was helpful.,2025-07-30
+R000281,Gizmo Plus,3,"The Gizmo Plus is okay — nothing special, but fine.",2024-03-23
+R000282,Refill Pack,4,Love the Refill Pack — customer support was helpful.,2024-09-16
+R000283,Gizmo Plus,2,Disappointed with the Gizmo Plus — not worth the price.,2025-09-18
+R000284,Premium Bundle,5,Love the Premium Bundle — customer support was helpful.,2026-01-26
+R000285,Starter Kit,5,Love the Starter Kit — works exactly as described.,2024-10-06
+R000286,Doodad Lite,3,"The Doodad Lite is okay — nothing special, but fine.",2025-07-18
+R000287,Widget Mini,4,Love the Widget Mini — the quality feels premium.,2024-08-03
+R000288,Doodad Lite,4,Love the Doodad Lite — the quality feels premium.,2026-01-02
+R000289,Doodad Max,5,Love the Doodad Max — customer support was helpful.,2024-12-16
+R000290,Premium Bundle,2,Disappointed with the Premium Bundle — arrived damaged.,2025-08-24
+R000291,Doodad Max,4,Love the Doodad Max — the quality feels premium.,2025-04-30
+R000292,Doodad Lite,4,Love the Doodad Lite — great value for the price.,2024-11-07
+R000293,Doodad Max,3,The Doodad Max is okay — average quality.,2024-09-25
+R000294,Gizmo Air,3,The Gizmo Air is okay — instructions could be clearer.,2025-04-11
+R000295,Starter Kit,5,Love the Starter Kit — setup was quick.,2024-11-25
+R000296,Refill Pack,5,Love the Refill Pack — customer support was helpful.,2026-02-02
+R000297,Starter Kit,4,Love the Starter Kit — great value for the price.,2025-01-19
+R000298,Widget Pro,3,The Widget Pro is okay — it met my expectations.,2024-08-13
+R000299,Gizmo Air,4,Love the Gizmo Air — shipping was fast.,2025-05-11
+R000300,Refill Pack,4,Love the Refill Pack — customer support was helpful.,2026-01-12
+R000301,Gizmo Plus,1,Disappointed with the Gizmo Plus — the fit was off.,2025-03-02
+R000302,Widget Pro,3,"The Widget Pro is okay — nothing special, but fine.",2025-12-30
+R000303,Widget Mini,4,Love the Widget Mini — great value for the price.,2025-10-15
+R000304,Gizmo Air,3,The Gizmo Air is okay — instructions could be clearer.,2024-09-01
+R000305,Refill Pack,4,Love the Refill Pack — customer support was helpful.,2024-08-05
+R000306,Premium Bundle,5,Love the Premium Bundle — great value for the price.,2026-01-19
+R000307,Doodad Lite,2,Disappointed with the Doodad Lite — not worth the price.,2024-06-16
+R000308,Gizmo Plus,2,Disappointed with the Gizmo Plus — stopped working after a week.,2024-12-24
+R000309,Gizmo Air,5,Love the Gizmo Air — shipping was fast.,2024-09-18
+R000310,Widget Pro,5,Love the Widget Pro — setup was quick.,2024-05-21
+R000311,Doodad Max,4,Love the Doodad Max — the packaging was excellent.,2024-10-02
+R000312,Gizmo Air,5,Love the Gizmo Air — setup was quick.,2025-08-06
+R000313,Gizmo Plus,2,Disappointed with the Gizmo Plus — arrived damaged.,2024-02-21
+R000314,Service Plan,3,The Service Plan is okay — average quality.,2024-02-09
+R000315,Service Plan,5,Love the Service Plan — great value for the price.,2024-06-25
+R000316,Gizmo Air,5,Love the Gizmo Air — great value for the price.,2024-05-27
+R000317,Widget Mini,5,Love the Widget Mini — setup was quick.,2024-05-18
+R000318,Gizmo Air,4,Love the Gizmo Air — customer support was helpful.,2024-08-04
+R000319,Starter Kit,4,Love the Starter Kit — the quality feels premium.,2025-01-17
+R000320,Service Plan,4,Love the Service Plan — setup was quick.,2024-03-28
+R000321,Widget Mini,4,Love the Widget Mini — works exactly as described.,2024-12-10
+R000322,Starter Kit,5,Love the Starter Kit — great value for the price.,2024-07-07
+R000323,Widget Mini,4,Love the Widget Mini — customer support was helpful.,2024-11-17
+R000324,Starter Kit,5,Love the Starter Kit — the packaging was excellent.,2025-06-13
+R000325,Starter Kit,4,Love the Starter Kit — great value for the price.,2024-07-05
+R000326,Service Plan,3,The Service Plan is okay — it does the job.,2024-11-25
+R000327,Widget Pro,4,Love the Widget Pro — setup was quick.,2025-12-22
+R000328,Gizmo Plus,4,Love the Gizmo Plus — works exactly as described.,2024-11-15
+R000329,Starter Kit,3,"The Starter Kit is okay — nothing special, but fine.",2025-06-12
+R000330,Gizmo Plus,3,The Gizmo Plus is okay — it met my expectations.,2025-05-25
+R000331,Premium Bundle,4,Love the Premium Bundle — the packaging was excellent.,2024-02-07
+R000332,Premium Bundle,4,Love the Premium Bundle — customer support was helpful.,2024-04-12
+R000333,Gizmo Plus,3,The Gizmo Plus is okay — instructions could be clearer.,2025-03-27
+R000334,Refill Pack,5,Love the Refill Pack — shipping was fast.,2024-03-16
+R000335,Doodad Lite,3,The Doodad Lite is okay — it does the job.,2025-01-16
+R000336,Gizmo Air,4,Love the Gizmo Air — works exactly as described.,2025-11-10
+R000337,Refill Pack,1,Disappointed with the Refill Pack — support never followed up.,2025-04-18
+R000338,Gizmo Air,1,Disappointed with the Gizmo Air — missing a key part.,2024-07-08
+R000339,Premium Bundle,5,Love the Premium Bundle — setup was quick.,2025-07-27
+R000340,Premium Bundle,4,Love the Premium Bundle — the quality feels premium.,2025-02-09
+R000341,Premium Bundle,3,"The Premium Bundle is okay — nothing special, but fine.",2024-04-16
+R000342,Starter Kit,3,The Starter Kit is okay — it does the job.,2025-02-17
+R000343,Widget Mini,5,Love the Widget Mini — the quality feels premium.,2025-05-16
+R000344,Gizmo Plus,4,Love the Gizmo Plus — the quality feels premium.,2025-06-02
+R000345,Gizmo Air,5,Love the Gizmo Air — works exactly as described.,2024-08-01
+R000346,Widget Mini,4,Love the Widget Mini — shipping was fast.,2025-03-02
+R000347,Starter Kit,5,Love the Starter Kit — setup was quick.,2025-03-26
+R000348,Widget Pro,2,Disappointed with the Widget Pro — stopped working after a week.,2024-05-08
+R000349,Refill Pack,1,Disappointed with the Refill Pack — missing a key part.,2024-04-29
+R000350,Service Plan,4,Love the Service Plan — the quality feels premium.,2025-06-07
+R000351,Gizmo Air,5,Love the Gizmo Air — the quality feels premium.,2024-12-09
+R000352,Gizmo Air,5,Love the Gizmo Air — works exactly as described.,2024-10-29
+R000353,Refill Pack,4,Love the Refill Pack — setup was quick.,2025-10-21
+R000354,Refill Pack,4,Love the Refill Pack — the quality feels premium.,2025-08-29
+R000355,Gizmo Plus,5,Love the Gizmo Plus — great value for the price.,2024-08-18
+R000356,Refill Pack,5,Love the Refill Pack — great value for the price.,2024-04-05
+R000357,Premium Bundle,4,Love the Premium Bundle — the packaging was excellent.,2024-12-22
+R000358,Gizmo Air,3,The Gizmo Air is okay — instructions could be clearer.,2025-08-26
+R000359,Doodad Lite,2,Disappointed with the Doodad Lite — missing a key part.,2025-05-16
+R000360,Refill Pack,4,Love the Refill Pack — great value for the price.,2025-06-27
+R000361,Service Plan,4,Love the Service Plan — works exactly as described.,2024-08-16
+R000362,Doodad Lite,1,Disappointed with the Doodad Lite — the fit was off.,2025-11-22
+R000363,Widget Pro,5,Love the Widget Pro — the quality feels premium.,2024-02-05
+R000364,Widget Mini,2,Disappointed with the Widget Mini — quality control seems inconsistent.,2024-12-01
+R000365,Gizmo Plus,4,Love the Gizmo Plus — shipping was fast.,2024-06-08
+R000366,Service Plan,4,Love the Service Plan — customer support was helpful.,2025-04-08
+R000367,Doodad Max,2,Disappointed with the Doodad Max — support never followed up.,2024-09-01
+R000368,Service Plan,4,Love the Service Plan — shipping was fast.,2024-03-18
+R000369,Premium Bundle,5,Love the Premium Bundle — customer support was helpful.,2024-06-16
+R000370,Widget Pro,4,Love the Widget Pro — the packaging was excellent.,2024-08-20
+R000371,Gizmo Air,5,Love the Gizmo Air — customer support was helpful.,2024-10-03
+R000372,Refill Pack,4,Love the Refill Pack — the quality feels premium.,2025-11-19
+R000373,Widget Pro,4,Love the Widget Pro — setup was quick.,2024-02-05
+R000374,Widget Mini,5,Love the Widget Mini — great value for the price.,2025-01-05
+R000375,Widget Pro,5,Love the Widget Pro — great value for the price.,2024-03-01
+R000376,Starter Kit,5,Love the Starter Kit — works exactly as described.,2025-02-21
+R000377,Refill Pack,4,Love the Refill Pack — the packaging was excellent.,2025-03-31
+R000378,Doodad Max,3,The Doodad Max is okay — instructions could be clearer.,2024-05-17
+R000379,Widget Mini,3,The Widget Mini is okay — it met my expectations.,2024-10-05
+R000380,Service Plan,5,Love the Service Plan — the quality feels premium.,2025-05-16
+R000381,Gizmo Plus,5,Love the Gizmo Plus — the packaging was excellent.,2024-08-11
+R000382,Refill Pack,4,Love the Refill Pack — the quality feels premium.,2025-09-23
+R000383,Refill Pack,4,Love the Refill Pack — great value for the price.,2025-02-28
+R000384,Doodad Max,5,Love the Doodad Max — the packaging was excellent.,2024-07-18
+R000385,Premium Bundle,4,Love the Premium Bundle — works exactly as described.,2025-10-13
+R000386,Widget Pro,5,Love the Widget Pro — the packaging was excellent.,2024-02-27
+R000387,Gizmo Air,3,The Gizmo Air is okay — shipping was okay.,2024-04-22
+R000388,Gizmo Air,4,Love the Gizmo Air — customer support was helpful.,2024-04-06
+R000389,Gizmo Plus,4,Love the Gizmo Plus — setup was quick.,2025-07-29
+R000390,Widget Mini,4,Love the Widget Mini — works exactly as described.,2025-09-05
+R000391,Widget Mini,5,Love the Widget Mini — works exactly as described.,2025-12-04
+R000392,Service Plan,3,The Service Plan is okay — shipping was okay.,2025-09-23
+R000393,Widget Mini,5,Love the Widget Mini — setup was quick.,2024-04-08
+R000394,Premium Bundle,4,Love the Premium Bundle — works exactly as described.,2025-09-30
+R000395,Gizmo Air,4,Love the Gizmo Air — the quality feels premium.,2024-03-21
+R000396,Doodad Max,2,Disappointed with the Doodad Max — missing a key part.,2025-06-29
+R000397,Premium Bundle,4,Love the Premium Bundle — setup was quick.,2024-03-03
+R000398,Service Plan,5,Love the Service Plan — the packaging was excellent.,2024-12-11
+R000399,Widget Pro,1,Disappointed with the Widget Pro — missing a key part.,2025-08-16
+R000400,Doodad Lite,4,Love the Doodad Lite — the packaging was excellent.,2024-03-06
+R000401,Gizmo Air,4,Love the Gizmo Air — the quality feels premium.,2024-12-15
+R000402,Service Plan,5,Love the Service Plan — setup was quick.,2024-06-06
+R000403,Refill Pack,2,Disappointed with the Refill Pack — arrived damaged.,2024-12-09
+R000404,Gizmo Plus,5,Love the Gizmo Plus — setup was quick.,2025-10-23
+R000405,Premium Bundle,4,Love the Premium Bundle — the packaging was excellent.,2025-06-25
+R000406,Starter Kit,2,Disappointed with the Starter Kit — support never followed up.,2024-07-28
+R000407,Service Plan,3,The Service Plan is okay — instructions could be clearer.,2025-01-05
+R000408,Widget Mini,4,Love the Widget Mini — the quality feels premium.,2024-03-23
+R000409,Starter Kit,5,Love the Starter Kit — shipping was fast.,2024-09-11
+R000410,Service Plan,5,Love the Service Plan — great value for the price.,2024-11-28
+R000411,Doodad Lite,4,Love the Doodad Lite — setup was quick.,2024-10-02
+R000412,Refill Pack,4,Love the Refill Pack — customer support was helpful.,2025-02-06
+R000413,Widget Pro,2,Disappointed with the Widget Pro — support never followed up.,2024-08-27
+R000414,Premium Bundle,4,Love the Premium Bundle — works exactly as described.,2024-04-07
+R000415,Doodad Max,4,Love the Doodad Max — customer support was helpful.,2025-07-15
+R000416,Premium Bundle,5,Love the Premium Bundle — works exactly as described.,2025-04-25
+R000417,Refill Pack,3,The Refill Pack is okay — average quality.,2024-04-17
+R000418,Widget Mini,5,Love the Widget Mini — works exactly as described.,2025-10-16
+R000419,Widget Pro,2,Disappointed with the Widget Pro — arrived damaged.,2024-09-06
+R000420,Doodad Max,1,Disappointed with the Doodad Max — missing a key part.,2024-05-01
+R000421,Gizmo Plus,4,Love the Gizmo Plus — great value for the price.,2024-11-16
+R000422,Gizmo Air,3,The Gizmo Air is okay — average quality.,2025-01-05
+R000423,Doodad Max,5,Love the Doodad Max — customer support was helpful.,2024-04-26
+R000424,Refill Pack,4,Love the Refill Pack — the quality feels premium.,2026-01-04
+R000425,Doodad Max,1,Disappointed with the Doodad Max — support never followed up.,2025-05-09
+R000426,Service Plan,4,Love the Service Plan — great value for the price.,2026-01-27
+R000427,Gizmo Air,4,Love the Gizmo Air — customer support was helpful.,2024-07-24
+R000428,Doodad Max,4,Love the Doodad Max — customer support was helpful.,2024-03-27
+R000429,Doodad Lite,5,Love the Doodad Lite — works exactly as described.,2025-07-30
+R000430,Doodad Max,1,Disappointed with the Doodad Max — missing a key part.,2025-11-14
+R000431,Premium Bundle,5,Love the Premium Bundle — setup was quick.,2024-07-10
+R000432,Gizmo Plus,2,Disappointed with the Gizmo Plus — arrived damaged.,2024-06-07
+R000433,Refill Pack,4,Love the Refill Pack — setup was quick.,2024-12-20
+R000434,Starter Kit,4,Love the Starter Kit — the quality feels premium.,2025-05-08
+R000435,Service Plan,3,"The Service Plan is okay — nothing special, but fine.",2025-10-13
+R000436,Gizmo Plus,2,Disappointed with the Gizmo Plus — support never followed up.,2025-05-17
+R000437,Service Plan,5,Love the Service Plan — the packaging was excellent.,2025-10-04
+R000438,Gizmo Air,5,Love the Gizmo Air — the packaging was excellent.,2025-01-11
+R000439,Service Plan,3,The Service Plan is okay — average quality.,2025-12-20
+R000440,Widget Mini,3,The Widget Mini is okay — instructions could be clearer.,2025-06-20
+R000441,Doodad Lite,5,Love the Doodad Lite — the packaging was excellent.,2026-01-11
+R000442,Refill Pack,5,Love the Refill Pack — works exactly as described.,2024-06-09
+R000443,Service Plan,4,Love the Service Plan — the quality feels premium.,2024-02-11
+R000444,Premium Bundle,5,Love the Premium Bundle — works exactly as described.,2025-10-11
+R000445,Refill Pack,4,Love the Refill Pack — shipping was fast.,2026-01-04
+R000446,Gizmo Plus,3,The Gizmo Plus is okay — instructions could be clearer.,2025-05-17
+R000447,Widget Pro,5,Love the Widget Pro — great value for the price.,2024-07-07
+R000448,Gizmo Plus,5,Love the Gizmo Plus — the packaging was excellent.,2024-09-15
+R000449,Gizmo Plus,4,Love the Gizmo Plus — the quality feels premium.,2024-05-26
+R000450,Gizmo Air,4,Love the Gizmo Air — shipping was fast.,2024-10-16
+R000451,Starter Kit,4,Love the Starter Kit — great value for the price.,2025-12-28
+R000452,Refill Pack,3,The Refill Pack is okay — average quality.,2025-06-02
+R000453,Starter Kit,5,Love the Starter Kit — the packaging was excellent.,2025-08-27
+R000454,Premium Bundle,4,Love the Premium Bundle — works exactly as described.,2025-02-14
+R000455,Widget Pro,4,Love the Widget Pro — the packaging was excellent.,2025-05-23
+R000456,Doodad Max,3,The Doodad Max is okay — instructions could be clearer.,2025-01-25
+R000457,Service Plan,3,The Service Plan is okay — it does the job.,2024-03-21
+R000458,Gizmo Plus,2,Disappointed with the Gizmo Plus — arrived damaged.,2024-07-18
+R000459,Starter Kit,3,The Starter Kit is okay — instructions could be clearer.,2025-02-18
+R000460,Doodad Lite,2,Disappointed with the Doodad Lite — arrived damaged.,2024-03-26
+R000461,Gizmo Plus,5,Love the Gizmo Plus — the packaging was excellent.,2025-09-17
+R000462,Premium Bundle,3,The Premium Bundle is okay — it met my expectations.,2024-06-30
+R000463,Gizmo Plus,5,Love the Gizmo Plus — the quality feels premium.,2024-02-13
+R000464,Premium Bundle,4,Love the Premium Bundle — shipping was fast.,2024-05-11
+R000465,Service Plan,5,Love the Service Plan — works exactly as described.,2025-08-12
+R000466,Doodad Max,3,The Doodad Max is okay — it met my expectations.,2024-12-10
+R000467,Doodad Lite,5,Love the Doodad Lite — setup was quick.,2025-07-28
+R000468,Doodad Lite,4,Love the Doodad Lite — setup was quick.,2024-07-01
+R000469,Widget Mini,3,The Widget Mini is okay — it does the job.,2024-10-04
+R000470,Gizmo Air,5,Love the Gizmo Air — great value for the price.,2025-07-05
+R000471,Gizmo Plus,1,Disappointed with the Gizmo Plus — missing a key part.,2025-05-28
+R000472,Gizmo Air,4,Love the Gizmo Air — works exactly as described.,2025-12-23
+R000473,Refill Pack,4,Love the Refill Pack — works exactly as described.,2025-08-03
+R000474,Doodad Max,2,Disappointed with the Doodad Max — support never followed up.,2024-11-20
+R000475,Starter Kit,5,Love the Starter Kit — the quality feels premium.,2025-11-04
+R000476,Widget Pro,4,Love the Widget Pro — works exactly as described.,2025-05-03
+R000477,Gizmo Air,1,Disappointed with the Gizmo Air — stopped working after a week.,2025-05-28
+R000478,Premium Bundle,5,Love the Premium Bundle — works exactly as described.,2025-02-26
+R000479,Doodad Lite,5,Love the Doodad Lite — the packaging was excellent.,2026-01-30
+R000480,Gizmo Air,5,Love the Gizmo Air — customer support was helpful.,2024-12-21
+R000481,Premium Bundle,3,The Premium Bundle is okay — it does the job.,2024-08-09
+R000482,Doodad Max,3,The Doodad Max is okay — it does the job.,2025-11-15
+R000483,Gizmo Air,5,Love the Gizmo Air — shipping was fast.,2024-02-21
+R000484,Doodad Lite,5,Love the Doodad Lite — shipping was fast.,2024-12-22
+R000485,Premium Bundle,5,Love the Premium Bundle — setup was quick.,2025-11-17
+R000486,Premium Bundle,2,Disappointed with the Premium Bundle — arrived damaged.,2024-04-12
+R000487,Doodad Max,4,Love the Doodad Max — works exactly as described.,2024-03-28
+R000488,Widget Mini,2,Disappointed with the Widget Mini — not worth the price.,2024-03-05
+R000489,Doodad Max,2,Disappointed with the Doodad Max — arrived damaged.,2025-06-28
+R000490,Premium Bundle,5,Love the Premium Bundle — the quality feels premium.,2025-10-28
+R000491,Doodad Lite,5,Love the Doodad Lite — setup was quick.,2024-07-10
+R000492,Widget Pro,4,Love the Widget Pro — the quality feels premium.,2024-02-08
+R000493,Gizmo Air,5,Love the Gizmo Air — customer support was helpful.,2024-07-31
+R000494,Refill Pack,4,Love the Refill Pack — the packaging was excellent.,2024-02-27
+R000495,Starter Kit,4,Love the Starter Kit — customer support was helpful.,2024-08-02
+R000496,Refill Pack,5,Love the Refill Pack — the packaging was excellent.,2025-01-04
+R000497,Refill Pack,5,Love the Refill Pack — the quality feels premium.,2025-12-27
+R000498,Starter Kit,5,Love the Starter Kit — setup was quick.,2024-11-22
+R000499,Doodad Lite,5,Love the Doodad Lite — the quality feels premium.,2025-03-30
+R000500,Doodad Lite,5,Love the Doodad Lite — the packaging was excellent.,2024-04-22
+R000501,Starter Kit,3,"The Starter Kit is okay — nothing special, but fine.",2024-10-29
+R000502,Doodad Max,4,Love the Doodad Max — the packaging was excellent.,2024-04-20
+R000503,Gizmo Air,4,Love the Gizmo Air — works exactly as described.,2024-05-24
+R000504,Refill Pack,3,The Refill Pack is okay — it met my expectations.,2024-10-24
+R000505,Premium Bundle,4,Love the Premium Bundle — customer support was helpful.,2025-11-17
+R000506,Gizmo Air,1,Disappointed with the Gizmo Air — the fit was off.,2024-07-12
+R000507,Widget Pro,3,The Widget Pro is okay — shipping was okay.,2025-07-31
+R000508,Service Plan,4,Love the Service Plan — works exactly as described.,2024-12-28
+R000509,Doodad Max,5,Love the Doodad Max — the packaging was excellent.,2024-05-26
+R000510,Starter Kit,5,Love the Starter Kit — the packaging was excellent.,2024-04-11
+R000511,Gizmo Plus,5,Love the Gizmo Plus — works exactly as described.,2025-03-28
+R000512,Widget Pro,4,Love the Widget Pro — works exactly as described.,2024-07-05
+R000513,Service Plan,3,The Service Plan is okay — instructions could be clearer.,2025-02-08
+R000514,Doodad Lite,5,Love the Doodad Lite — shipping was fast.,2025-07-14
+R000515,Doodad Max,1,Disappointed with the Doodad Max — stopped working after a week.,2024-08-04
+R000516,Refill Pack,4,Love the Refill Pack — great value for the price.,2025-04-01
+R000517,Doodad Lite,5,Love the Doodad Lite — great value for the price.,2024-11-08
+R000518,Premium Bundle,4,Love the Premium Bundle — great value for the price.,2024-02-15
+R000519,Doodad Max,5,Love the Doodad Max — great value for the price.,2025-02-04
+R000520,Widget Pro,5,Love the Widget Pro — the quality feels premium.,2024-09-13
+R000521,Gizmo Air,5,Love the Gizmo Air — the quality feels premium.,2025-02-12
+R000522,Service Plan,1,Disappointed with the Service Plan — the fit was off.,2024-07-06
+R000523,Premium Bundle,4,Love the Premium Bundle — customer support was helpful.,2024-10-15
+R000524,Starter Kit,4,Love the Starter Kit — customer support was helpful.,2026-01-22
+R000525,Widget Pro,2,Disappointed with the Widget Pro — arrived damaged.,2024-11-15
+R000526,Gizmo Air,3,The Gizmo Air is okay — average quality.,2026-02-01
+R000527,Widget Pro,5,Love the Widget Pro — customer support was helpful.,2025-12-23
+R000528,Gizmo Air,5,Love the Gizmo Air — works exactly as described.,2025-04-28
+R000529,Gizmo Plus,4,Love the Gizmo Plus — works exactly as described.,2025-09-10
+R000530,Starter Kit,5,Love the Starter Kit — great value for the price.,2025-06-03
+R000531,Service Plan,5,Love the Service Plan — works exactly as described.,2025-06-05
+R000532,Widget Mini,5,Love the Widget Mini — works exactly as described.,2025-06-24
+R000533,Starter Kit,3,"The Starter Kit is okay — nothing special, but fine.",2025-04-09
+R000534,Widget Pro,5,Love the Widget Pro — the packaging was excellent.,2024-02-05
+R000535,Premium Bundle,5,Love the Premium Bundle — setup was quick.,2024-11-10
+R000536,Premium Bundle,4,Love the Premium Bundle — great value for the price.,2024-03-06
+R000537,Doodad Lite,5,Love the Doodad Lite — works exactly as described.,2025-11-25
+R000538,Service Plan,5,Love the Service Plan — works exactly as described.,2025-09-30
+R000539,Gizmo Air,4,Love the Gizmo Air — the packaging was excellent.,2025-07-16
+R000540,Gizmo Plus,4,Love the Gizmo Plus — setup was quick.,2024-08-26
+R000541,Refill Pack,2,Disappointed with the Refill Pack — quality control seems inconsistent.,2026-01-11
+R000542,Refill Pack,2,Disappointed with the Refill Pack — arrived damaged.,2025-01-26
+R000543,Doodad Lite,3,The Doodad Lite is okay — shipping was okay.,2024-09-01
+R000544,Doodad Lite,4,Love the Doodad Lite — shipping was fast.,2024-05-23
+R000545,Gizmo Plus,4,Love the Gizmo Plus — shipping was fast.,2025-10-04
+R000546,Gizmo Air,3,The Gizmo Air is okay — it does the job.,2024-07-03
+R000547,Gizmo Air,4,Love the Gizmo Air — great value for the price.,2024-11-02
+R000548,Refill Pack,4,Love the Refill Pack — shipping was fast.,2024-12-17
+R000549,Gizmo Air,3,The Gizmo Air is okay — it met my expectations.,2025-05-28
+R000550,Starter Kit,4,Love the Starter Kit — setup was quick.,2024-08-31
+R000551,Doodad Max,5,Love the Doodad Max — the quality feels premium.,2024-11-16
+R000552,Doodad Lite,2,Disappointed with the Doodad Lite — the fit was off.,2025-09-07
+R000553,Refill Pack,4,Love the Refill Pack — shipping was fast.,2025-04-14
+R000554,Service Plan,4,Love the Service Plan — works exactly as described.,2025-09-24
+R000555,Service Plan,3,The Service Plan is okay — average quality.,2025-03-15
+R000556,Doodad Max,5,Love the Doodad Max — great value for the price.,2024-12-04
+R000557,Doodad Max,5,Love the Doodad Max — the packaging was excellent.,2024-08-20
+R000558,Starter Kit,5,Love the Starter Kit — customer support was helpful.,2024-10-16
+R000559,Starter Kit,4,Love the Starter Kit — customer support was helpful.,2024-10-13
+R000560,Widget Mini,1,Disappointed with the Widget Mini — quality control seems inconsistent.,2025-01-01
+R000561,Gizmo Plus,4,Love the Gizmo Plus — great value for the price.,2024-11-23
+R000562,Refill Pack,4,Love the Refill Pack — the quality feels premium.,2025-02-01
+R000563,Service Plan,3,The Service Plan is okay — instructions could be clearer.,2025-05-19
+R000564,Gizmo Plus,5,Love the Gizmo Plus — customer support was helpful.,2024-07-18
+R000565,Refill Pack,4,Love the Refill Pack — setup was quick.,2024-05-03
+R000566,Refill Pack,4,Love the Refill Pack — customer support was helpful.,2024-09-30
+R000567,Widget Mini,4,Love the Widget Mini — great value for the price.,2024-07-16
+R000568,Gizmo Plus,3,The Gizmo Plus is okay — it does the job.,2024-10-24
+R000569,Doodad Max,5,Love the Doodad Max — the packaging was excellent.,2024-08-29
+R000570,Widget Pro,5,Love the Widget Pro — works exactly as described.,2024-03-08
+R000571,Starter Kit,5,Love the Starter Kit — the packaging was excellent.,2025-07-02
+R000572,Premium Bundle,4,Love the Premium Bundle — customer support was helpful.,2024-10-17
+R000573,Doodad Lite,3,The Doodad Lite is okay — it does the job.,2025-02-11
+R000574,Refill Pack,5,Love the Refill Pack — works exactly as described.,2024-06-12
+R000575,Widget Pro,3,The Widget Pro is okay — instructions could be clearer.,2025-06-25
+R000576,Refill Pack,3,"The Refill Pack is okay — nothing special, but fine.",2024-03-11
+R000577,Doodad Max,2,Disappointed with the Doodad Max — missing a key part.,2025-02-01
+R000578,Starter Kit,3,The Starter Kit is okay — instructions could be clearer.,2026-01-29
+R000579,Doodad Lite,4,Love the Doodad Lite — shipping was fast.,2024-12-21
+R000580,Gizmo Air,1,Disappointed with the Gizmo Air — stopped working after a week.,2025-10-14
+R000581,Widget Mini,4,Love the Widget Mini — shipping was fast.,2024-02-22
+R000582,Widget Mini,3,The Widget Mini is okay — it does the job.,2024-02-27
+R000583,Widget Mini,4,Love the Widget Mini — customer support was helpful.,2025-08-22
+R000584,Gizmo Air,3,The Gizmo Air is okay — shipping was okay.,2025-09-18
+R000585,Doodad Lite,5,Love the Doodad Lite — great value for the price.,2024-09-23
+R000586,Doodad Max,4,Love the Doodad Max — works exactly as described.,2024-08-22
+R000587,Gizmo Air,1,Disappointed with the Gizmo Air — support never followed up.,2024-08-21
+R000588,Doodad Max,5,Love the Doodad Max — the quality feels premium.,2025-12-02
+R000589,Widget Pro,3,The Widget Pro is okay — instructions could be clearer.,2026-01-23
+R000590,Doodad Max,3,The Doodad Max is okay — it met my expectations.,2025-05-20
+R000591,Widget Pro,3,The Widget Pro is okay — it met my expectations.,2024-10-20
+R000592,Doodad Max,4,Love the Doodad Max — the quality feels premium.,2024-05-17
+R000593,Widget Pro,4,Love the Widget Pro — shipping was fast.,2025-03-28
+R000594,Doodad Lite,3,The Doodad Lite is okay — instructions could be clearer.,2026-01-28
+R000595,Service Plan,4,Love the Service Plan — shipping was fast.,2024-12-03
+R000596,Gizmo Air,5,Love the Gizmo Air — great value for the price.,2024-12-20
+R000597,Widget Mini,5,Love the Widget Mini — shipping was fast.,2024-11-11
+R000598,Starter Kit,4,Love the Starter Kit — shipping was fast.,2026-01-10
+R000599,Gizmo Plus,5,Love the Gizmo Plus — shipping was fast.,2025-09-12
+R000600,Widget Mini,1,Disappointed with the Widget Mini — quality control seems inconsistent.,2025-05-04
+R000601,Widget Pro,3,The Widget Pro is okay — it does the job.,2025-06-20
+R000602,Doodad Max,5,Love the Doodad Max — great value for the price.,2024-09-15
+R000603,Service Plan,4,Love the Service Plan — great value for the price.,2024-07-06
+R000604,Premium Bundle,4,Love the Premium Bundle — the packaging was excellent.,2025-01-29
+R000605,Refill Pack,5,Love the Refill Pack — works exactly as described.,2025-02-05
+R000606,Starter Kit,5,Love the Starter Kit — the quality feels premium.,2024-11-18
+R000607,Doodad Lite,3,The Doodad Lite is okay — average quality.,2024-03-21
+R000608,Doodad Max,5,Love the Doodad Max — works exactly as described.,2024-05-29
+R000609,Gizmo Air,3,The Gizmo Air is okay — it met my expectations.,2024-06-09
+R000610,Service Plan,3,The Service Plan is okay — instructions could be clearer.,2025-10-17
+R000611,Refill Pack,5,Love the Refill Pack — works exactly as described.,2025-03-23
+R000612,Refill Pack,3,The Refill Pack is okay — instructions could be clearer.,2024-11-03
+R000613,Widget Mini,4,Love the Widget Mini — the quality feels premium.,2026-01-31
+R000614,Service Plan,2,Disappointed with the Service Plan — missing a key part.,2024-12-15
+R000615,Doodad Max,5,Love the Doodad Max — great value for the price.,2024-08-20
+R000616,Gizmo Air,4,Love the Gizmo Air — great value for the price.,2025-01-27
+R000617,Gizmo Air,4,Love the Gizmo Air — customer support was helpful.,2024-10-23
+R000618,Starter Kit,4,Love the Starter Kit — the quality feels premium.,2024-07-07
+R000619,Refill Pack,5,Love the Refill Pack — works exactly as described.,2024-08-22
+R000620,Gizmo Air,3,The Gizmo Air is okay — average quality.,2024-06-29
+R000621,Premium Bundle,5,Love the Premium Bundle — setup was quick.,2024-05-30
+R000622,Widget Pro,4,Love the Widget Pro — shipping was fast.,2024-08-20
+R000623,Gizmo Air,2,Disappointed with the Gizmo Air — the fit was off.,2025-05-02
+R000624,Widget Pro,5,Love the Widget Pro — the quality feels premium.,2024-06-03
+R000625,Widget Pro,2,Disappointed with the Widget Pro — arrived damaged.,2024-10-22
+R000626,Gizmo Air,5,Love the Gizmo Air — setup was quick.,2025-05-13
+R000627,Widget Pro,5,Love the Widget Pro — the quality feels premium.,2024-03-23
+R000628,Gizmo Air,5,Love the Gizmo Air — great value for the price.,2025-08-17
+R000629,Refill Pack,2,Disappointed with the Refill Pack — missing a key part.,2024-08-15
+R000630,Gizmo Air,5,Love the Gizmo Air — customer support was helpful.,2024-11-14
+R000631,Starter Kit,1,Disappointed with the Starter Kit — the fit was off.,2024-05-02
+R000632,Refill Pack,5,Love the Refill Pack — the quality feels premium.,2024-10-20
+R000633,Gizmo Air,3,"The Gizmo Air is okay — nothing special, but fine.",2025-02-17
+R000634,Widget Pro,5,Love the Widget Pro — customer support was helpful.,2025-11-18
+R000635,Widget Pro,4,Love the Widget Pro — the quality feels premium.,2026-01-05
+R000636,Gizmo Air,4,Love the Gizmo Air — the quality feels premium.,2024-09-01
+R000637,Widget Pro,5,Love the Widget Pro — shipping was fast.,2024-05-17
+R000638,Gizmo Plus,4,Love the Gizmo Plus — shipping was fast.,2025-05-13
+R000639,Premium Bundle,1,Disappointed with the Premium Bundle — quality control seems inconsistent.,2025-11-22
+R000640,Gizmo Air,2,Disappointed with the Gizmo Air — support never followed up.,2024-10-04
+R000641,Service Plan,4,Love the Service Plan — works exactly as described.,2025-01-04
+R000642,Widget Mini,5,Love the Widget Mini — the packaging was excellent.,2025-06-14
+R000643,Widget Pro,2,Disappointed with the Widget Pro — quality control seems inconsistent.,2024-03-19
+R000644,Gizmo Plus,5,Love the Gizmo Plus — the packaging was excellent.,2025-09-20
+R000645,Widget Pro,4,Love the Widget Pro — the quality feels premium.,2024-12-28
+R000646,Widget Pro,4,Love the Widget Pro — great value for the price.,2024-08-30
+R000647,Refill Pack,4,Love the Refill Pack — the packaging was excellent.,2025-02-13
+R000648,Widget Mini,1,Disappointed with the Widget Mini — arrived damaged.,2025-07-04
+R000649,Gizmo Air,4,Love the Gizmo Air — great value for the price.,2025-09-22
+R000650,Doodad Max,4,Love the Doodad Max — works exactly as described.,2024-09-30
+R000651,Refill Pack,3,The Refill Pack is okay — it met my expectations.,2024-05-02
+R000652,Gizmo Plus,5,Love the Gizmo Plus — great value for the price.,2025-10-25
+R000653,Starter Kit,5,Love the Starter Kit — the packaging was excellent.,2024-09-19
+R000654,Starter Kit,5,Love the Starter Kit — setup was quick.,2025-03-16
+R000655,Gizmo Plus,5,Love the Gizmo Plus — great value for the price.,2024-10-14
+R000656,Service Plan,4,Love the Service Plan — setup was quick.,2025-05-04
+R000657,Widget Pro,2,Disappointed with the Widget Pro — the fit was off.,2025-11-20
+R000658,Service Plan,3,"The Service Plan is okay — nothing special, but fine.",2024-03-19
+R000659,Doodad Max,2,Disappointed with the Doodad Max — stopped working after a week.,2024-03-14
+R000660,Widget Pro,4,Love the Widget Pro — great value for the price.,2025-10-27
+R000661,Widget Pro,5,Love the Widget Pro — setup was quick.,2024-02-15
+R000662,Refill Pack,4,Love the Refill Pack — customer support was helpful.,2025-01-26
+R000663,Widget Mini,3,The Widget Mini is okay — shipping was okay.,2024-05-31
+R000664,Gizmo Plus,3,"The Gizmo Plus is okay — nothing special, but fine.",2026-01-09
+R000665,Widget Mini,4,Love the Widget Mini — the quality feels premium.,2024-06-19
+R000666,Widget Pro,5,Love the Widget Pro — the packaging was excellent.,2025-03-17
+R000667,Service Plan,4,Love the Service Plan — customer support was helpful.,2025-04-26
+R000668,Service Plan,4,Love the Service Plan — the quality feels premium.,2025-03-19
+R000669,Refill Pack,5,Love the Refill Pack — setup was quick.,2024-02-12
+R000670,Gizmo Plus,5,Love the Gizmo Plus — the quality feels premium.,2024-05-21
+R000671,Doodad Max,5,Love the Doodad Max — works exactly as described.,2024-06-30
+R000672,Starter Kit,1,Disappointed with the Starter Kit — quality control seems inconsistent.,2024-11-09
+R000673,Widget Mini,4,Love the Widget Mini — great value for the price.,2025-05-22
+R000674,Premium Bundle,3,The Premium Bundle is okay — it met my expectations.,2024-07-12
+R000675,Gizmo Air,4,Love the Gizmo Air — great value for the price.,2024-03-30
+R000676,Gizmo Air,4,Love the Gizmo Air — the packaging was excellent.,2024-02-14
+R000677,Premium Bundle,5,Love the Premium Bundle — shipping was fast.,2024-06-26
+R000678,Gizmo Air,5,Love the Gizmo Air — shipping was fast.,2025-05-03
+R000679,Widget Mini,1,Disappointed with the Widget Mini — missing a key part.,2025-02-03
+R000680,Gizmo Air,4,Love the Gizmo Air — shipping was fast.,2024-08-07
+R000681,Service Plan,5,Love the Service Plan — the packaging was excellent.,2024-10-14
+R000682,Service Plan,1,Disappointed with the Service Plan — the fit was off.,2026-01-22
+R000683,Starter Kit,5,Love the Starter Kit — great value for the price.,2025-04-21
+R000684,Gizmo Plus,3,The Gizmo Plus is okay — it met my expectations.,2025-06-01
+R000685,Gizmo Air,2,Disappointed with the Gizmo Air — missing a key part.,2024-04-15
+R000686,Doodad Lite,3,"The Doodad Lite is okay — nothing special, but fine.",2025-05-19
+R000687,Refill Pack,4,Love the Refill Pack — setup was quick.,2025-01-04
+R000688,Doodad Lite,4,Love the Doodad Lite — the quality feels premium.,2026-01-09
+R000689,Service Plan,5,Love the Service Plan — shipping was fast.,2025-12-27
+R000690,Doodad Lite,3,The Doodad Lite is okay — it does the job.,2024-12-23
+R000691,Widget Pro,5,Love the Widget Pro — the packaging was excellent.,2024-05-19
+R000692,Widget Pro,5,Love the Widget Pro — great value for the price.,2025-12-28
+R000693,Widget Mini,4,Love the Widget Mini — great value for the price.,2024-11-27
+R000694,Refill Pack,4,Love the Refill Pack — the packaging was excellent.,2024-02-09
+R000695,Refill Pack,4,Love the Refill Pack — the packaging was excellent.,2024-05-12
+R000696,Starter Kit,4,Love the Starter Kit — customer support was helpful.,2024-12-14
+R000697,Refill Pack,4,Love the Refill Pack — the packaging was excellent.,2024-04-05
+R000698,Starter Kit,2,Disappointed with the Starter Kit — not worth the price.,2024-05-01
+R000699,Gizmo Air,3,"The Gizmo Air is okay — nothing special, but fine.",2024-03-03
+R000700,Starter Kit,5,Love the Starter Kit — shipping was fast.,2024-11-29
+R000701,Widget Pro,5,Love the Widget Pro — the quality feels premium.,2025-06-22
+R000702,Doodad Max,5,Love the Doodad Max — setup was quick.,2025-02-10
+R000703,Doodad Max,5,Love the Doodad Max — customer support was helpful.,2025-05-09
+R000704,Premium Bundle,4,Love the Premium Bundle — works exactly as described.,2025-11-28
+R000705,Refill Pack,3,The Refill Pack is okay — average quality.,2026-01-06
+R000706,Doodad Max,3,The Doodad Max is okay — it does the job.,2024-04-15
+R000707,Gizmo Plus,3,The Gizmo Plus is okay — average quality.,2024-07-21
+R000708,Gizmo Air,5,Love the Gizmo Air — great value for the price.,2024-03-22
+R000709,Doodad Max,4,Love the Doodad Max — the packaging was excellent.,2026-01-25
+R000710,Widget Pro,5,Love the Widget Pro — the quality feels premium.,2024-02-13
+R000711,Premium Bundle,2,Disappointed with the Premium Bundle — the fit was off.,2024-05-11
+R000712,Service Plan,4,Love the Service Plan — the packaging was excellent.,2024-05-07
+R000713,Doodad Lite,5,Love the Doodad Lite — works exactly as described.,2025-09-29
+R000714,Premium Bundle,3,"The Premium Bundle is okay — nothing special, but fine.",2024-10-20
+R000715,Gizmo Air,4,Love the Gizmo Air — great value for the price.,2024-02-19
+R000716,Widget Pro,4,Love the Widget Pro — great value for the price.,2024-04-19
+R000717,Premium Bundle,3,"The Premium Bundle is okay — nothing special, but fine.",2024-06-26
+R000718,Gizmo Air,5,Love the Gizmo Air — the packaging was excellent.,2025-12-23
+R000719,Premium Bundle,2,Disappointed with the Premium Bundle — quality control seems inconsistent.,2025-07-29
+R000720,Starter Kit,5,Love the Starter Kit — great value for the price.,2024-03-30
+R000721,Widget Mini,3,"The Widget Mini is okay — nothing special, but fine.",2024-08-19
+R000722,Widget Mini,4,Love the Widget Mini — great value for the price.,2025-09-27
+R000723,Gizmo Air,5,Love the Gizmo Air — great value for the price.,2024-03-20
+R000724,Premium Bundle,1,Disappointed with the Premium Bundle — stopped working after a week.,2026-01-27
+R000725,Gizmo Air,5,Love the Gizmo Air — great value for the price.,2025-05-20
+R000726,Widget Pro,4,Love the Widget Pro — great value for the price.,2025-02-03
+R000727,Refill Pack,5,Love the Refill Pack — the packaging was excellent.,2025-06-02
+R000728,Premium Bundle,2,Disappointed with the Premium Bundle — the fit was off.,2024-10-29
+R000729,Gizmo Air,3,The Gizmo Air is okay — it does the job.,2025-10-02
+R000730,Doodad Lite,4,Love the Doodad Lite — setup was quick.,2025-02-09
+R000731,Gizmo Air,5,Love the Gizmo Air — the packaging was excellent.,2025-12-08
+R000732,Gizmo Air,2,Disappointed with the Gizmo Air — missing a key part.,2025-04-04
+R000733,Widget Mini,5,Love the Widget Mini — the quality feels premium.,2024-09-14
+R000734,Premium Bundle,4,Love the Premium Bundle — works exactly as described.,2024-08-23
+R000735,Widget Pro,4,Love the Widget Pro — works exactly as described.,2025-04-12
+R000736,Gizmo Air,4,Love the Gizmo Air — setup was quick.,2025-06-11
+R000737,Widget Pro,4,Love the Widget Pro — works exactly as described.,2025-04-03
+R000738,Service Plan,5,Love the Service Plan — the quality feels premium.,2024-10-17
+R000739,Doodad Lite,1,Disappointed with the Doodad Lite — not worth the price.,2025-06-24
+R000740,Gizmo Air,5,Love the Gizmo Air — setup was quick.,2025-08-03
+R000741,Starter Kit,4,Love the Starter Kit — great value for the price.,2025-07-08
+R000742,Service Plan,4,Love the Service Plan — great value for the price.,2024-04-18
+R000743,Widget Pro,3,The Widget Pro is okay — instructions could be clearer.,2024-07-14
+R000744,Widget Mini,4,Love the Widget Mini — shipping was fast.,2024-10-12
+R000745,Doodad Max,4,Love the Doodad Max — shipping was fast.,2025-11-04
+R000746,Refill Pack,4,Love the Refill Pack — the quality feels premium.,2024-09-06
+R000747,Premium Bundle,5,Love the Premium Bundle — setup was quick.,2025-12-25
+R000748,Premium Bundle,5,Love the Premium Bundle — shipping was fast.,2025-10-07
+R000749,Gizmo Plus,5,Love the Gizmo Plus — shipping was fast.,2024-03-23
+R000750,Doodad Max,2,Disappointed with the Doodad Max — missing a key part.,2025-02-15
+R000751,Doodad Lite,2,Disappointed with the Doodad Lite — arrived damaged.,2025-06-02
+R000752,Premium Bundle,5,Love the Premium Bundle — setup was quick.,2024-10-18
+R000753,Premium Bundle,5,Love the Premium Bundle — great value for the price.,2025-09-26
+R000754,Starter Kit,5,Love the Starter Kit — the quality feels premium.,2024-08-28
+R000755,Premium Bundle,4,Love the Premium Bundle — customer support was helpful.,2025-01-01
+R000756,Gizmo Air,5,Love the Gizmo Air — the packaging was excellent.,2025-06-14
+R000757,Starter Kit,4,Love the Starter Kit — great value for the price.,2024-06-24
+R000758,Doodad Lite,3,The Doodad Lite is okay — instructions could be clearer.,2024-07-04
+R000759,Starter Kit,5,Love the Starter Kit — the quality feels premium.,2025-11-25
+R000760,Doodad Lite,2,Disappointed with the Doodad Lite — missing a key part.,2024-10-22
+R000761,Refill Pack,5,Love the Refill Pack — the quality feels premium.,2025-10-14
+R000762,Premium Bundle,4,Love the Premium Bundle — setup was quick.,2025-07-27
+R000763,Gizmo Air,2,Disappointed with the Gizmo Air — arrived damaged.,2025-08-23
+R000764,Widget Mini,5,Love the Widget Mini — works exactly as described.,2025-12-27
+R000765,Widget Pro,3,"The Widget Pro is okay — nothing special, but fine.",2025-09-22
+R000766,Starter Kit,2,Disappointed with the Starter Kit — arrived damaged.,2025-02-15
+R000767,Gizmo Plus,3,The Gizmo Plus is okay — it does the job.,2025-05-14
+R000768,Starter Kit,5,Love the Starter Kit — customer support was helpful.,2024-07-24
+R000769,Premium Bundle,3,The Premium Bundle is okay — average quality.,2025-09-17
+R000770,Widget Mini,3,The Widget Mini is okay — it does the job.,2024-06-18
+R000771,Service Plan,4,Love the Service Plan — customer support was helpful.,2025-08-12
+R000772,Starter Kit,3,"The Starter Kit is okay — nothing special, but fine.",2025-03-10
+R000773,Premium Bundle,5,Love the Premium Bundle — shipping was fast.,2025-01-10
+R000774,Service Plan,3,The Service Plan is okay — average quality.,2025-05-01
+R000775,Gizmo Air,3,The Gizmo Air is okay — shipping was okay.,2025-06-08
+R000776,Gizmo Air,5,Love the Gizmo Air — customer support was helpful.,2025-02-17
+R000777,Doodad Lite,1,Disappointed with the Doodad Lite — not worth the price.,2025-11-05
+R000778,Refill Pack,4,Love the Refill Pack — shipping was fast.,2024-02-18
+R000779,Refill Pack,4,Love the Refill Pack — works exactly as described.,2025-10-18
+R000780,Premium Bundle,5,Love the Premium Bundle — the quality feels premium.,2024-11-04
+R000781,Doodad Lite,4,Love the Doodad Lite — customer support was helpful.,2024-11-30
+R000782,Service Plan,1,Disappointed with the Service Plan — not worth the price.,2024-06-14
+R000783,Gizmo Air,4,Love the Gizmo Air — setup was quick.,2024-02-28
+R000784,Doodad Max,3,The Doodad Max is okay — shipping was okay.,2024-08-21
+R000785,Starter Kit,4,Love the Starter Kit — great value for the price.,2025-12-07
+R000786,Doodad Lite,4,Love the Doodad Lite — customer support was helpful.,2025-12-15
+R000787,Service Plan,5,Love the Service Plan — the packaging was excellent.,2024-06-11
+R000788,Gizmo Plus,3,The Gizmo Plus is okay — instructions could be clearer.,2025-10-24
+R000789,Widget Mini,4,Love the Widget Mini — shipping was fast.,2024-09-21
+R000790,Doodad Max,4,Love the Doodad Max — shipping was fast.,2024-06-03
+R000791,Refill Pack,5,Love the Refill Pack — the packaging was excellent.,2025-08-16
+R000792,Service Plan,2,Disappointed with the Service Plan — missing a key part.,2025-08-09
+R000793,Doodad Max,2,Disappointed with the Doodad Max — quality control seems inconsistent.,2024-07-10
+R000794,Premium Bundle,5,Love the Premium Bundle — shipping was fast.,2025-03-21
+R000795,Widget Mini,1,Disappointed with the Widget Mini — stopped working after a week.,2025-11-20
+R000796,Service Plan,5,Love the Service Plan — great value for the price.,2026-01-04
+R000797,Widget Pro,3,The Widget Pro is okay — it does the job.,2024-08-24
+R000798,Gizmo Air,4,Love the Gizmo Air — works exactly as described.,2025-08-31
+R000799,Widget Pro,3,The Widget Pro is okay — average quality.,2024-06-21
+R000800,Starter Kit,5,Love the Starter Kit — customer support was helpful.,2024-12-17
+R000801,Starter Kit,5,Love the Starter Kit — works exactly as described.,2024-03-25
+R000802,Refill Pack,4,Love the Refill Pack — setup was quick.,2024-09-16
+R000803,Service Plan,5,Love the Service Plan — customer support was helpful.,2025-01-30
+R000804,Doodad Max,4,Love the Doodad Max — shipping was fast.,2024-11-28
+R000805,Widget Mini,4,Love the Widget Mini — the packaging was excellent.,2024-03-31
+R000806,Widget Pro,3,The Widget Pro is okay — shipping was okay.,2025-07-20
+R000807,Starter Kit,3,The Starter Kit is okay — it does the job.,2025-09-19
+R000808,Service Plan,4,Love the Service Plan — shipping was fast.,2024-09-12
+R000809,Service Plan,3,"The Service Plan is okay — nothing special, but fine.",2025-07-16
+R000810,Gizmo Air,5,Love the Gizmo Air — the quality feels premium.,2024-07-21
+R000811,Doodad Lite,4,Love the Doodad Lite — customer support was helpful.,2025-06-15
+R000812,Widget Mini,2,Disappointed with the Widget Mini — missing a key part.,2024-06-27
+R000813,Service Plan,3,The Service Plan is okay — shipping was okay.,2025-10-31
+R000814,Widget Pro,1,Disappointed with the Widget Pro — quality control seems inconsistent.,2025-03-22
+R000815,Doodad Lite,4,Love the Doodad Lite — setup was quick.,2024-08-12
+R000816,Gizmo Plus,5,Love the Gizmo Plus — the packaging was excellent.,2026-01-09
+R000817,Refill Pack,5,Love the Refill Pack — great value for the price.,2024-07-22
+R000818,Service Plan,4,Love the Service Plan — great value for the price.,2025-07-06
+R000819,Gizmo Air,2,Disappointed with the Gizmo Air — stopped working after a week.,2024-05-19
+R000820,Gizmo Plus,5,Love the Gizmo Plus — setup was quick.,2024-07-06
+R000821,Doodad Lite,5,Love the Doodad Lite — great value for the price.,2025-10-04
+R000822,Starter Kit,5,Love the Starter Kit — the quality feels premium.,2025-02-04
+R000823,Widget Mini,3,The Widget Mini is okay — average quality.,2024-12-11
+R000824,Service Plan,2,Disappointed with the Service Plan — stopped working after a week.,2024-11-05
+R000825,Widget Pro,5,Love the Widget Pro — customer support was helpful.,2024-03-28
+R000826,Doodad Max,5,Love the Doodad Max — works exactly as described.,2026-01-27
+R000827,Refill Pack,4,Love the Refill Pack — setup was quick.,2024-10-21
+R000828,Doodad Max,1,Disappointed with the Doodad Max — stopped working after a week.,2025-06-12
+R000829,Doodad Max,3,The Doodad Max is okay — instructions could be clearer.,2025-11-11
+R000830,Widget Mini,5,Love the Widget Mini — great value for the price.,2024-09-10
+R000831,Premium Bundle,4,Love the Premium Bundle — works exactly as described.,2026-01-25
+R000832,Gizmo Air,1,Disappointed with the Gizmo Air — not worth the price.,2025-01-10
+R000833,Widget Pro,1,Disappointed with the Widget Pro — stopped working after a week.,2024-06-23
+R000834,Refill Pack,3,The Refill Pack is okay — average quality.,2025-01-29
+R000835,Starter Kit,4,Love the Starter Kit — shipping was fast.,2025-10-03
+R000836,Widget Mini,3,"The Widget Mini is okay — nothing special, but fine.",2024-11-24
+R000837,Widget Pro,3,The Widget Pro is okay — instructions could be clearer.,2024-04-25
+R000838,Doodad Lite,4,Love the Doodad Lite — the packaging was excellent.,2024-11-16
+R000839,Starter Kit,3,The Starter Kit is okay — it does the job.,2024-08-30
+R000840,Doodad Lite,3,The Doodad Lite is okay — it does the job.,2024-07-08
+R000841,Doodad Max,5,Love the Doodad Max — setup was quick.,2025-11-13
+R000842,Doodad Max,4,Love the Doodad Max — setup was quick.,2024-12-22
+R000843,Doodad Lite,4,Love the Doodad Lite — shipping was fast.,2024-11-20
+R000844,Widget Mini,5,Love the Widget Mini — works exactly as described.,2024-10-06
+R000845,Widget Pro,5,Love the Widget Pro — setup was quick.,2025-02-02
+R000846,Widget Pro,3,The Widget Pro is okay — shipping was okay.,2025-02-25
+R000847,Premium Bundle,4,Love the Premium Bundle — customer support was helpful.,2025-08-10
+R000848,Doodad Lite,5,Love the Doodad Lite — setup was quick.,2026-01-12
+R000849,Gizmo Air,5,Love the Gizmo Air — the quality feels premium.,2024-10-19
+R000850,Starter Kit,4,Love the Starter Kit — shipping was fast.,2024-08-24
+R000851,Starter Kit,4,Love the Starter Kit — great value for the price.,2024-02-07
+R000852,Widget Mini,3,"The Widget Mini is okay — nothing special, but fine.",2025-04-26
+R000853,Widget Pro,4,Love the Widget Pro — setup was quick.,2025-09-18
+R000854,Widget Pro,3,The Widget Pro is okay — shipping was okay.,2024-08-12
+R000855,Premium Bundle,3,"The Premium Bundle is okay — nothing special, but fine.",2025-06-30
+R000856,Premium Bundle,4,Love the Premium Bundle — great value for the price.,2025-10-22
+R000857,Widget Pro,4,Love the Widget Pro — the packaging was excellent.,2024-11-10
+R000858,Service Plan,5,Love the Service Plan — customer support was helpful.,2025-01-27
+R000859,Gizmo Plus,4,Love the Gizmo Plus — customer support was helpful.,2024-10-20
+R000860,Premium Bundle,5,Love the Premium Bundle — shipping was fast.,2026-01-14
+R000861,Widget Mini,4,Love the Widget Mini — shipping was fast.,2026-01-05
+R000862,Starter Kit,2,Disappointed with the Starter Kit — support never followed up.,2024-08-21
+R000863,Gizmo Plus,4,Love the Gizmo Plus — shipping was fast.,2024-07-18
+R000864,Refill Pack,4,Love the Refill Pack — the packaging was excellent.,2024-07-18
+R000865,Doodad Lite,5,Love the Doodad Lite — great value for the price.,2024-11-27
+R000866,Widget Pro,5,Love the Widget Pro — works exactly as described.,2024-10-09
+R000867,Doodad Lite,5,Love the Doodad Lite — shipping was fast.,2024-11-06
+R000868,Service Plan,5,Love the Service Plan — great value for the price.,2024-04-13
+R000869,Widget Pro,5,Love the Widget Pro — works exactly as described.,2024-07-09
+R000870,Doodad Max,4,Love the Doodad Max — the packaging was excellent.,2025-06-11
+R000871,Gizmo Air,3,"The Gizmo Air is okay — nothing special, but fine.",2024-11-14
+R000872,Service Plan,5,Love the Service Plan — the quality feels premium.,2025-09-22
+R000873,Refill Pack,4,Love the Refill Pack — setup was quick.,2024-10-10
+R000874,Doodad Max,4,Love the Doodad Max — the quality feels premium.,2025-07-05
+R000875,Gizmo Plus,3,"The Gizmo Plus is okay — nothing special, but fine.",2025-04-17
+R000876,Premium Bundle,4,Love the Premium Bundle — the packaging was excellent.,2024-10-21
+R000877,Premium Bundle,5,Love the Premium Bundle — shipping was fast.,2025-03-07
+R000878,Doodad Max,2,Disappointed with the Doodad Max — quality control seems inconsistent.,2024-08-02
+R000879,Doodad Lite,4,Love the Doodad Lite — great value for the price.,2024-05-01
+R000880,Doodad Max,4,Love the Doodad Max — great value for the price.,2025-01-29
+R000881,Refill Pack,3,The Refill Pack is okay — instructions could be clearer.,2025-12-22
+R000882,Starter Kit,5,Love the Starter Kit — shipping was fast.,2024-12-14
+R000883,Premium Bundle,1,Disappointed with the Premium Bundle — not worth the price.,2024-12-17
+R000884,Service Plan,3,The Service Plan is okay — average quality.,2024-10-10
+R000885,Widget Mini,3,The Widget Mini is okay — shipping was okay.,2024-12-31
+R000886,Doodad Lite,5,Love the Doodad Lite — customer support was helpful.,2025-01-11
+R000887,Service Plan,3,The Service Plan is okay — it does the job.,2025-09-04
+R000888,Doodad Lite,2,Disappointed with the Doodad Lite — the fit was off.,2024-11-05
+R000889,Premium Bundle,2,Disappointed with the Premium Bundle — stopped working after a week.,2024-08-19
+R000890,Service Plan,1,Disappointed with the Service Plan — stopped working after a week.,2024-02-22
+R000891,Widget Mini,4,Love the Widget Mini — customer support was helpful.,2025-10-28
+R000892,Widget Pro,5,Love the Widget Pro — customer support was helpful.,2024-09-25
+R000893,Gizmo Plus,5,Love the Gizmo Plus — the quality feels premium.,2024-07-05
+R000894,Starter Kit,5,Love the Starter Kit — customer support was helpful.,2025-06-02
+R000895,Doodad Lite,3,The Doodad Lite is okay — it does the job.,2024-12-20
+R000896,Gizmo Plus,4,Love the Gizmo Plus — the quality feels premium.,2025-07-20
+R000897,Premium Bundle,5,Love the Premium Bundle — setup was quick.,2024-03-30
+R000898,Starter Kit,2,Disappointed with the Starter Kit — not worth the price.,2024-12-22
+R000899,Gizmo Plus,3,"The Gizmo Plus is okay — nothing special, but fine.",2025-02-27
+R000900,Refill Pack,3,"The Refill Pack is okay — nothing special, but fine.",2025-02-06
+R000901,Service Plan,5,Love the Service Plan — setup was quick.,2025-03-05
+R000902,Refill Pack,5,Love the Refill Pack — the quality feels premium.,2024-12-28
+R000903,Gizmo Air,4,Love the Gizmo Air — setup was quick.,2025-07-16
+R000904,Starter Kit,4,Love the Starter Kit — great value for the price.,2025-07-10
+R000905,Service Plan,3,The Service Plan is okay — it does the job.,2024-04-27
+R000906,Widget Pro,5,Love the Widget Pro — the packaging was excellent.,2024-09-06
+R000907,Widget Pro,5,Love the Widget Pro — great value for the price.,2024-07-17
+R000908,Gizmo Plus,4,Love the Gizmo Plus — the quality feels premium.,2025-08-07
+R000909,Widget Pro,2,Disappointed with the Widget Pro — support never followed up.,2025-12-29
+R000910,Gizmo Air,5,Love the Gizmo Air — great value for the price.,2025-12-11
+R000911,Doodad Lite,5,Love the Doodad Lite — great value for the price.,2024-02-04
+R000912,Doodad Lite,4,Love the Doodad Lite — works exactly as described.,2024-04-09
+R000913,Widget Mini,2,Disappointed with the Widget Mini — not worth the price.,2025-03-29
+R000914,Doodad Max,4,Love the Doodad Max — customer support was helpful.,2025-04-16
+R000915,Gizmo Plus,5,Love the Gizmo Plus — the quality feels premium.,2024-03-28
+R000916,Doodad Max,1,Disappointed with the Doodad Max — support never followed up.,2024-04-28
+R000917,Doodad Lite,4,Love the Doodad Lite — the packaging was excellent.,2024-06-09
+R000918,Premium Bundle,1,Disappointed with the Premium Bundle — quality control seems inconsistent.,2024-04-16
+R000919,Widget Pro,4,Love the Widget Pro — the quality feels premium.,2024-10-22
+R000920,Gizmo Plus,2,Disappointed with the Gizmo Plus — stopped working after a week.,2025-05-31
+R000921,Starter Kit,4,Love the Starter Kit — shipping was fast.,2025-08-22
+R000922,Refill Pack,5,Love the Refill Pack — great value for the price.,2025-11-06
+R000923,Doodad Max,5,Love the Doodad Max — setup was quick.,2024-03-08
+R000924,Doodad Max,5,Love the Doodad Max — great value for the price.,2025-02-01
+R000925,Widget Mini,4,Love the Widget Mini — setup was quick.,2026-01-11
+R000926,Gizmo Plus,3,The Gizmo Plus is okay — average quality.,2025-11-11
+R000927,Starter Kit,4,Love the Starter Kit — customer support was helpful.,2025-08-06
+R000928,Refill Pack,5,Love the Refill Pack — the quality feels premium.,2025-12-29
+R000929,Doodad Lite,5,Love the Doodad Lite — the packaging was excellent.,2024-05-03
+R000930,Widget Pro,4,Love the Widget Pro — setup was quick.,2025-06-16
+R000931,Refill Pack,5,Love the Refill Pack — shipping was fast.,2024-03-14
+R000932,Doodad Max,4,Love the Doodad Max — setup was quick.,2025-11-16
+R000933,Widget Mini,4,Love the Widget Mini — setup was quick.,2025-01-19
+R000934,Widget Pro,4,Love the Widget Pro — the quality feels premium.,2024-02-24
+R000935,Service Plan,3,The Service Plan is okay — it does the job.,2025-04-13
+R000936,Gizmo Air,4,Love the Gizmo Air — shipping was fast.,2025-07-16
+R000937,Doodad Max,1,Disappointed with the Doodad Max — stopped working after a week.,2024-11-11
+R000938,Gizmo Plus,4,Love the Gizmo Plus — shipping was fast.,2025-11-10
+R000939,Widget Pro,5,Love the Widget Pro — works exactly as described.,2024-04-20
+R000940,Starter Kit,1,Disappointed with the Starter Kit — arrived damaged.,2024-06-28
+R000941,Gizmo Air,5,Love the Gizmo Air — the packaging was excellent.,2025-11-16
+R000942,Gizmo Air,1,Disappointed with the Gizmo Air — arrived damaged.,2024-07-30
+R000943,Premium Bundle,5,Love the Premium Bundle — great value for the price.,2025-09-25
+R000944,Refill Pack,4,Love the Refill Pack — works exactly as described.,2025-03-09
+R000945,Refill Pack,4,Love the Refill Pack — customer support was helpful.,2025-01-18
+R000946,Service Plan,3,The Service Plan is okay — it does the job.,2024-03-09
+R000947,Gizmo Plus,3,The Gizmo Plus is okay — shipping was okay.,2024-03-22
+R000948,Widget Pro,3,The Widget Pro is okay — average quality.,2025-10-21
+R000949,Gizmo Air,3,The Gizmo Air is okay — average quality.,2024-02-22
+R000950,Widget Pro,4,Love the Widget Pro — works exactly as described.,2024-06-22
+R000951,Doodad Max,4,Love the Doodad Max — great value for the price.,2024-11-23
+R000952,Doodad Lite,3,The Doodad Lite is okay — shipping was okay.,2025-10-20
+R000953,Widget Pro,4,Love the Widget Pro — works exactly as described.,2024-06-30
+R000954,Refill Pack,2,Disappointed with the Refill Pack — support never followed up.,2024-05-08
+R000955,Premium Bundle,3,"The Premium Bundle is okay — nothing special, but fine.",2025-02-12
+R000956,Gizmo Plus,2,Disappointed with the Gizmo Plus — the fit was off.,2025-08-17
+R000957,Refill Pack,5,Love the Refill Pack — setup was quick.,2024-05-26
+R000958,Doodad Lite,3,The Doodad Lite is okay — instructions could be clearer.,2024-03-11
+R000959,Starter Kit,4,Love the Starter Kit — customer support was helpful.,2025-03-08
+R000960,Gizmo Air,4,Love the Gizmo Air — the quality feels premium.,2024-03-26
+R000961,Refill Pack,4,Love the Refill Pack — customer support was helpful.,2025-01-01
+R000962,Starter Kit,4,Love the Starter Kit — shipping was fast.,2025-06-19
+R000963,Premium Bundle,2,Disappointed with the Premium Bundle — quality control seems inconsistent.,2024-11-27
+R000964,Premium Bundle,5,Love the Premium Bundle — great value for the price.,2024-12-13
+R000965,Refill Pack,2,Disappointed with the Refill Pack — arrived damaged.,2025-05-09
+R000966,Widget Mini,3,The Widget Mini is okay — instructions could be clearer.,2024-03-25
+R000967,Refill Pack,4,Love the Refill Pack — the quality feels premium.,2025-11-12
+R000968,Gizmo Air,4,Love the Gizmo Air — the packaging was excellent.,2024-12-28
+R000969,Doodad Max,2,Disappointed with the Doodad Max — support never followed up.,2024-06-15
+R000970,Gizmo Air,4,Love the Gizmo Air — shipping was fast.,2025-01-16
+R000971,Gizmo Plus,4,Love the Gizmo Plus — great value for the price.,2024-10-19
+R000972,Premium Bundle,4,Love the Premium Bundle — the packaging was excellent.,2025-11-08
+R000973,Doodad Lite,5,Love the Doodad Lite — the packaging was excellent.,2024-11-27
+R000974,Refill Pack,4,Love the Refill Pack — works exactly as described.,2025-11-21
+R000975,Doodad Max,5,Love the Doodad Max — customer support was helpful.,2024-03-20
+R000976,Widget Mini,4,Love the Widget Mini — customer support was helpful.,2024-10-06
+R000977,Service Plan,3,The Service Plan is okay — average quality.,2025-07-16
+R000978,Gizmo Plus,4,Love the Gizmo Plus — setup was quick.,2025-11-07
+R000979,Premium Bundle,4,Love the Premium Bundle — the quality feels premium.,2025-11-18
+R000980,Premium Bundle,4,Love the Premium Bundle — customer support was helpful.,2024-08-06
+R000981,Widget Mini,4,Love the Widget Mini — shipping was fast.,2025-03-01
+R000982,Refill Pack,5,Love the Refill Pack — setup was quick.,2025-10-31
+R000983,Gizmo Air,4,Love the Gizmo Air — shipping was fast.,2024-11-01
+R000984,Widget Pro,4,Love the Widget Pro — works exactly as described.,2024-05-24
+R000985,Widget Mini,4,Love the Widget Mini — the quality feels premium.,2024-12-01
+R000986,Widget Pro,4,Love the Widget Pro — shipping was fast.,2024-12-24
+R000987,Gizmo Air,4,Love the Gizmo Air — great value for the price.,2025-11-23
+R000988,Doodad Lite,3,"The Doodad Lite is okay — nothing special, but fine.",2026-01-24
+R000989,Gizmo Air,4,Love the Gizmo Air — setup was quick.,2024-08-28
+R000990,Doodad Lite,4,Love the Doodad Lite — works exactly as described.,2024-04-19
+R000991,Premium Bundle,5,Love the Premium Bundle — the packaging was excellent.,2025-06-15
+R000992,Premium Bundle,4,Love the Premium Bundle — customer support was helpful.,2024-12-16
+R000993,Doodad Lite,5,Love the Doodad Lite — works exactly as described.,2025-02-22
+R000994,Refill Pack,3,The Refill Pack is okay — instructions could be clearer.,2025-05-03
+R000995,Widget Mini,4,Love the Widget Mini — customer support was helpful.,2025-08-01
+R000996,Doodad Max,3,The Doodad Max is okay — it met my expectations.,2024-09-01
+R000997,Refill Pack,4,Love the Refill Pack — works exactly as described.,2024-06-30
+R000998,Service Plan,2,Disappointed with the Service Plan — missing a key part.,2025-02-09
+R000999,Doodad Lite,3,The Doodad Lite is okay — instructions could be clearer.,2024-09-04
+R001000,Gizmo Air,3,The Gizmo Air is okay — it met my expectations.,2025-01-09
+R001001,Widget Mini,5,Love the Widget Mini — works exactly as described.,2024-05-07
+R001002,Widget Mini,4,Love the Widget Mini — the packaging was excellent.,2024-07-01
+R001003,Doodad Lite,5,Love the Doodad Lite — setup was quick.,2025-03-30
+R001004,Doodad Max,5,Love the Doodad Max — the quality feels premium.,2024-03-19
+R001005,Gizmo Plus,4,Love the Gizmo Plus — shipping was fast.,2025-11-12
+R001006,Doodad Max,3,The Doodad Max is okay — shipping was okay.,2024-09-08
+R001007,Refill Pack,4,Love the Refill Pack — customer support was helpful.,2025-01-31
+R001008,Widget Mini,3,"The Widget Mini is okay — nothing special, but fine.",2025-04-11
+R001009,Service Plan,4,Love the Service Plan — the packaging was excellent.,2024-05-08
+R001010,Service Plan,3,"The Service Plan is okay — nothing special, but fine.",2024-05-23
+R001011,Doodad Lite,5,Love the Doodad Lite — shipping was fast.,2025-07-03
+R001012,Service Plan,5,Love the Service Plan — works exactly as described.,2024-12-26
+R001013,Widget Pro,4,Love the Widget Pro — setup was quick.,2025-02-16
+R001014,Gizmo Plus,4,Love the Gizmo Plus — shipping was fast.,2025-11-12
+R001015,Premium Bundle,4,Love the Premium Bundle — great value for the price.,2024-03-26
+R001016,Starter Kit,1,Disappointed with the Starter Kit — quality control seems inconsistent.,2025-06-02
+R001017,Doodad Max,4,Love the Doodad Max — works exactly as described.,2024-05-04
+R001018,Gizmo Plus,3,The Gizmo Plus is okay — shipping was okay.,2025-09-16
+R001019,Widget Mini,5,Love the Widget Mini — great value for the price.,2024-09-27
+R001020,Doodad Max,1,Disappointed with the Doodad Max — not worth the price.,2025-05-12
+R001021,Premium Bundle,5,Love the Premium Bundle — great value for the price.,2024-06-24
+R001022,Gizmo Plus,4,Love the Gizmo Plus — shipping was fast.,2025-02-26
+R001023,Doodad Max,4,Love the Doodad Max — works exactly as described.,2024-10-13
+R001024,Starter Kit,4,Love the Starter Kit — customer support was helpful.,2024-03-16
+R001025,Doodad Lite,3,"The Doodad Lite is okay — nothing special, but fine.",2025-06-19
+R001026,Starter Kit,4,Love the Starter Kit — the packaging was excellent.,2024-10-21
+R001027,Widget Pro,3,The Widget Pro is okay — it does the job.,2024-08-06
+R001028,Refill Pack,5,Love the Refill Pack — customer support was helpful.,2025-03-11
+R001029,Premium Bundle,5,Love the Premium Bundle — works exactly as described.,2025-12-13
+R001030,Premium Bundle,3,The Premium Bundle is okay — average quality.,2024-09-21
+R001031,Starter Kit,4,Love the Starter Kit — setup was quick.,2025-05-08
+R001032,Doodad Lite,4,Love the Doodad Lite — setup was quick.,2024-11-14
+R001033,Service Plan,2,Disappointed with the Service Plan — the fit was off.,2024-04-11
+R001034,Widget Mini,3,"The Widget Mini is okay — nothing special, but fine.",2024-08-27
+R001035,Gizmo Plus,2,Disappointed with the Gizmo Plus — missing a key part.,2025-08-13
+R001036,Refill Pack,5,Love the Refill Pack — setup was quick.,2025-11-15
+R001037,Gizmo Plus,4,Love the Gizmo Plus — customer support was helpful.,2025-12-21
+R001038,Doodad Max,1,Disappointed with the Doodad Max — support never followed up.,2024-03-22
+R001039,Doodad Lite,5,Love the Doodad Lite — the quality feels premium.,2025-12-01
+R001040,Widget Mini,5,Love the Widget Mini — shipping was fast.,2024-11-20
+R001041,Service Plan,5,Love the Service Plan — works exactly as described.,2024-05-06
+R001042,Gizmo Air,4,Love the Gizmo Air — shipping was fast.,2024-02-07
+R001043,Service Plan,4,Love the Service Plan — great value for the price.,2025-03-12
+R001044,Doodad Lite,4,Love the Doodad Lite — works exactly as described.,2025-11-29
+R001045,Gizmo Air,5,Love the Gizmo Air — setup was quick.,2024-04-13
+R001046,Refill Pack,1,Disappointed with the Refill Pack — support never followed up.,2025-10-16
+R001047,Widget Pro,4,Love the Widget Pro — customer support was helpful.,2024-06-23
+R001048,Gizmo Plus,4,Love the Gizmo Plus — the quality feels premium.,2026-01-30
+R001049,Gizmo Air,5,Love the Gizmo Air — customer support was helpful.,2024-10-17
+R001050,Gizmo Plus,3,The Gizmo Plus is okay — instructions could be clearer.,2024-09-13
+R001051,Gizmo Air,5,Love the Gizmo Air — setup was quick.,2024-05-26
+R001052,Widget Pro,2,Disappointed with the Widget Pro — arrived damaged.,2025-12-03
+R001053,Doodad Max,5,Love the Doodad Max — setup was quick.,2025-08-10
+R001054,Starter Kit,4,Love the Starter Kit — the packaging was excellent.,2025-11-21
+R001055,Refill Pack,3,The Refill Pack is okay — it does the job.,2025-04-19
+R001056,Service Plan,5,Love the Service Plan — the packaging was excellent.,2024-11-15
+R001057,Doodad Lite,5,Love the Doodad Lite — the quality feels premium.,2024-04-11
+R001058,Starter Kit,3,The Starter Kit is okay — it met my expectations.,2026-01-18
+R001059,Gizmo Plus,3,The Gizmo Plus is okay — shipping was okay.,2025-11-05
+R001060,Doodad Lite,5,Love the Doodad Lite — works exactly as described.,2025-06-12
+R001061,Gizmo Air,3,The Gizmo Air is okay — it does the job.,2024-03-03
+R001062,Widget Mini,1,Disappointed with the Widget Mini — the fit was off.,2025-04-03
+R001063,Doodad Max,5,Love the Doodad Max — great value for the price.,2025-01-26
+R001064,Widget Pro,5,Love the Widget Pro — customer support was helpful.,2024-06-30
+R001065,Doodad Max,4,Love the Doodad Max — the quality feels premium.,2025-01-23
+R001066,Widget Mini,5,Love the Widget Mini — the packaging was excellent.,2025-07-31
+R001067,Gizmo Plus,4,Love the Gizmo Plus — setup was quick.,2026-01-15
+R001068,Refill Pack,3,The Refill Pack is okay — it does the job.,2024-08-28
+R001069,Gizmo Air,4,Love the Gizmo Air — works exactly as described.,2024-12-10
+R001070,Premium Bundle,5,Love the Premium Bundle — shipping was fast.,2024-08-27
+R001071,Doodad Max,4,Love the Doodad Max — works exactly as described.,2025-12-25
+R001072,Starter Kit,3,The Starter Kit is okay — it met my expectations.,2024-08-29
+R001073,Starter Kit,2,Disappointed with the Starter Kit — not worth the price.,2024-04-30
+R001074,Gizmo Air,4,Love the Gizmo Air — great value for the price.,2024-08-08
+R001075,Widget Mini,2,Disappointed with the Widget Mini — the fit was off.,2025-12-16
+R001076,Starter Kit,1,Disappointed with the Starter Kit — quality control seems inconsistent.,2024-05-19
+R001077,Doodad Max,4,Love the Doodad Max — great value for the price.,2025-03-01
+R001078,Refill Pack,4,Love the Refill Pack — setup was quick.,2024-11-09
+R001079,Premium Bundle,3,The Premium Bundle is okay — instructions could be clearer.,2025-06-28
+R001080,Refill Pack,4,Love the Refill Pack — the quality feels premium.,2025-10-11
+R001081,Service Plan,1,Disappointed with the Service Plan — missing a key part.,2025-06-30
+R001082,Gizmo Plus,3,The Gizmo Plus is okay — instructions could be clearer.,2025-03-19
+R001083,Widget Mini,3,The Widget Mini is okay — shipping was okay.,2026-02-01
+R001084,Widget Mini,4,Love the Widget Mini — the quality feels premium.,2026-01-20
+R001085,Gizmo Air,5,Love the Gizmo Air — the packaging was excellent.,2024-03-04
+R001086,Widget Pro,5,Love the Widget Pro — works exactly as described.,2025-11-30
+R001087,Premium Bundle,3,"The Premium Bundle is okay — nothing special, but fine.",2024-05-28
+R001088,Doodad Max,5,Love the Doodad Max — the quality feels premium.,2024-08-19
+R001089,Starter Kit,3,The Starter Kit is okay — it does the job.,2025-04-20
+R001090,Service Plan,4,Love the Service Plan — the quality feels premium.,2024-11-11
+R001091,Starter Kit,5,Love the Starter Kit — shipping was fast.,2024-08-04
+R001092,Refill Pack,1,Disappointed with the Refill Pack — the fit was off.,2024-11-11
+R001093,Gizmo Plus,4,Love the Gizmo Plus — setup was quick.,2024-03-31
+R001094,Premium Bundle,4,Love the Premium Bundle — works exactly as described.,2024-12-01
+R001095,Widget Mini,5,Love the Widget Mini — great value for the price.,2024-07-04
+R001096,Premium Bundle,1,Disappointed with the Premium Bundle — stopped working after a week.,2025-10-17
+R001097,Gizmo Plus,5,Love the Gizmo Plus — works exactly as described.,2025-01-08
+R001098,Gizmo Plus,3,The Gizmo Plus is okay — it does the job.,2025-07-07
+R001099,Gizmo Air,5,Love the Gizmo Air — customer support was helpful.,2024-02-20
+R001100,Widget Mini,3,The Widget Mini is okay — it met my expectations.,2025-01-27
+R001101,Gizmo Air,5,Love the Gizmo Air — great value for the price.,2024-11-24
+R001102,Premium Bundle,5,Love the Premium Bundle — great value for the price.,2025-06-17
+R001103,Gizmo Air,5,Love the Gizmo Air — the packaging was excellent.,2024-02-21
+R001104,Gizmo Plus,5,Love the Gizmo Plus — shipping was fast.,2024-09-21
+R001105,Premium Bundle,5,Love the Premium Bundle — works exactly as described.,2024-12-09
+R001106,Refill Pack,3,The Refill Pack is okay — shipping was okay.,2024-08-21
+R001107,Refill Pack,4,Love the Refill Pack — the quality feels premium.,2025-03-19
+R001108,Gizmo Plus,2,Disappointed with the Gizmo Plus — the fit was off.,2024-09-30
+R001109,Service Plan,5,Love the Service Plan — customer support was helpful.,2024-12-05
+R001110,Gizmo Air,3,"The Gizmo Air is okay — nothing special, but fine.",2025-02-16
+R001111,Doodad Lite,4,Love the Doodad Lite — the quality feels premium.,2025-02-27
+R001112,Service Plan,3,The Service Plan is okay — shipping was okay.,2025-08-26
+R001113,Refill Pack,2,Disappointed with the Refill Pack — missing a key part.,2025-01-08
+R001114,Premium Bundle,4,Love the Premium Bundle — the packaging was excellent.,2024-07-14
+R001115,Refill Pack,5,Love the Refill Pack — the quality feels premium.,2024-02-07
+R001116,Widget Pro,5,Love the Widget Pro — setup was quick.,2024-11-28
+R001117,Premium Bundle,4,Love the Premium Bundle — customer support was helpful.,2025-06-28
+R001118,Widget Pro,4,Love the Widget Pro — the quality feels premium.,2024-02-10
+R001119,Refill Pack,3,The Refill Pack is okay — average quality.,2024-10-13
+R001120,Refill Pack,3,The Refill Pack is okay — average quality.,2024-12-11
+R001121,Gizmo Air,4,Love the Gizmo Air — the quality feels premium.,2024-11-10
+R001122,Refill Pack,5,Love the Refill Pack — works exactly as described.,2025-01-25
+R001123,Widget Mini,5,Love the Widget Mini — works exactly as described.,2025-06-26
+R001124,Widget Mini,2,Disappointed with the Widget Mini — quality control seems inconsistent.,2024-05-11
+R001125,Starter Kit,3,The Starter Kit is okay — shipping was okay.,2024-04-22
+R001126,Gizmo Plus,3,The Gizmo Plus is okay — shipping was okay.,2024-06-13
+R001127,Service Plan,4,Love the Service Plan — works exactly as described.,2024-12-08
+R001128,Service Plan,4,Love the Service Plan — customer support was helpful.,2024-12-11
+R001129,Gizmo Air,4,Love the Gizmo Air — setup was quick.,2024-06-25
+R001130,Service Plan,3,The Service Plan is okay — shipping was okay.,2024-07-02
+R001131,Doodad Lite,2,Disappointed with the Doodad Lite — quality control seems inconsistent.,2024-05-07
+R001132,Gizmo Air,4,Love the Gizmo Air — works exactly as described.,2025-02-07
+R001133,Doodad Lite,4,Love the Doodad Lite — the quality feels premium.,2024-11-29
+R001134,Gizmo Air,5,Love the Gizmo Air — shipping was fast.,2026-01-16
+R001135,Doodad Lite,3,The Doodad Lite is okay — it does the job.,2025-10-24
+R001136,Starter Kit,5,Love the Starter Kit — shipping was fast.,2025-08-13
+R001137,Refill Pack,1,Disappointed with the Refill Pack — missing a key part.,2025-01-22
+R001138,Gizmo Air,5,Love the Gizmo Air — works exactly as described.,2025-05-24
+R001139,Doodad Max,3,The Doodad Max is okay — it does the job.,2024-06-08
+R001140,Starter Kit,5,Love the Starter Kit — setup was quick.,2024-02-29
+R001141,Starter Kit,2,Disappointed with the Starter Kit — quality control seems inconsistent.,2024-09-26
+R001142,Gizmo Air,1,Disappointed with the Gizmo Air — support never followed up.,2025-05-25
+R001143,Starter Kit,4,Love the Starter Kit — shipping was fast.,2025-09-04
+R001144,Doodad Lite,1,Disappointed with the Doodad Lite — quality control seems inconsistent.,2025-11-06
+R001145,Service Plan,5,Love the Service Plan — the packaging was excellent.,2025-10-27
+R001146,Widget Pro,3,The Widget Pro is okay — average quality.,2024-11-13
+R001147,Doodad Lite,4,Love the Doodad Lite — the packaging was excellent.,2024-06-18
+R001148,Widget Mini,5,Love the Widget Mini — shipping was fast.,2024-05-20
+R001149,Premium Bundle,3,"The Premium Bundle is okay — nothing special, but fine.",2024-12-09
+R001150,Starter Kit,5,Love the Starter Kit — setup was quick.,2024-08-15
+R001151,Starter Kit,4,Love the Starter Kit — works exactly as described.,2026-01-10
+R001152,Gizmo Air,5,Love the Gizmo Air — works exactly as described.,2024-06-18
+R001153,Refill Pack,5,Love the Refill Pack — shipping was fast.,2024-10-12
+R001154,Gizmo Plus,1,Disappointed with the Gizmo Plus — not worth the price.,2025-04-13
+R001155,Widget Pro,1,Disappointed with the Widget Pro — arrived damaged.,2024-06-01
+R001156,Widget Pro,5,Love the Widget Pro — the quality feels premium.,2026-01-05
+R001157,Starter Kit,5,Love the Starter Kit — the quality feels premium.,2025-06-26
+R001158,Gizmo Air,4,Love the Gizmo Air — great value for the price.,2026-01-27
+R001159,Doodad Max,4,Love the Doodad Max — customer support was helpful.,2025-09-16
+R001160,Doodad Max,3,"The Doodad Max is okay — nothing special, but fine.",2025-06-23
+R001161,Refill Pack,3,The Refill Pack is okay — it met my expectations.,2025-02-04
+R001162,Doodad Max,5,Love the Doodad Max — great value for the price.,2024-09-16
+R001163,Widget Pro,5,Love the Widget Pro — the packaging was excellent.,2024-06-08
+R001164,Service Plan,2,Disappointed with the Service Plan — arrived damaged.,2026-01-09
+R001165,Refill Pack,5,Love the Refill Pack — great value for the price.,2025-05-08
+R001166,Service Plan,1,Disappointed with the Service Plan — missing a key part.,2024-04-28
+R001167,Premium Bundle,5,Love the Premium Bundle — customer support was helpful.,2024-05-06
+R001168,Doodad Lite,4,Love the Doodad Lite — great value for the price.,2024-02-29
+R001169,Starter Kit,1,Disappointed with the Starter Kit — the fit was off.,2025-05-31
+R001170,Gizmo Plus,5,Love the Gizmo Plus — customer support was helpful.,2024-08-29
+R001171,Refill Pack,2,Disappointed with the Refill Pack — support never followed up.,2025-04-09
+R001172,Doodad Max,4,Love the Doodad Max — customer support was helpful.,2026-02-02
+R001173,Refill Pack,1,Disappointed with the Refill Pack — support never followed up.,2025-10-08
+R001174,Doodad Lite,1,Disappointed with the Doodad Lite — not worth the price.,2024-08-20
+R001175,Refill Pack,5,Love the Refill Pack — the quality feels premium.,2025-01-27
+R001176,Refill Pack,2,Disappointed with the Refill Pack — arrived damaged.,2025-12-26
+R001177,Doodad Max,3,The Doodad Max is okay — average quality.,2024-06-06
+R001178,Gizmo Plus,5,Love the Gizmo Plus — works exactly as described.,2025-02-28
+R001179,Service Plan,5,Love the Service Plan — setup was quick.,2024-03-02
+R001180,Premium Bundle,1,Disappointed with the Premium Bundle — quality control seems inconsistent.,2025-06-28
+R001181,Widget Pro,3,The Widget Pro is okay — instructions could be clearer.,2024-07-04
+R001182,Widget Pro,4,Love the Widget Pro — setup was quick.,2025-04-21
+R001183,Gizmo Air,5,Love the Gizmo Air — shipping was fast.,2026-01-29
+R001184,Doodad Lite,4,Love the Doodad Lite — setup was quick.,2025-07-12
+R001185,Widget Mini,5,Love the Widget Mini — great value for the price.,2025-11-09
+R001186,Premium Bundle,4,Love the Premium Bundle — the quality feels premium.,2025-01-01
+R001187,Refill Pack,4,Love the Refill Pack — works exactly as described.,2025-05-05
+R001188,Gizmo Air,3,"The Gizmo Air is okay — nothing special, but fine.",2024-03-20
+R001189,Gizmo Air,4,Love the Gizmo Air — the quality feels premium.,2025-04-26
+R001190,Premium Bundle,5,Love the Premium Bundle — setup was quick.,2025-04-08
+R001191,Starter Kit,4,Love the Starter Kit — the quality feels premium.,2025-10-23
+R001192,Doodad Lite,4,Love the Doodad Lite — the quality feels premium.,2024-06-13
+R001193,Doodad Max,4,Love the Doodad Max — customer support was helpful.,2025-07-25
+R001194,Gizmo Plus,4,Love the Gizmo Plus — setup was quick.,2025-04-10
+R001195,Doodad Max,5,Love the Doodad Max — works exactly as described.,2024-02-20
+R001196,Widget Mini,5,Love the Widget Mini — setup was quick.,2024-08-17
+R001197,Doodad Lite,3,The Doodad Lite is okay — it does the job.,2024-11-24
+R001198,Gizmo Plus,4,Love the Gizmo Plus — customer support was helpful.,2025-09-06
+R001199,Starter Kit,4,Love the Starter Kit — shipping was fast.,2025-05-28
+R001200,Doodad Max,3,The Doodad Max is okay — shipping was okay.,2024-03-21
+R001201,Doodad Max,3,The Doodad Max is okay — shipping was okay.,2025-07-13
+R001202,Premium Bundle,5,Love the Premium Bundle — great value for the price.,2024-09-23
+R001203,Gizmo Plus,5,Love the Gizmo Plus — shipping was fast.,2025-08-06
+R001204,Gizmo Plus,1,Disappointed with the Gizmo Plus — stopped working after a week.,2025-10-05
+R001205,Gizmo Air,5,Love the Gizmo Air — customer support was helpful.,2024-08-06
+R001206,Gizmo Air,5,Love the Gizmo Air — works exactly as described.,2024-09-20
+R001207,Widget Mini,5,Love the Widget Mini — setup was quick.,2025-07-01
+R001208,Doodad Lite,5,Love the Doodad Lite — the quality feels premium.,2024-04-05
+R001209,Widget Pro,2,Disappointed with the Widget Pro — arrived damaged.,2024-04-23
+R001210,Premium Bundle,5,Love the Premium Bundle — great value for the price.,2025-10-12
+R001211,Gizmo Air,4,Love the Gizmo Air — shipping was fast.,2024-03-22
+R001212,Starter Kit,4,Love the Starter Kit — the packaging was excellent.,2026-01-31
+R001213,Gizmo Plus,4,Love the Gizmo Plus — customer support was helpful.,2024-02-11
+R001214,Starter Kit,4,Love the Starter Kit — shipping was fast.,2024-03-08
+R001215,Premium Bundle,5,Love the Premium Bundle — the quality feels premium.,2024-03-16
+R001216,Widget Pro,2,Disappointed with the Widget Pro — the fit was off.,2025-09-11
+R001217,Gizmo Air,4,Love the Gizmo Air — customer support was helpful.,2025-03-24
+R001218,Doodad Lite,3,The Doodad Lite is okay — it met my expectations.,2024-10-19
+R001219,Gizmo Plus,4,Love the Gizmo Plus — great value for the price.,2025-02-20
+R001220,Service Plan,5,Love the Service Plan — works exactly as described.,2024-02-19
+R001221,Doodad Lite,3,The Doodad Lite is okay — it does the job.,2024-05-15
+R001222,Service Plan,5,Love the Service Plan — great value for the price.,2024-08-27
+R001223,Refill Pack,4,Love the Refill Pack — setup was quick.,2025-03-11
+R001224,Widget Mini,3,The Widget Mini is okay — shipping was okay.,2025-02-11
+R001225,Doodad Max,5,Love the Doodad Max — the quality feels premium.,2024-11-12
+R001226,Widget Pro,3,The Widget Pro is okay — instructions could be clearer.,2024-04-25
+R001227,Gizmo Plus,4,Love the Gizmo Plus — great value for the price.,2025-12-02
+R001228,Starter Kit,2,Disappointed with the Starter Kit — quality control seems inconsistent.,2025-10-17
+R001229,Doodad Lite,4,Love the Doodad Lite — works exactly as described.,2025-09-09
+R001230,Widget Pro,4,Love the Widget Pro — customer support was helpful.,2025-08-18
+R001231,Gizmo Plus,2,Disappointed with the Gizmo Plus — not worth the price.,2024-06-22
+R001232,Widget Pro,2,Disappointed with the Widget Pro — missing a key part.,2024-08-29
+R001233,Starter Kit,4,Love the Starter Kit — the quality feels premium.,2026-01-17
+R001234,Doodad Lite,3,The Doodad Lite is okay — instructions could be clearer.,2025-11-13
+R001235,Refill Pack,3,"The Refill Pack is okay — nothing special, but fine.",2026-01-29
+R001236,Doodad Max,2,Disappointed with the Doodad Max — support never followed up.,2025-01-29
+R001237,Widget Mini,2,Disappointed with the Widget Mini — support never followed up.,2025-11-15
+R001238,Doodad Lite,4,Love the Doodad Lite — great value for the price.,2024-12-17
+R001239,Gizmo Air,5,Love the Gizmo Air — works exactly as described.,2024-03-21
+R001240,Starter Kit,2,Disappointed with the Starter Kit — missing a key part.,2025-06-30
+R001241,Premium Bundle,5,Love the Premium Bundle — the quality feels premium.,2025-11-08
+R001242,Refill Pack,3,The Refill Pack is okay — instructions could be clearer.,2024-03-02
+R001243,Refill Pack,5,Love the Refill Pack — the packaging was excellent.,2025-11-29
+R001244,Starter Kit,5,Love the Starter Kit — shipping was fast.,2025-05-09
+R001245,Refill Pack,4,Love the Refill Pack — customer support was helpful.,2024-05-17
+R001246,Widget Pro,4,Love the Widget Pro — setup was quick.,2025-10-27
+R001247,Starter Kit,5,Love the Starter Kit — great value for the price.,2025-03-06
+R001248,Premium Bundle,4,Love the Premium Bundle — great value for the price.,2024-02-23
+R001249,Gizmo Plus,4,Love the Gizmo Plus — great value for the price.,2025-01-22
+R001250,Starter Kit,5,Love the Starter Kit — shipping was fast.,2024-11-11
+R001251,Premium Bundle,2,Disappointed with the Premium Bundle — the fit was off.,2024-06-09
+R001252,Doodad Max,5,Love the Doodad Max — works exactly as described.,2024-05-20
+R001253,Gizmo Plus,5,Love the Gizmo Plus — setup was quick.,2026-01-12
+R001254,Premium Bundle,3,The Premium Bundle is okay — it met my expectations.,2025-08-22
+R001255,Gizmo Air,3,The Gizmo Air is okay — it does the job.,2025-03-04
+R001256,Doodad Max,2,Disappointed with the Doodad Max — support never followed up.,2025-09-26
+R001257,Starter Kit,4,Love the Starter Kit — customer support was helpful.,2024-04-25
+R001258,Gizmo Air,5,Love the Gizmo Air — works exactly as described.,2025-10-02
+R001259,Widget Pro,4,Love the Widget Pro — the packaging was excellent.,2025-02-04
+R001260,Widget Mini,5,Love the Widget Mini — setup was quick.,2025-10-25
+R001261,Gizmo Plus,1,Disappointed with the Gizmo Plus — quality control seems inconsistent.,2024-09-14
+R001262,Doodad Max,3,"The Doodad Max is okay — nothing special, but fine.",2024-04-13
+R001263,Gizmo Air,5,Love the Gizmo Air — great value for the price.,2025-09-09
+R001264,Gizmo Plus,1,Disappointed with the Gizmo Plus — arrived damaged.,2025-07-24
+R001265,Gizmo Plus,4,Love the Gizmo Plus — the quality feels premium.,2024-12-12
+R001266,Widget Mini,4,Love the Widget Mini — customer support was helpful.,2024-10-23
+R001267,Widget Mini,5,Love the Widget Mini — shipping was fast.,2025-01-15
+R001268,Doodad Lite,5,Love the Doodad Lite — works exactly as described.,2024-09-21
+R001269,Refill Pack,4,Love the Refill Pack — customer support was helpful.,2025-11-21
+R001270,Gizmo Air,3,"The Gizmo Air is okay — nothing special, but fine.",2024-04-09
+R001271,Gizmo Plus,3,"The Gizmo Plus is okay — nothing special, but fine.",2024-02-23
+R001272,Widget Pro,3,The Widget Pro is okay — it does the job.,2024-10-10
+R001273,Widget Mini,5,Love the Widget Mini — great value for the price.,2025-03-21
+R001274,Gizmo Air,5,Love the Gizmo Air — works exactly as described.,2024-07-29
+R001275,Widget Pro,5,Love the Widget Pro — the quality feels premium.,2025-10-01
+R001276,Doodad Lite,2,Disappointed with the Doodad Lite — arrived damaged.,2024-03-06
+R001277,Widget Mini,4,Love the Widget Mini — the quality feels premium.,2025-08-27
+R001278,Widget Pro,5,Love the Widget Pro — the packaging was excellent.,2025-03-07
+R001279,Doodad Lite,5,Love the Doodad Lite — customer support was helpful.,2025-07-28
+R001280,Doodad Lite,4,Love the Doodad Lite — customer support was helpful.,2025-12-08
+R001281,Widget Mini,4,Love the Widget Mini — shipping was fast.,2025-09-15
+R001282,Premium Bundle,1,Disappointed with the Premium Bundle — quality control seems inconsistent.,2024-07-22
+R001283,Gizmo Plus,4,Love the Gizmo Plus — shipping was fast.,2024-06-09
+R001284,Doodad Lite,3,The Doodad Lite is okay — it met my expectations.,2024-02-24
+R001285,Doodad Max,5,Love the Doodad Max — great value for the price.,2024-08-15
+R001286,Widget Pro,4,Love the Widget Pro — setup was quick.,2025-06-21
+R001287,Starter Kit,5,Love the Starter Kit — great value for the price.,2025-08-06
+R001288,Premium Bundle,4,Love the Premium Bundle — shipping was fast.,2025-09-02
+R001289,Service Plan,4,Love the Service Plan — works exactly as described.,2026-01-01
+R001290,Starter Kit,4,Love the Starter Kit — setup was quick.,2025-04-26
+R001291,Gizmo Air,5,Love the Gizmo Air — the packaging was excellent.,2025-02-18
+R001292,Doodad Max,3,The Doodad Max is okay — shipping was okay.,2024-03-29
+R001293,Gizmo Air,5,Love the Gizmo Air — the packaging was excellent.,2024-05-22
+R001294,Widget Mini,4,Love the Widget Mini — the quality feels premium.,2024-02-22
+R001295,Widget Pro,4,Love the Widget Pro — customer support was helpful.,2025-11-27
+R001296,Widget Mini,5,Love the Widget Mini — great value for the price.,2024-06-17
+R001297,Gizmo Plus,4,Love the Gizmo Plus — the packaging was excellent.,2025-03-28
+R001298,Refill Pack,2,Disappointed with the Refill Pack — stopped working after a week.,2024-06-02
+R001299,Doodad Max,3,The Doodad Max is okay — shipping was okay.,2025-10-01
+R001300,Starter Kit,5,Love the Starter Kit — shipping was fast.,2024-05-15
+R001301,Gizmo Plus,4,Love the Gizmo Plus — the quality feels premium.,2024-05-14
+R001302,Gizmo Plus,4,Love the Gizmo Plus — the packaging was excellent.,2025-01-26
+R001303,Premium Bundle,5,Love the Premium Bundle — the quality feels premium.,2025-06-21
+R001304,Doodad Max,4,Love the Doodad Max — works exactly as described.,2025-12-13
+R001305,Gizmo Plus,4,Love the Gizmo Plus — the quality feels premium.,2024-08-24
+R001306,Widget Pro,3,The Widget Pro is okay — it met my expectations.,2024-10-13
+R001307,Doodad Max,5,Love the Doodad Max — the packaging was excellent.,2025-03-27
+R001308,Widget Mini,4,Love the Widget Mini — great value for the price.,2025-11-02
+R001309,Premium Bundle,4,Love the Premium Bundle — works exactly as described.,2025-08-07
+R001310,Widget Mini,5,Love the Widget Mini — works exactly as described.,2024-04-19
+R001311,Gizmo Air,4,Love the Gizmo Air — shipping was fast.,2025-01-29
+R001312,Widget Pro,3,"The Widget Pro is okay — nothing special, but fine.",2024-04-12
+R001313,Widget Mini,4,Love the Widget Mini — great value for the price.,2025-02-22
+R001314,Doodad Lite,5,Love the Doodad Lite — the quality feels premium.,2025-02-01
+R001315,Premium Bundle,4,Love the Premium Bundle — the packaging was excellent.,2025-08-18
+R001316,Doodad Max,5,Love the Doodad Max — customer support was helpful.,2025-07-21
+R001317,Refill Pack,5,Love the Refill Pack — setup was quick.,2025-06-14
+R001318,Widget Mini,5,Love the Widget Mini — great value for the price.,2024-10-06
+R001319,Doodad Lite,3,The Doodad Lite is okay — shipping was okay.,2025-06-15
+R001320,Premium Bundle,4,Love the Premium Bundle — great value for the price.,2025-11-01
+R001321,Starter Kit,4,Love the Starter Kit — the packaging was excellent.,2024-02-03
+R001322,Widget Pro,4,Love the Widget Pro — shipping was fast.,2025-06-28
+R001323,Doodad Lite,2,Disappointed with the Doodad Lite — the fit was off.,2024-03-19
+R001324,Refill Pack,4,Love the Refill Pack — works exactly as described.,2025-02-20
+R001325,Doodad Lite,3,The Doodad Lite is okay — it met my expectations.,2024-04-10
+R001326,Widget Mini,5,Love the Widget Mini — setup was quick.,2024-03-06
+R001327,Doodad Max,5,Love the Doodad Max — shipping was fast.,2025-10-21
+R001328,Gizmo Plus,3,The Gizmo Plus is okay — instructions could be clearer.,2025-10-01
+R001329,Widget Mini,4,Love the Widget Mini — customer support was helpful.,2024-03-23
+R001330,Starter Kit,3,The Starter Kit is okay — average quality.,2024-06-16
+R001331,Service Plan,3,The Service Plan is okay — average quality.,2024-11-29
+R001332,Gizmo Air,5,Love the Gizmo Air — works exactly as described.,2025-02-04
+R001333,Gizmo Plus,1,Disappointed with the Gizmo Plus — the fit was off.,2024-12-02
+R001334,Doodad Lite,1,Disappointed with the Doodad Lite — stopped working after a week.,2024-10-04
+R001335,Gizmo Plus,4,Love the Gizmo Plus — shipping was fast.,2024-10-21
+R001336,Starter Kit,4,Love the Starter Kit — shipping was fast.,2025-12-06
+R001337,Widget Mini,1,Disappointed with the Widget Mini — arrived damaged.,2025-05-05
+R001338,Refill Pack,3,"The Refill Pack is okay — nothing special, but fine.",2024-09-27
+R001339,Doodad Max,4,Love the Doodad Max — works exactly as described.,2025-02-14
+R001340,Doodad Max,5,Love the Doodad Max — works exactly as described.,2024-04-18
+R001341,Widget Mini,3,The Widget Mini is okay — shipping was okay.,2024-07-06
+R001342,Doodad Max,2,Disappointed with the Doodad Max — arrived damaged.,2025-02-10
+R001343,Widget Mini,3,The Widget Mini is okay — instructions could be clearer.,2025-02-27
+R001344,Premium Bundle,5,Love the Premium Bundle — works exactly as described.,2024-04-07
+R001345,Gizmo Air,4,Love the Gizmo Air — works exactly as described.,2025-07-09
+R001346,Service Plan,4,Love the Service Plan — great value for the price.,2024-03-02
+R001347,Widget Mini,5,Love the Widget Mini — customer support was helpful.,2025-11-21
+R001348,Refill Pack,5,Love the Refill Pack — setup was quick.,2025-03-06
+R001349,Gizmo Plus,3,The Gizmo Plus is okay — it does the job.,2024-02-11
+R001350,Widget Mini,4,Love the Widget Mini — shipping was fast.,2025-04-12
+R001351,Starter Kit,3,"The Starter Kit is okay — nothing special, but fine.",2025-01-01
+R001352,Widget Pro,4,Love the Widget Pro — setup was quick.,2025-07-13
+R001353,Gizmo Air,2,Disappointed with the Gizmo Air — stopped working after a week.,2025-02-05
+R001354,Service Plan,5,Love the Service Plan — shipping was fast.,2025-11-16
+R001355,Starter Kit,5,Love the Starter Kit — the quality feels premium.,2025-10-29
+R001356,Refill Pack,3,The Refill Pack is okay — it does the job.,2025-01-25
+R001357,Service Plan,5,Love the Service Plan — works exactly as described.,2025-08-27
+R001358,Refill Pack,4,Love the Refill Pack — shipping was fast.,2025-05-31
+R001359,Starter Kit,5,Love the Starter Kit — customer support was helpful.,2025-08-16
+R001360,Premium Bundle,5,Love the Premium Bundle — the quality feels premium.,2025-04-09
+R001361,Widget Mini,2,Disappointed with the Widget Mini — not worth the price.,2025-09-16
+R001362,Doodad Max,5,Love the Doodad Max — setup was quick.,2024-02-06
+R001363,Widget Pro,5,Love the Widget Pro — customer support was helpful.,2025-09-17
+R001364,Refill Pack,2,Disappointed with the Refill Pack — arrived damaged.,2025-03-24
+R001365,Gizmo Plus,5,Love the Gizmo Plus — shipping was fast.,2025-10-15
+R001366,Refill Pack,5,Love the Refill Pack — works exactly as described.,2024-09-14
+R001367,Refill Pack,3,"The Refill Pack is okay — nothing special, but fine.",2024-10-03
+R001368,Gizmo Air,2,Disappointed with the Gizmo Air — the fit was off.,2024-02-23
+R001369,Refill Pack,3,The Refill Pack is okay — average quality.,2026-01-23
+R001370,Gizmo Air,4,Love the Gizmo Air — the quality feels premium.,2026-01-13
+R001371,Gizmo Plus,5,Love the Gizmo Plus — the packaging was excellent.,2026-01-22
+R001372,Service Plan,4,Love the Service Plan — the quality feels premium.,2024-04-24
+R001373,Starter Kit,4,Love the Starter Kit — setup was quick.,2025-06-28
+R001374,Widget Pro,5,Love the Widget Pro — setup was quick.,2024-07-10
+R001375,Widget Pro,2,Disappointed with the Widget Pro — quality control seems inconsistent.,2025-10-15
+R001376,Service Plan,4,Love the Service Plan — customer support was helpful.,2024-04-24
+R001377,Service Plan,1,Disappointed with the Service Plan — quality control seems inconsistent.,2024-08-19
+R001378,Doodad Lite,5,Love the Doodad Lite — customer support was helpful.,2024-06-03
+R001379,Widget Mini,5,Love the Widget Mini — setup was quick.,2024-09-18
+R001380,Refill Pack,5,Love the Refill Pack — shipping was fast.,2026-01-09
+R001381,Gizmo Plus,4,Love the Gizmo Plus — shipping was fast.,2025-11-08
+R001382,Doodad Lite,4,Love the Doodad Lite — works exactly as described.,2024-06-06
+R001383,Starter Kit,5,Love the Starter Kit — shipping was fast.,2024-08-31
+R001384,Refill Pack,5,Love the Refill Pack — shipping was fast.,2024-05-02
+R001385,Doodad Max,5,Love the Doodad Max — works exactly as described.,2024-12-03
+R001386,Widget Pro,3,The Widget Pro is okay — it met my expectations.,2024-06-21
+R001387,Widget Mini,3,The Widget Mini is okay — average quality.,2026-01-15
+R001388,Gizmo Plus,5,Love the Gizmo Plus — the packaging was excellent.,2025-08-25
+R001389,Widget Pro,5,Love the Widget Pro — the packaging was excellent.,2024-05-03
+R001390,Starter Kit,4,Love the Starter Kit — customer support was helpful.,2025-12-22
+R001391,Doodad Lite,3,The Doodad Lite is okay — average quality.,2025-02-06
+R001392,Widget Pro,3,The Widget Pro is okay — instructions could be clearer.,2025-01-20
+R001393,Premium Bundle,5,Love the Premium Bundle — customer support was helpful.,2025-07-24
+R001394,Gizmo Air,5,Love the Gizmo Air — works exactly as described.,2025-01-29
+R001395,Gizmo Air,4,Love the Gizmo Air — works exactly as described.,2025-04-08
+R001396,Refill Pack,2,Disappointed with the Refill Pack — missing a key part.,2025-10-04
+R001397,Refill Pack,3,The Refill Pack is okay — it does the job.,2025-08-07
+R001398,Widget Mini,2,Disappointed with the Widget Mini — stopped working after a week.,2025-03-06
+R001399,Widget Pro,2,Disappointed with the Widget Pro — the fit was off.,2025-10-16
+R001400,Service Plan,5,Love the Service Plan — customer support was helpful.,2025-10-11
+R001401,Doodad Max,4,Love the Doodad Max — great value for the price.,2025-04-04
+R001402,Doodad Lite,4,Love the Doodad Lite — works exactly as described.,2025-12-16
+R001403,Widget Mini,4,Love the Widget Mini — the quality feels premium.,2025-07-07
+R001404,Widget Mini,3,The Widget Mini is okay — it met my expectations.,2025-03-15
+R001405,Gizmo Air,3,The Gizmo Air is okay — it met my expectations.,2024-04-13
+R001406,Gizmo Air,3,The Gizmo Air is okay — it does the job.,2024-04-18
+R001407,Premium Bundle,3,"The Premium Bundle is okay — nothing special, but fine.",2025-12-19
+R001408,Doodad Lite,4,Love the Doodad Lite — great value for the price.,2024-07-29
+R001409,Starter Kit,2,Disappointed with the Starter Kit — quality control seems inconsistent.,2025-09-30
+R001410,Doodad Max,3,The Doodad Max is okay — it met my expectations.,2024-09-13
+R001411,Starter Kit,4,Love the Starter Kit — great value for the price.,2024-10-17
+R001412,Widget Mini,4,Love the Widget Mini — setup was quick.,2025-02-27
+R001413,Gizmo Air,5,Love the Gizmo Air — setup was quick.,2024-12-12
+R001414,Doodad Lite,5,Love the Doodad Lite — setup was quick.,2024-08-16
+R001415,Gizmo Plus,3,The Gizmo Plus is okay — it does the job.,2025-04-22
+R001416,Starter Kit,2,Disappointed with the Starter Kit — support never followed up.,2025-09-21
+R001417,Starter Kit,5,Love the Starter Kit — works exactly as described.,2024-03-01
+R001418,Gizmo Air,1,Disappointed with the Gizmo Air — missing a key part.,2024-07-18
+R001419,Service Plan,3,The Service Plan is okay — shipping was okay.,2025-04-20
+R001420,Starter Kit,1,Disappointed with the Starter Kit — support never followed up.,2024-10-07
+R001421,Doodad Max,4,Love the Doodad Max — customer support was helpful.,2025-07-29
+R001422,Premium Bundle,4,Love the Premium Bundle — the packaging was excellent.,2025-03-02
+R001423,Gizmo Plus,5,Love the Gizmo Plus — the packaging was excellent.,2025-12-22
+R001424,Doodad Max,3,The Doodad Max is okay — it met my expectations.,2025-05-06
+R001425,Refill Pack,1,Disappointed with the Refill Pack — arrived damaged.,2025-11-01
+R001426,Widget Mini,4,Love the Widget Mini — shipping was fast.,2024-04-09
+R001427,Refill Pack,3,"The Refill Pack is okay — nothing special, but fine.",2024-07-16
+R001428,Doodad Max,3,The Doodad Max is okay — instructions could be clearer.,2024-04-04
+R001429,Starter Kit,3,The Starter Kit is okay — instructions could be clearer.,2024-07-06
+R001430,Starter Kit,5,Love the Starter Kit — setup was quick.,2024-06-23
+R001431,Starter Kit,1,Disappointed with the Starter Kit — support never followed up.,2025-12-27
+R001432,Doodad Max,4,Love the Doodad Max — shipping was fast.,2025-06-03
+R001433,Premium Bundle,4,Love the Premium Bundle — customer support was helpful.,2025-05-02
+R001434,Refill Pack,4,Love the Refill Pack — setup was quick.,2025-06-18
+R001435,Widget Pro,3,The Widget Pro is okay — instructions could be clearer.,2025-08-21
+R001436,Service Plan,4,Love the Service Plan — the packaging was excellent.,2024-11-15
+R001437,Service Plan,5,Love the Service Plan — shipping was fast.,2024-09-12
+R001438,Premium Bundle,4,Love the Premium Bundle — the packaging was excellent.,2025-06-26
+R001439,Doodad Max,5,Love the Doodad Max — the quality feels premium.,2024-12-08
+R001440,Widget Pro,3,The Widget Pro is okay — average quality.,2024-07-23
+R001441,Premium Bundle,4,Love the Premium Bundle — shipping was fast.,2025-02-15
+R001442,Gizmo Air,5,Love the Gizmo Air — setup was quick.,2025-01-29
+R001443,Gizmo Plus,3,The Gizmo Plus is okay — it does the job.,2025-10-07
+R001444,Gizmo Air,5,Love the Gizmo Air — setup was quick.,2026-01-15
+R001445,Widget Mini,3,The Widget Mini is okay — it does the job.,2025-11-03
+R001446,Gizmo Air,4,Love the Gizmo Air — the packaging was excellent.,2025-04-03
+R001447,Widget Pro,3,The Widget Pro is okay — average quality.,2025-11-09
+R001448,Widget Mini,5,Love the Widget Mini — setup was quick.,2025-02-24
+R001449,Refill Pack,3,The Refill Pack is okay — shipping was okay.,2024-03-19
+R001450,Service Plan,3,The Service Plan is okay — it does the job.,2025-02-07
+R001451,Doodad Lite,2,Disappointed with the Doodad Lite — the fit was off.,2025-01-06
+R001452,Doodad Lite,4,Love the Doodad Lite — works exactly as described.,2024-04-20
+R001453,Gizmo Air,2,Disappointed with the Gizmo Air — not worth the price.,2024-02-23
+R001454,Premium Bundle,5,Love the Premium Bundle — works exactly as described.,2024-05-11
+R001455,Premium Bundle,2,Disappointed with the Premium Bundle — support never followed up.,2024-10-12
+R001456,Gizmo Air,3,The Gizmo Air is okay — it does the job.,2024-02-18
+R001457,Refill Pack,5,Love the Refill Pack — great value for the price.,2024-09-19
+R001458,Starter Kit,4,Love the Starter Kit — the packaging was excellent.,2024-10-08
+R001459,Refill Pack,2,Disappointed with the Refill Pack — support never followed up.,2025-03-01
+R001460,Doodad Lite,4,Love the Doodad Lite — shipping was fast.,2025-05-09
+R001461,Refill Pack,4,Love the Refill Pack — great value for the price.,2024-12-18
+R001462,Doodad Max,1,Disappointed with the Doodad Max — support never followed up.,2024-08-23
+R001463,Gizmo Plus,4,Love the Gizmo Plus — customer support was helpful.,2025-12-18
+R001464,Gizmo Plus,4,Love the Gizmo Plus — customer support was helpful.,2025-02-22
+R001465,Premium Bundle,1,Disappointed with the Premium Bundle — arrived damaged.,2025-06-11
+R001466,Widget Pro,3,The Widget Pro is okay — instructions could be clearer.,2025-02-05
+R001467,Gizmo Plus,5,Love the Gizmo Plus — the quality feels premium.,2025-03-11
+R001468,Gizmo Plus,5,Love the Gizmo Plus — works exactly as described.,2025-12-20
+R001469,Widget Mini,4,Love the Widget Mini — setup was quick.,2024-08-09
+R001470,Gizmo Plus,1,Disappointed with the Gizmo Plus — support never followed up.,2024-03-20
+R001471,Premium Bundle,5,Love the Premium Bundle — setup was quick.,2025-05-01
+R001472,Service Plan,5,Love the Service Plan — works exactly as described.,2024-05-30
+R001473,Doodad Lite,1,Disappointed with the Doodad Lite — the fit was off.,2024-09-30
+R001474,Doodad Lite,1,Disappointed with the Doodad Lite — missing a key part.,2024-02-25
+R001475,Doodad Lite,2,Disappointed with the Doodad Lite — the fit was off.,2024-09-01
+R001476,Service Plan,5,Love the Service Plan — works exactly as described.,2025-08-28
+R001477,Service Plan,3,The Service Plan is okay — shipping was okay.,2024-03-17
+R001478,Starter Kit,5,Love the Starter Kit — setup was quick.,2025-01-13
+R001479,Service Plan,4,Love the Service Plan — works exactly as described.,2024-11-14
+R001480,Refill Pack,4,Love the Refill Pack — customer support was helpful.,2025-10-26
+R001481,Service Plan,4,Love the Service Plan — shipping was fast.,2025-08-04
+R001482,Starter Kit,3,The Starter Kit is okay — average quality.,2025-01-22
+R001483,Gizmo Plus,3,The Gizmo Plus is okay — average quality.,2025-04-17
+R001484,Gizmo Air,3,The Gizmo Air is okay — average quality.,2024-12-22
+R001485,Doodad Lite,4,Love the Doodad Lite — works exactly as described.,2024-07-25
+R001486,Doodad Lite,5,Love the Doodad Lite — works exactly as described.,2025-07-22
+R001487,Refill Pack,1,Disappointed with the Refill Pack — the fit was off.,2024-12-26
+R001488,Doodad Max,5,Love the Doodad Max — the packaging was excellent.,2025-12-07
+R001489,Doodad Lite,5,Love the Doodad Lite — customer support was helpful.,2024-12-04
+R001490,Widget Pro,4,Love the Widget Pro — shipping was fast.,2024-03-09
+R001491,Service Plan,4,Love the Service Plan — setup was quick.,2025-10-15
+R001492,Premium Bundle,3,The Premium Bundle is okay — it met my expectations.,2025-02-19
+R001493,Premium Bundle,4,Love the Premium Bundle — shipping was fast.,2024-11-07
+R001494,Starter Kit,5,Love the Starter Kit — the packaging was excellent.,2025-03-09
+R001495,Gizmo Plus,5,Love the Gizmo Plus — the quality feels premium.,2024-03-29
+R001496,Widget Pro,5,Love the Widget Pro — works exactly as described.,2025-06-13
+R001497,Doodad Lite,5,Love the Doodad Lite — setup was quick.,2025-07-10
+R001498,Widget Mini,3,The Widget Mini is okay — instructions could be clearer.,2025-05-29
+R001499,Refill Pack,3,"The Refill Pack is okay — nothing special, but fine.",2024-02-21
+R001500,Doodad Max,4,Love the Doodad Max — shipping was fast.,2025-06-15
+R001501,Service Plan,5,Love the Service Plan — shipping was fast.,2024-05-16
+R001502,Doodad Max,2,Disappointed with the Doodad Max — not worth the price.,2025-05-22
+R001503,Gizmo Air,5,Love the Gizmo Air — setup was quick.,2025-01-10
+R001504,Widget Pro,4,Love the Widget Pro — shipping was fast.,2025-05-17
+R001505,Gizmo Plus,2,Disappointed with the Gizmo Plus — not worth the price.,2025-05-13
+R001506,Gizmo Plus,5,Love the Gizmo Plus — works exactly as described.,2025-01-20
+R001507,Widget Pro,5,Love the Widget Pro — customer support was helpful.,2024-09-09
+R001508,Gizmo Plus,2,Disappointed with the Gizmo Plus — quality control seems inconsistent.,2025-12-09
+R001509,Widget Mini,5,Love the Widget Mini — the quality feels premium.,2025-06-28
+R001510,Doodad Lite,5,Love the Doodad Lite — works exactly as described.,2025-04-08
+R001511,Widget Mini,4,Love the Widget Mini — the packaging was excellent.,2026-02-02
+R001512,Doodad Lite,1,Disappointed with the Doodad Lite — not worth the price.,2024-10-23
+R001513,Service Plan,5,Love the Service Plan — shipping was fast.,2025-10-26
+R001514,Doodad Lite,3,The Doodad Lite is okay — instructions could be clearer.,2025-03-26
+R001515,Widget Mini,5,Love the Widget Mini — the packaging was excellent.,2025-05-18
+R001516,Premium Bundle,4,Love the Premium Bundle — shipping was fast.,2025-05-06
+R001517,Doodad Max,5,Love the Doodad Max — the packaging was excellent.,2025-12-10
+R001518,Widget Mini,4,Love the Widget Mini — customer support was helpful.,2025-10-26
+R001519,Premium Bundle,5,Love the Premium Bundle — the quality feels premium.,2025-03-28
+R001520,Gizmo Air,2,Disappointed with the Gizmo Air — missing a key part.,2026-01-15
+R001521,Gizmo Plus,1,Disappointed with the Gizmo Plus — quality control seems inconsistent.,2025-06-22
+R001522,Starter Kit,3,The Starter Kit is okay — average quality.,2025-07-19
+R001523,Premium Bundle,2,Disappointed with the Premium Bundle — not worth the price.,2024-02-03
+R001524,Widget Pro,5,Love the Widget Pro — the quality feels premium.,2025-04-14
+R001525,Doodad Max,3,The Doodad Max is okay — instructions could be clearer.,2025-03-25
+R001526,Refill Pack,4,Love the Refill Pack — works exactly as described.,2025-03-25
+R001527,Service Plan,3,"The Service Plan is okay — nothing special, but fine.",2025-11-10
+R001528,Widget Mini,5,Love the Widget Mini — the packaging was excellent.,2025-12-26
+R001529,Doodad Lite,2,Disappointed with the Doodad Lite — support never followed up.,2024-10-22
+R001530,Gizmo Air,5,Love the Gizmo Air — setup was quick.,2025-10-21
+R001531,Widget Mini,4,Love the Widget Mini — works exactly as described.,2025-06-17
+R001532,Service Plan,5,Love the Service Plan — the quality feels premium.,2025-06-16
+R001533,Widget Mini,3,The Widget Mini is okay — it does the job.,2025-09-06
+R001534,Gizmo Plus,5,Love the Gizmo Plus — shipping was fast.,2024-11-02
+R001535,Widget Mini,1,Disappointed with the Widget Mini — not worth the price.,2025-08-07
+R001536,Widget Mini,4,Love the Widget Mini — the quality feels premium.,2026-01-30
+R001537,Widget Pro,1,Disappointed with the Widget Pro — stopped working after a week.,2024-08-15
+R001538,Gizmo Air,3,"The Gizmo Air is okay — nothing special, but fine.",2025-05-05
+R001539,Premium Bundle,3,The Premium Bundle is okay — average quality.,2026-01-11
+R001540,Gizmo Plus,5,Love the Gizmo Plus — works exactly as described.,2024-03-26
+R001541,Doodad Lite,4,Love the Doodad Lite — the quality feels premium.,2024-11-29
+R001542,Premium Bundle,1,Disappointed with the Premium Bundle — the fit was off.,2024-10-24
+R001543,Doodad Max,3,The Doodad Max is okay — instructions could be clearer.,2025-07-07
+R001544,Refill Pack,2,Disappointed with the Refill Pack — quality control seems inconsistent.,2025-04-09
+R001545,Starter Kit,1,Disappointed with the Starter Kit — stopped working after a week.,2024-06-28
+R001546,Widget Mini,3,The Widget Mini is okay — instructions could be clearer.,2025-11-12
+R001547,Gizmo Air,4,Love the Gizmo Air — works exactly as described.,2025-08-08
+R001548,Gizmo Plus,2,Disappointed with the Gizmo Plus — the fit was off.,2025-03-05
+R001549,Gizmo Air,2,Disappointed with the Gizmo Air — support never followed up.,2025-11-29
+R001550,Widget Mini,5,Love the Widget Mini — customer support was helpful.,2025-11-13
+R001551,Widget Pro,4,Love the Widget Pro — the quality feels premium.,2024-09-08
+R001552,Refill Pack,2,Disappointed with the Refill Pack — the fit was off.,2025-11-13
+R001553,Doodad Lite,4,Love the Doodad Lite — customer support was helpful.,2025-09-03
+R001554,Gizmo Plus,2,Disappointed with the Gizmo Plus — stopped working after a week.,2024-11-10
+R001555,Service Plan,1,Disappointed with the Service Plan — support never followed up.,2026-01-12
+R001556,Refill Pack,4,Love the Refill Pack — shipping was fast.,2026-01-22
+R001557,Refill Pack,4,Love the Refill Pack — customer support was helpful.,2026-01-08
+R001558,Gizmo Air,2,Disappointed with the Gizmo Air — the fit was off.,2025-04-16
+R001559,Widget Mini,5,Love the Widget Mini — the packaging was excellent.,2025-10-11
+R001560,Refill Pack,2,Disappointed with the Refill Pack — the fit was off.,2024-06-11
+R001561,Widget Mini,2,Disappointed with the Widget Mini — support never followed up.,2025-03-15
+R001562,Gizmo Air,5,Love the Gizmo Air — customer support was helpful.,2024-12-16
+R001563,Gizmo Plus,4,Love the Gizmo Plus — works exactly as described.,2025-04-24
+R001564,Refill Pack,4,Love the Refill Pack — the packaging was excellent.,2026-01-24
+R001565,Doodad Max,4,Love the Doodad Max — works exactly as described.,2024-12-25
+R001566,Refill Pack,1,Disappointed with the Refill Pack — stopped working after a week.,2024-08-19
+R001567,Doodad Max,1,Disappointed with the Doodad Max — stopped working after a week.,2025-11-13
+R001568,Premium Bundle,4,Love the Premium Bundle — works exactly as described.,2024-02-12
+R001569,Widget Pro,4,Love the Widget Pro — setup was quick.,2025-08-01
+R001570,Premium Bundle,4,Love the Premium Bundle — great value for the price.,2025-11-12
+R001571,Service Plan,4,Love the Service Plan — setup was quick.,2025-08-20
+R001572,Gizmo Plus,5,Love the Gizmo Plus — great value for the price.,2024-11-23
+R001573,Premium Bundle,5,Love the Premium Bundle — the quality feels premium.,2024-05-05
+R001574,Refill Pack,5,Love the Refill Pack — customer support was helpful.,2024-12-13
+R001575,Starter Kit,4,Love the Starter Kit — works exactly as described.,2025-11-30
+R001576,Starter Kit,3,The Starter Kit is okay — it does the job.,2024-03-31
+R001577,Gizmo Air,1,Disappointed with the Gizmo Air — quality control seems inconsistent.,2025-03-30
+R001578,Gizmo Plus,2,Disappointed with the Gizmo Plus — quality control seems inconsistent.,2025-07-03
+R001579,Widget Mini,4,Love the Widget Mini — works exactly as described.,2024-09-08
+R001580,Widget Pro,4,Love the Widget Pro — the quality feels premium.,2024-11-03
+R001581,Premium Bundle,3,The Premium Bundle is okay — instructions could be clearer.,2024-10-28
+R001582,Service Plan,1,Disappointed with the Service Plan — the fit was off.,2025-02-04
+R001583,Service Plan,5,Love the Service Plan — customer support was helpful.,2025-01-01
+R001584,Gizmo Air,2,Disappointed with the Gizmo Air — stopped working after a week.,2024-10-23
+R001585,Widget Mini,4,Love the Widget Mini — setup was quick.,2024-05-22
+R001586,Starter Kit,4,Love the Starter Kit — works exactly as described.,2025-06-16
+R001587,Widget Mini,3,The Widget Mini is okay — it met my expectations.,2025-10-08
+R001588,Doodad Max,5,Love the Doodad Max — the packaging was excellent.,2026-01-02
+R001589,Widget Mini,5,Love the Widget Mini — great value for the price.,2024-02-13
+R001590,Gizmo Plus,4,Love the Gizmo Plus — works exactly as described.,2024-02-25
+R001591,Gizmo Air,4,Love the Gizmo Air — works exactly as described.,2025-07-02
+R001592,Refill Pack,4,Love the Refill Pack — the packaging was excellent.,2025-07-28
+R001593,Premium Bundle,5,Love the Premium Bundle — the packaging was excellent.,2025-07-30
+R001594,Starter Kit,5,Love the Starter Kit — the quality feels premium.,2025-03-31
+R001595,Gizmo Air,2,Disappointed with the Gizmo Air — the fit was off.,2025-12-23
+R001596,Starter Kit,4,Love the Starter Kit — the packaging was excellent.,2025-05-20
+R001597,Doodad Lite,3,The Doodad Lite is okay — average quality.,2024-10-08
+R001598,Refill Pack,4,Love the Refill Pack — great value for the price.,2024-04-30
+R001599,Widget Pro,1,Disappointed with the Widget Pro — support never followed up.,2025-08-29
+R001600,Widget Mini,4,Love the Widget Mini — works exactly as described.,2024-12-07
+R001601,Refill Pack,5,Love the Refill Pack — great value for the price.,2025-12-12
+R001602,Gizmo Plus,3,"The Gizmo Plus is okay — nothing special, but fine.",2025-12-24
+R001603,Widget Mini,2,Disappointed with the Widget Mini — support never followed up.,2024-05-14
+R001604,Starter Kit,5,Love the Starter Kit — works exactly as described.,2025-08-09
+R001605,Widget Pro,4,Love the Widget Pro — works exactly as described.,2024-04-15
+R001606,Widget Pro,3,The Widget Pro is okay — instructions could be clearer.,2025-03-29
+R001607,Doodad Max,4,Love the Doodad Max — the packaging was excellent.,2025-11-23
+R001608,Refill Pack,4,Love the Refill Pack — great value for the price.,2024-05-18
+R001609,Widget Mini,5,Love the Widget Mini — shipping was fast.,2025-12-13
+R001610,Premium Bundle,4,Love the Premium Bundle — setup was quick.,2025-10-14
+R001611,Refill Pack,1,Disappointed with the Refill Pack — stopped working after a week.,2024-05-08
+R001612,Starter Kit,1,Disappointed with the Starter Kit — arrived damaged.,2024-09-20
+R001613,Widget Pro,4,Love the Widget Pro — setup was quick.,2025-02-16
+R001614,Service Plan,5,Love the Service Plan — the packaging was excellent.,2024-10-17
+R001615,Gizmo Air,5,Love the Gizmo Air — customer support was helpful.,2024-03-15
+R001616,Refill Pack,4,Love the Refill Pack — shipping was fast.,2024-06-12
+R001617,Doodad Max,5,Love the Doodad Max — the quality feels premium.,2025-08-29
+R001618,Doodad Lite,4,Love the Doodad Lite — the packaging was excellent.,2024-07-21
+R001619,Widget Pro,4,Love the Widget Pro — works exactly as described.,2024-08-23
+R001620,Gizmo Air,3,The Gizmo Air is okay — shipping was okay.,2025-05-06
+R001621,Gizmo Plus,5,Love the Gizmo Plus — shipping was fast.,2025-11-03
+R001622,Service Plan,4,Love the Service Plan — the quality feels premium.,2024-04-21
+R001623,Widget Mini,1,Disappointed with the Widget Mini — missing a key part.,2025-02-13
+R001624,Gizmo Plus,5,Love the Gizmo Plus — works exactly as described.,2024-02-09
+R001625,Doodad Max,5,Love the Doodad Max — the packaging was excellent.,2025-05-05
+R001626,Premium Bundle,5,Love the Premium Bundle — works exactly as described.,2025-05-04
+R001627,Widget Pro,3,The Widget Pro is okay — instructions could be clearer.,2025-05-31
+R001628,Doodad Lite,3,The Doodad Lite is okay — average quality.,2025-06-02
+R001629,Starter Kit,5,Love the Starter Kit — great value for the price.,2025-04-02
+R001630,Doodad Max,1,Disappointed with the Doodad Max — arrived damaged.,2024-11-20
+R001631,Gizmo Plus,2,Disappointed with the Gizmo Plus — not worth the price.,2025-02-02
+R001632,Widget Mini,4,Love the Widget Mini — the packaging was excellent.,2026-01-13
+R001633,Service Plan,4,Love the Service Plan — the quality feels premium.,2024-05-26
+R001634,Widget Pro,3,The Widget Pro is okay — it met my expectations.,2024-03-07
+R001635,Refill Pack,4,Love the Refill Pack — the quality feels premium.,2024-07-15
+R001636,Starter Kit,5,Love the Starter Kit — works exactly as described.,2024-02-16
+R001637,Widget Mini,5,Love the Widget Mini — setup was quick.,2025-12-19
+R001638,Premium Bundle,2,Disappointed with the Premium Bundle — the fit was off.,2025-03-12
+R001639,Gizmo Plus,4,Love the Gizmo Plus — the packaging was excellent.,2024-04-24
+R001640,Gizmo Plus,4,Love the Gizmo Plus — works exactly as described.,2024-06-26
+R001641,Doodad Max,5,Love the Doodad Max — the packaging was excellent.,2025-05-18
+R001642,Widget Mini,1,Disappointed with the Widget Mini — quality control seems inconsistent.,2024-06-01
+R001643,Doodad Lite,1,Disappointed with the Doodad Lite — stopped working after a week.,2024-03-28
+R001644,Widget Pro,3,The Widget Pro is okay — it does the job.,2025-04-08
+R001645,Gizmo Plus,1,Disappointed with the Gizmo Plus — support never followed up.,2025-07-01
+R001646,Widget Pro,5,Love the Widget Pro — the quality feels premium.,2024-09-30
+R001647,Premium Bundle,2,Disappointed with the Premium Bundle — arrived damaged.,2024-03-12
+R001648,Starter Kit,4,Love the Starter Kit — shipping was fast.,2026-01-12
+R001649,Widget Pro,4,Love the Widget Pro — the packaging was excellent.,2025-06-24
+R001650,Doodad Lite,4,Love the Doodad Lite — the packaging was excellent.,2024-11-26
+R001651,Gizmo Plus,4,Love the Gizmo Plus — the quality feels premium.,2024-04-08
+R001652,Widget Mini,4,Love the Widget Mini — shipping was fast.,2025-08-18
+R001653,Gizmo Air,5,Love the Gizmo Air — customer support was helpful.,2025-01-27
+R001654,Doodad Max,3,The Doodad Max is okay — average quality.,2024-08-28
+R001655,Widget Pro,5,Love the Widget Pro — shipping was fast.,2025-02-13
+R001656,Refill Pack,5,Love the Refill Pack — setup was quick.,2025-08-05
+R001657,Gizmo Plus,5,Love the Gizmo Plus — setup was quick.,2025-12-24
+R001658,Doodad Max,5,Love the Doodad Max — shipping was fast.,2024-11-08
+R001659,Refill Pack,2,Disappointed with the Refill Pack — not worth the price.,2025-06-18
+R001660,Widget Mini,4,Love the Widget Mini — the packaging was excellent.,2024-11-04
+R001661,Service Plan,4,Love the Service Plan — shipping was fast.,2025-12-14
+R001662,Gizmo Plus,4,Love the Gizmo Plus — works exactly as described.,2025-01-23
+R001663,Gizmo Plus,4,Love the Gizmo Plus — setup was quick.,2025-03-10
+R001664,Refill Pack,3,The Refill Pack is okay — shipping was okay.,2024-11-27
+R001665,Doodad Max,3,The Doodad Max is okay — it met my expectations.,2024-10-18
+R001666,Gizmo Plus,3,The Gizmo Plus is okay — average quality.,2025-06-24
+R001667,Doodad Lite,3,The Doodad Lite is okay — instructions could be clearer.,2025-01-29
+R001668,Widget Pro,3,"The Widget Pro is okay — nothing special, but fine.",2024-11-02
+R001669,Premium Bundle,1,Disappointed with the Premium Bundle — support never followed up.,2024-02-19
+R001670,Widget Pro,3,The Widget Pro is okay — shipping was okay.,2024-02-20
+R001671,Widget Pro,1,Disappointed with the Widget Pro — not worth the price.,2025-02-02
+R001672,Starter Kit,2,Disappointed with the Starter Kit — support never followed up.,2025-11-06
+R001673,Doodad Max,2,Disappointed with the Doodad Max — arrived damaged.,2025-08-07
+R001674,Gizmo Plus,5,Love the Gizmo Plus — the packaging was excellent.,2024-10-17
+R001675,Service Plan,5,Love the Service Plan — works exactly as described.,2024-07-23
+R001676,Widget Mini,4,Love the Widget Mini — customer support was helpful.,2025-06-14
+R001677,Gizmo Plus,5,Love the Gizmo Plus — shipping was fast.,2025-08-10
+R001678,Gizmo Plus,5,Love the Gizmo Plus — shipping was fast.,2025-10-16
+R001679,Gizmo Plus,4,Love the Gizmo Plus — works exactly as described.,2024-08-06
+R001680,Refill Pack,5,Love the Refill Pack — shipping was fast.,2025-05-25
+R001681,Widget Pro,3,The Widget Pro is okay — instructions could be clearer.,2025-07-22
+R001682,Doodad Max,3,"The Doodad Max is okay — nothing special, but fine.",2025-06-04
+R001683,Refill Pack,3,The Refill Pack is okay — instructions could be clearer.,2026-01-05
+R001684,Service Plan,3,The Service Plan is okay — it met my expectations.,2025-02-17
+R001685,Refill Pack,1,Disappointed with the Refill Pack — the fit was off.,2024-12-04
+R001686,Gizmo Air,3,The Gizmo Air is okay — shipping was okay.,2025-05-06
+R001687,Doodad Lite,5,Love the Doodad Lite — great value for the price.,2024-12-02
+R001688,Starter Kit,4,Love the Starter Kit — great value for the price.,2025-04-06
+R001689,Gizmo Air,4,Love the Gizmo Air — the quality feels premium.,2025-05-18
+R001690,Starter Kit,5,Love the Starter Kit — setup was quick.,2025-05-13
+R001691,Premium Bundle,5,Love the Premium Bundle — setup was quick.,2026-01-27
+R001692,Gizmo Plus,5,Love the Gizmo Plus — the packaging was excellent.,2025-06-08
+R001693,Doodad Lite,4,Love the Doodad Lite — great value for the price.,2025-02-24
+R001694,Widget Pro,4,Love the Widget Pro — setup was quick.,2025-03-01
+R001695,Widget Mini,4,Love the Widget Mini — the quality feels premium.,2024-12-29
+R001696,Refill Pack,5,Love the Refill Pack — the packaging was excellent.,2024-04-16
+R001697,Starter Kit,5,Love the Starter Kit — great value for the price.,2024-09-17
+R001698,Starter Kit,1,Disappointed with the Starter Kit — missing a key part.,2024-06-22
+R001699,Premium Bundle,4,Love the Premium Bundle — the quality feels premium.,2025-09-18
+R001700,Widget Pro,5,Love the Widget Pro — the packaging was excellent.,2024-07-31
+R001701,Widget Pro,3,The Widget Pro is okay — instructions could be clearer.,2024-09-07
+R001702,Doodad Max,4,Love the Doodad Max — setup was quick.,2025-07-08
+R001703,Refill Pack,4,Love the Refill Pack — the quality feels premium.,2024-11-29
+R001704,Gizmo Air,4,Love the Gizmo Air — the quality feels premium.,2025-02-03
+R001705,Widget Mini,3,"The Widget Mini is okay — nothing special, but fine.",2025-10-18
+R001706,Gizmo Air,4,Love the Gizmo Air — great value for the price.,2025-06-21
+R001707,Widget Mini,4,Love the Widget Mini — the quality feels premium.,2024-07-20
+R001708,Gizmo Air,5,Love the Gizmo Air — the quality feels premium.,2025-02-20
+R001709,Service Plan,2,Disappointed with the Service Plan — not worth the price.,2025-07-02
+R001710,Widget Pro,5,Love the Widget Pro — the quality feels premium.,2024-10-08
+R001711,Refill Pack,4,Love the Refill Pack — setup was quick.,2025-11-15
+R001712,Widget Mini,3,The Widget Mini is okay — shipping was okay.,2026-01-17
+R001713,Doodad Lite,2,Disappointed with the Doodad Lite — missing a key part.,2026-01-30
+R001714,Service Plan,5,Love the Service Plan — setup was quick.,2025-07-30
+R001715,Premium Bundle,4,Love the Premium Bundle — the quality feels premium.,2025-03-01
+R001716,Gizmo Air,4,Love the Gizmo Air — works exactly as described.,2024-08-13
+R001717,Premium Bundle,1,Disappointed with the Premium Bundle — not worth the price.,2025-06-23
+R001718,Doodad Lite,5,Love the Doodad Lite — the packaging was excellent.,2025-06-13
+R001719,Service Plan,1,Disappointed with the Service Plan — arrived damaged.,2025-05-21
+R001720,Refill Pack,3,The Refill Pack is okay — average quality.,2024-06-16
+R001721,Service Plan,3,The Service Plan is okay — instructions could be clearer.,2024-03-08
+R001722,Widget Mini,2,Disappointed with the Widget Mini — quality control seems inconsistent.,2025-11-01
+R001723,Gizmo Plus,4,Love the Gizmo Plus — the quality feels premium.,2024-05-20
+R001724,Doodad Max,5,Love the Doodad Max — setup was quick.,2025-09-24
+R001725,Refill Pack,4,Love the Refill Pack — customer support was helpful.,2024-06-14
+R001726,Doodad Max,5,Love the Doodad Max — the packaging was excellent.,2025-02-05
+R001727,Widget Pro,3,The Widget Pro is okay — average quality.,2024-11-26
+R001728,Doodad Lite,3,The Doodad Lite is okay — instructions could be clearer.,2025-11-27
+R001729,Widget Pro,5,Love the Widget Pro — works exactly as described.,2025-09-03
+R001730,Premium Bundle,5,Love the Premium Bundle — the packaging was excellent.,2025-12-25
+R001731,Gizmo Air,3,The Gizmo Air is okay — instructions could be clearer.,2025-07-02
+R001732,Gizmo Air,2,Disappointed with the Gizmo Air — the fit was off.,2025-07-16
+R001733,Doodad Lite,4,Love the Doodad Lite — works exactly as described.,2024-04-01
+R001734,Refill Pack,4,Love the Refill Pack — great value for the price.,2025-04-03
+R001735,Gizmo Plus,4,Love the Gizmo Plus — works exactly as described.,2024-10-29
+R001736,Gizmo Plus,4,Love the Gizmo Plus — customer support was helpful.,2025-08-31
+R001737,Starter Kit,5,Love the Starter Kit — shipping was fast.,2025-09-10
+R001738,Doodad Max,2,Disappointed with the Doodad Max — missing a key part.,2024-10-30
+R001739,Premium Bundle,3,The Premium Bundle is okay — it does the job.,2024-10-14
+R001740,Widget Pro,4,Love the Widget Pro — the quality feels premium.,2024-04-06
+R001741,Gizmo Plus,3,The Gizmo Plus is okay — it does the job.,2024-08-14
+R001742,Widget Mini,2,Disappointed with the Widget Mini — stopped working after a week.,2024-08-12
+R001743,Gizmo Air,4,Love the Gizmo Air — the quality feels premium.,2025-12-28
+R001744,Doodad Max,4,Love the Doodad Max — the packaging was excellent.,2025-02-07
+R001745,Service Plan,5,Love the Service Plan — great value for the price.,2024-11-12
+R001746,Service Plan,4,Love the Service Plan — works exactly as described.,2025-12-28
+R001747,Refill Pack,5,Love the Refill Pack — the quality feels premium.,2024-10-27
+R001748,Widget Mini,3,The Widget Mini is okay — it does the job.,2025-03-28
+R001749,Premium Bundle,3,"The Premium Bundle is okay — nothing special, but fine.",2024-05-10
+R001750,Gizmo Air,3,"The Gizmo Air is okay — nothing special, but fine.",2025-05-08
+R001751,Service Plan,3,"The Service Plan is okay — nothing special, but fine.",2024-11-06
+R001752,Widget Mini,2,Disappointed with the Widget Mini — support never followed up.,2024-08-01
+R001753,Starter Kit,5,Love the Starter Kit — the quality feels premium.,2025-12-13
+R001754,Doodad Lite,2,Disappointed with the Doodad Lite — arrived damaged.,2025-03-06
+R001755,Widget Mini,5,Love the Widget Mini — setup was quick.,2025-11-26
+R001756,Widget Pro,3,The Widget Pro is okay — average quality.,2025-08-14
+R001757,Service Plan,4,Love the Service Plan — the quality feels premium.,2025-09-14
+R001758,Premium Bundle,5,Love the Premium Bundle — works exactly as described.,2025-10-19
+R001759,Service Plan,4,Love the Service Plan — customer support was helpful.,2024-07-06
+R001760,Widget Mini,4,Love the Widget Mini — customer support was helpful.,2024-08-04
+R001761,Gizmo Air,5,Love the Gizmo Air — the quality feels premium.,2025-04-20
+R001762,Gizmo Plus,5,Love the Gizmo Plus — setup was quick.,2025-06-03
+R001763,Widget Mini,3,The Widget Mini is okay — average quality.,2024-05-14
+R001764,Gizmo Air,4,Love the Gizmo Air — works exactly as described.,2025-03-30
+R001765,Starter Kit,3,The Starter Kit is okay — instructions could be clearer.,2024-02-09
+R001766,Doodad Lite,4,Love the Doodad Lite — great value for the price.,2025-07-06
+R001767,Starter Kit,2,Disappointed with the Starter Kit — the fit was off.,2025-06-09
+R001768,Refill Pack,3,The Refill Pack is okay — it does the job.,2024-12-08
+R001769,Service Plan,4,Love the Service Plan — shipping was fast.,2024-11-29
+R001770,Doodad Lite,4,Love the Doodad Lite — the packaging was excellent.,2024-03-04
+R001771,Starter Kit,3,The Starter Kit is okay — shipping was okay.,2025-09-30
+R001772,Widget Mini,3,The Widget Mini is okay — it met my expectations.,2024-06-25
+R001773,Doodad Lite,3,The Doodad Lite is okay — instructions could be clearer.,2025-02-27
+R001774,Premium Bundle,4,Love the Premium Bundle — shipping was fast.,2024-05-09
+R001775,Gizmo Air,2,Disappointed with the Gizmo Air — stopped working after a week.,2025-08-08
+R001776,Service Plan,4,Love the Service Plan — the packaging was excellent.,2025-09-29
+R001777,Refill Pack,5,Love the Refill Pack — great value for the price.,2024-06-20
+R001778,Starter Kit,4,Love the Starter Kit — the packaging was excellent.,2025-02-15
+R001779,Service Plan,4,Love the Service Plan — setup was quick.,2025-09-24
+R001780,Starter Kit,3,The Starter Kit is okay — it does the job.,2024-12-30
+R001781,Doodad Max,2,Disappointed with the Doodad Max — stopped working after a week.,2025-12-22
+R001782,Premium Bundle,2,Disappointed with the Premium Bundle — missing a key part.,2025-02-19
+R001783,Gizmo Air,3,The Gizmo Air is okay — instructions could be clearer.,2025-03-30
+R001784,Gizmo Air,4,Love the Gizmo Air — setup was quick.,2025-07-19
+R001785,Service Plan,5,Love the Service Plan — setup was quick.,2025-08-03
+R001786,Starter Kit,5,Love the Starter Kit — works exactly as described.,2025-05-09
+R001787,Doodad Lite,1,Disappointed with the Doodad Lite — arrived damaged.,2025-01-02
+R001788,Premium Bundle,1,Disappointed with the Premium Bundle — missing a key part.,2024-06-27
+R001789,Gizmo Air,5,Love the Gizmo Air — the packaging was excellent.,2024-11-30
+R001790,Service Plan,5,Love the Service Plan — shipping was fast.,2024-07-10
+R001791,Starter Kit,5,Love the Starter Kit — the quality feels premium.,2025-05-22
+R001792,Premium Bundle,4,Love the Premium Bundle — setup was quick.,2024-11-16
+R001793,Widget Pro,5,Love the Widget Pro — the quality feels premium.,2024-09-14
+R001794,Gizmo Air,4,Love the Gizmo Air — the packaging was excellent.,2025-11-14
+R001795,Starter Kit,5,Love the Starter Kit — setup was quick.,2025-08-09
+R001796,Starter Kit,1,Disappointed with the Starter Kit — quality control seems inconsistent.,2025-03-22
+R001797,Refill Pack,5,Love the Refill Pack — the packaging was excellent.,2025-10-28
+R001798,Premium Bundle,1,Disappointed with the Premium Bundle — the fit was off.,2024-05-16
+R001799,Premium Bundle,4,Love the Premium Bundle — shipping was fast.,2024-03-03
+R001800,Refill Pack,5,Love the Refill Pack — the packaging was excellent.,2025-02-02
+R001801,Gizmo Plus,4,Love the Gizmo Plus — works exactly as described.,2025-11-19
+R001802,Service Plan,3,The Service Plan is okay — average quality.,2024-03-29
+R001803,Service Plan,4,Love the Service Plan — customer support was helpful.,2025-04-16
+R001804,Widget Mini,5,Love the Widget Mini — the packaging was excellent.,2024-07-02
+R001805,Refill Pack,5,Love the Refill Pack — great value for the price.,2025-06-21
+R001806,Refill Pack,4,Love the Refill Pack — customer support was helpful.,2025-02-09
+R001807,Widget Mini,4,Love the Widget Mini — great value for the price.,2024-10-03
+R001808,Service Plan,4,Love the Service Plan — customer support was helpful.,2025-09-08
+R001809,Premium Bundle,2,Disappointed with the Premium Bundle — not worth the price.,2024-07-04
+R001810,Widget Pro,4,Love the Widget Pro — the packaging was excellent.,2025-05-17
+R001811,Widget Mini,2,Disappointed with the Widget Mini — stopped working after a week.,2025-06-20
+R001812,Gizmo Plus,3,The Gizmo Plus is okay — shipping was okay.,2024-04-01
+R001813,Premium Bundle,4,Love the Premium Bundle — the quality feels premium.,2025-03-13
+R001814,Doodad Max,3,The Doodad Max is okay — it does the job.,2024-10-03
+R001815,Service Plan,4,Love the Service Plan — customer support was helpful.,2025-01-30
+R001816,Premium Bundle,5,Love the Premium Bundle — shipping was fast.,2025-10-01
+R001817,Widget Pro,4,Love the Widget Pro — great value for the price.,2025-11-23
+R001818,Premium Bundle,3,The Premium Bundle is okay — average quality.,2025-04-17
+R001819,Refill Pack,4,Love the Refill Pack — the quality feels premium.,2025-01-22
+R001820,Doodad Max,3,The Doodad Max is okay — it met my expectations.,2024-03-21
+R001821,Service Plan,5,Love the Service Plan — great value for the price.,2024-05-07
+R001822,Starter Kit,5,Love the Starter Kit — works exactly as described.,2024-05-09
+R001823,Gizmo Plus,4,Love the Gizmo Plus — setup was quick.,2024-09-18
+R001824,Service Plan,5,Love the Service Plan — customer support was helpful.,2024-02-23
+R001825,Doodad Max,5,Love the Doodad Max — customer support was helpful.,2025-05-18
+R001826,Widget Mini,4,Love the Widget Mini — great value for the price.,2024-09-16
+R001827,Widget Mini,4,Love the Widget Mini — the quality feels premium.,2024-05-07
+R001828,Gizmo Air,5,Love the Gizmo Air — works exactly as described.,2025-02-01
+R001829,Gizmo Plus,4,Love the Gizmo Plus — great value for the price.,2026-01-14
+R001830,Widget Mini,3,"The Widget Mini is okay — nothing special, but fine.",2024-04-03
+R001831,Premium Bundle,4,Love the Premium Bundle — the packaging was excellent.,2025-08-28
+R001832,Starter Kit,3,The Starter Kit is okay — shipping was okay.,2025-01-23
+R001833,Doodad Max,4,Love the Doodad Max — the packaging was excellent.,2025-04-15
+R001834,Service Plan,5,Love the Service Plan — customer support was helpful.,2024-09-29
+R001835,Service Plan,3,The Service Plan is okay — shipping was okay.,2025-01-20
+R001836,Widget Mini,4,Love the Widget Mini — shipping was fast.,2025-01-06
+R001837,Doodad Max,2,Disappointed with the Doodad Max — support never followed up.,2025-02-06
+R001838,Doodad Lite,4,Love the Doodad Lite — customer support was helpful.,2024-04-08
+R001839,Doodad Lite,1,Disappointed with the Doodad Lite — quality control seems inconsistent.,2024-05-23
+R001840,Refill Pack,4,Love the Refill Pack — customer support was helpful.,2024-03-26
+R001841,Refill Pack,3,The Refill Pack is okay — average quality.,2024-07-06
+R001842,Gizmo Air,3,The Gizmo Air is okay — shipping was okay.,2024-03-22
+R001843,Doodad Max,4,Love the Doodad Max — setup was quick.,2025-04-12
+R001844,Gizmo Plus,3,The Gizmo Plus is okay — it met my expectations.,2025-05-17
+R001845,Refill Pack,5,Love the Refill Pack — shipping was fast.,2024-05-01
+R001846,Service Plan,4,Love the Service Plan — the quality feels premium.,2024-05-13
+R001847,Premium Bundle,2,Disappointed with the Premium Bundle — missing a key part.,2024-05-21
+R001848,Service Plan,3,The Service Plan is okay — average quality.,2024-04-13
+R001849,Widget Pro,5,Love the Widget Pro — setup was quick.,2025-04-24
+R001850,Premium Bundle,4,Love the Premium Bundle — customer support was helpful.,2024-06-25
+R001851,Widget Pro,3,The Widget Pro is okay — shipping was okay.,2025-08-21
+R001852,Gizmo Air,5,Love the Gizmo Air — the quality feels premium.,2026-01-11
+R001853,Doodad Max,5,Love the Doodad Max — setup was quick.,2024-11-08
+R001854,Refill Pack,1,Disappointed with the Refill Pack — arrived damaged.,2024-07-03
+R001855,Refill Pack,4,Love the Refill Pack — works exactly as described.,2024-03-29
+R001856,Premium Bundle,5,Love the Premium Bundle — works exactly as described.,2025-12-13
+R001857,Doodad Max,5,Love the Doodad Max — works exactly as described.,2025-07-26
+R001858,Starter Kit,3,"The Starter Kit is okay — nothing special, but fine.",2025-06-21
+R001859,Gizmo Plus,4,Love the Gizmo Plus — setup was quick.,2025-12-31
+R001860,Gizmo Plus,3,The Gizmo Plus is okay — it met my expectations.,2024-02-12
+R001861,Doodad Lite,4,Love the Doodad Lite — works exactly as described.,2025-01-20
+R001862,Premium Bundle,4,Love the Premium Bundle — the quality feels premium.,2024-05-23
+R001863,Service Plan,4,Love the Service Plan — works exactly as described.,2024-12-10
+R001864,Widget Pro,5,Love the Widget Pro — the packaging was excellent.,2024-10-17
+R001865,Premium Bundle,3,"The Premium Bundle is okay — nothing special, but fine.",2025-01-26
+R001866,Doodad Lite,4,Love the Doodad Lite — works exactly as described.,2025-10-13
+R001867,Premium Bundle,1,Disappointed with the Premium Bundle — arrived damaged.,2025-12-06
+R001868,Service Plan,5,Love the Service Plan — shipping was fast.,2025-01-04
+R001869,Premium Bundle,1,Disappointed with the Premium Bundle — missing a key part.,2024-02-05
+R001870,Doodad Lite,4,Love the Doodad Lite — great value for the price.,2025-12-13
+R001871,Doodad Lite,1,Disappointed with the Doodad Lite — stopped working after a week.,2024-12-17
+R001872,Gizmo Air,3,The Gizmo Air is okay — average quality.,2024-06-08
+R001873,Premium Bundle,1,Disappointed with the Premium Bundle — quality control seems inconsistent.,2024-09-01
+R001874,Widget Mini,5,Love the Widget Mini — shipping was fast.,2024-09-26
+R001875,Starter Kit,5,Love the Starter Kit — great value for the price.,2025-12-21
+R001876,Starter Kit,5,Love the Starter Kit — shipping was fast.,2025-08-15
+R001877,Gizmo Plus,4,Love the Gizmo Plus — setup was quick.,2024-11-08
+R001878,Doodad Max,3,The Doodad Max is okay — it does the job.,2025-07-09
+R001879,Refill Pack,4,Love the Refill Pack — customer support was helpful.,2025-01-22
+R001880,Service Plan,5,Love the Service Plan — customer support was helpful.,2024-12-04
+R001881,Refill Pack,5,Love the Refill Pack — great value for the price.,2025-11-25
+R001882,Premium Bundle,5,Love the Premium Bundle — setup was quick.,2025-01-04
+R001883,Widget Mini,4,Love the Widget Mini — great value for the price.,2024-07-07
+R001884,Premium Bundle,3,The Premium Bundle is okay — instructions could be clearer.,2024-12-27
+R001885,Widget Mini,2,Disappointed with the Widget Mini — support never followed up.,2025-06-11
+R001886,Gizmo Plus,3,The Gizmo Plus is okay — it met my expectations.,2025-08-26
+R001887,Refill Pack,5,Love the Refill Pack — the packaging was excellent.,2025-09-04
+R001888,Refill Pack,4,Love the Refill Pack — the quality feels premium.,2024-02-03
+R001889,Starter Kit,5,Love the Starter Kit — works exactly as described.,2025-07-10
+R001890,Gizmo Air,5,Love the Gizmo Air — customer support was helpful.,2025-01-26
+R001891,Widget Pro,4,Love the Widget Pro — shipping was fast.,2025-10-02
+R001892,Starter Kit,1,Disappointed with the Starter Kit — stopped working after a week.,2024-11-16
+R001893,Widget Pro,5,Love the Widget Pro — shipping was fast.,2024-04-08
+R001894,Gizmo Plus,5,Love the Gizmo Plus — works exactly as described.,2024-02-18
+R001895,Widget Pro,5,Love the Widget Pro — great value for the price.,2024-09-06
+R001896,Refill Pack,5,Love the Refill Pack — the packaging was excellent.,2024-05-22
+R001897,Doodad Lite,4,Love the Doodad Lite — shipping was fast.,2024-08-29
+R001898,Widget Mini,3,The Widget Mini is okay — shipping was okay.,2025-09-07
+R001899,Widget Pro,5,Love the Widget Pro — the quality feels premium.,2024-04-16
+R001900,Widget Pro,5,Love the Widget Pro — the packaging was excellent.,2024-12-07
+R001901,Premium Bundle,3,The Premium Bundle is okay — it met my expectations.,2025-05-05
+R001902,Gizmo Air,4,Love the Gizmo Air — works exactly as described.,2024-02-07
+R001903,Starter Kit,5,Love the Starter Kit — great value for the price.,2026-01-20
+R001904,Gizmo Plus,5,Love the Gizmo Plus — customer support was helpful.,2024-07-05
+R001905,Refill Pack,4,Love the Refill Pack — great value for the price.,2024-09-03
+R001906,Widget Pro,4,Love the Widget Pro — great value for the price.,2024-06-09
+R001907,Widget Pro,1,Disappointed with the Widget Pro — the fit was off.,2024-07-06
+R001908,Gizmo Plus,2,Disappointed with the Gizmo Plus — not worth the price.,2024-03-27
+R001909,Gizmo Air,4,Love the Gizmo Air — works exactly as described.,2024-08-20
+R001910,Starter Kit,4,Love the Starter Kit — the quality feels premium.,2025-05-18
+R001911,Doodad Lite,4,Love the Doodad Lite — setup was quick.,2024-10-29
+R001912,Service Plan,3,The Service Plan is okay — shipping was okay.,2024-10-28
+R001913,Refill Pack,4,Love the Refill Pack — customer support was helpful.,2024-03-30
+R001914,Starter Kit,4,Love the Starter Kit — works exactly as described.,2024-05-01
+R001915,Doodad Max,4,Love the Doodad Max — works exactly as described.,2025-10-02
+R001916,Doodad Max,5,Love the Doodad Max — setup was quick.,2024-02-25
+R001917,Doodad Lite,1,Disappointed with the Doodad Lite — support never followed up.,2024-05-15
+R001918,Doodad Max,4,Love the Doodad Max — great value for the price.,2024-04-29
+R001919,Doodad Max,3,"The Doodad Max is okay — nothing special, but fine.",2024-10-06
+R001920,Service Plan,1,Disappointed with the Service Plan — arrived damaged.,2025-04-23
+R001921,Widget Mini,2,Disappointed with the Widget Mini — stopped working after a week.,2024-06-11
+R001922,Widget Mini,2,Disappointed with the Widget Mini — stopped working after a week.,2025-09-25
+R001923,Widget Mini,5,Love the Widget Mini — the packaging was excellent.,2026-01-08
+R001924,Widget Mini,5,Love the Widget Mini — customer support was helpful.,2025-11-27
+R001925,Gizmo Air,4,Love the Gizmo Air — the quality feels premium.,2024-10-12
+R001926,Refill Pack,5,Love the Refill Pack — works exactly as described.,2025-07-28
+R001927,Doodad Lite,5,Love the Doodad Lite — the packaging was excellent.,2024-06-26
+R001928,Doodad Lite,4,Love the Doodad Lite — works exactly as described.,2024-02-25
+R001929,Refill Pack,5,Love the Refill Pack — setup was quick.,2024-11-05
+R001930,Widget Mini,5,Love the Widget Mini — great value for the price.,2024-08-05
+R001931,Gizmo Plus,3,"The Gizmo Plus is okay — nothing special, but fine.",2025-07-06
+R001932,Widget Pro,1,Disappointed with the Widget Pro — missing a key part.,2025-02-28
+R001933,Widget Pro,2,Disappointed with the Widget Pro — arrived damaged.,2024-12-28
+R001934,Service Plan,5,Love the Service Plan — the packaging was excellent.,2025-05-01
+R001935,Widget Pro,4,Love the Widget Pro — the quality feels premium.,2024-08-17
+R001936,Service Plan,3,The Service Plan is okay — average quality.,2024-03-29
+R001937,Starter Kit,4,Love the Starter Kit — the packaging was excellent.,2024-10-30
+R001938,Widget Pro,2,Disappointed with the Widget Pro — the fit was off.,2025-04-06
+R001939,Premium Bundle,3,The Premium Bundle is okay — instructions could be clearer.,2024-11-25
+R001940,Widget Mini,3,The Widget Mini is okay — it does the job.,2024-07-13
+R001941,Refill Pack,2,Disappointed with the Refill Pack — the fit was off.,2025-02-14
+R001942,Widget Mini,4,Love the Widget Mini — the packaging was excellent.,2025-08-12
+R001943,Gizmo Air,3,The Gizmo Air is okay — it does the job.,2024-09-17
+R001944,Gizmo Air,4,Love the Gizmo Air — setup was quick.,2025-11-10
+R001945,Premium Bundle,5,Love the Premium Bundle — shipping was fast.,2024-10-28
+R001946,Starter Kit,5,Love the Starter Kit — the packaging was excellent.,2024-05-11
+R001947,Doodad Lite,3,"The Doodad Lite is okay — nothing special, but fine.",2025-10-15
+R001948,Gizmo Air,4,Love the Gizmo Air — shipping was fast.,2025-04-05
+R001949,Doodad Max,5,Love the Doodad Max — setup was quick.,2025-01-03
+R001950,Premium Bundle,3,The Premium Bundle is okay — shipping was okay.,2025-03-30
+R001951,Doodad Lite,3,The Doodad Lite is okay — average quality.,2024-12-02
+R001952,Gizmo Plus,5,Love the Gizmo Plus — customer support was helpful.,2025-07-13
+R001953,Widget Pro,1,Disappointed with the Widget Pro — support never followed up.,2024-12-04
+R001954,Gizmo Air,3,"The Gizmo Air is okay — nothing special, but fine.",2025-01-19
+R001955,Doodad Max,4,Love the Doodad Max — shipping was fast.,2026-01-17
+R001956,Widget Mini,2,Disappointed with the Widget Mini — not worth the price.,2024-05-17
+R001957,Doodad Max,1,Disappointed with the Doodad Max — arrived damaged.,2025-06-21
+R001958,Gizmo Air,2,Disappointed with the Gizmo Air — support never followed up.,2024-10-17
+R001959,Gizmo Plus,5,Love the Gizmo Plus — customer support was helpful.,2025-11-02
+R001960,Doodad Max,2,Disappointed with the Doodad Max — quality control seems inconsistent.,2024-09-05
+R001961,Starter Kit,5,Love the Starter Kit — works exactly as described.,2026-01-03
+R001962,Premium Bundle,5,Love the Premium Bundle — shipping was fast.,2025-06-21
+R001963,Doodad Max,5,Love the Doodad Max — works exactly as described.,2024-03-30
+R001964,Starter Kit,5,Love the Starter Kit — customer support was helpful.,2024-10-17
+R001965,Gizmo Plus,3,The Gizmo Plus is okay — instructions could be clearer.,2025-11-01
+R001966,Premium Bundle,2,Disappointed with the Premium Bundle — missing a key part.,2025-01-13
+R001967,Widget Mini,4,Love the Widget Mini — works exactly as described.,2024-11-27
+R001968,Starter Kit,2,Disappointed with the Starter Kit — missing a key part.,2025-01-31
+R001969,Starter Kit,4,Love the Starter Kit — customer support was helpful.,2025-04-29
+R001970,Doodad Max,5,Love the Doodad Max — great value for the price.,2024-02-25
+R001971,Doodad Max,5,Love the Doodad Max — the quality feels premium.,2025-12-07
+R001972,Gizmo Plus,4,Love the Gizmo Plus — works exactly as described.,2024-02-05
+R001973,Doodad Lite,5,Love the Doodad Lite — shipping was fast.,2024-11-06
+R001974,Gizmo Air,4,Love the Gizmo Air — works exactly as described.,2024-06-22
+R001975,Starter Kit,5,Love the Starter Kit — customer support was helpful.,2024-02-24
+R001976,Refill Pack,5,Love the Refill Pack — setup was quick.,2025-09-03
+R001977,Widget Pro,2,Disappointed with the Widget Pro — missing a key part.,2025-05-25
+R001978,Doodad Max,5,Love the Doodad Max — setup was quick.,2025-12-27
+R001979,Doodad Max,3,The Doodad Max is okay — shipping was okay.,2025-08-03
+R001980,Starter Kit,3,The Starter Kit is okay — it does the job.,2025-04-23
+R001981,Starter Kit,4,Love the Starter Kit — great value for the price.,2025-11-11
+R001982,Service Plan,5,Love the Service Plan — shipping was fast.,2025-07-06
+R001983,Starter Kit,3,The Starter Kit is okay — it does the job.,2025-11-14
+R001984,Doodad Max,4,Love the Doodad Max — great value for the price.,2024-02-17
+R001985,Doodad Lite,5,Love the Doodad Lite — the quality feels premium.,2025-02-16
+R001986,Premium Bundle,5,Love the Premium Bundle — works exactly as described.,2025-07-24
+R001987,Doodad Lite,4,Love the Doodad Lite — the quality feels premium.,2025-05-22
+R001988,Premium Bundle,3,"The Premium Bundle is okay — nothing special, but fine.",2025-05-20
+R001989,Starter Kit,2,Disappointed with the Starter Kit — quality control seems inconsistent.,2025-11-10
+R001990,Gizmo Air,4,Love the Gizmo Air — great value for the price.,2024-10-01
+R001991,Gizmo Plus,5,Love the Gizmo Plus — great value for the price.,2025-08-08
+R001992,Widget Mini,2,Disappointed with the Widget Mini — quality control seems inconsistent.,2024-10-18
+R001993,Doodad Max,5,Love the Doodad Max — shipping was fast.,2025-03-07
+R001994,Premium Bundle,1,Disappointed with the Premium Bundle — the fit was off.,2024-02-22
+R001995,Widget Pro,4,Love the Widget Pro — the packaging was excellent.,2024-02-26
+R001996,Service Plan,3,The Service Plan is okay — it met my expectations.,2024-09-27
+R001997,Doodad Lite,4,Love the Doodad Lite — shipping was fast.,2024-10-25
+R001998,Widget Mini,5,Love the Widget Mini — the packaging was excellent.,2025-04-16
+R001999,Starter Kit,4,Love the Starter Kit — the packaging was excellent.,2025-06-27
+R002000,Widget Pro,5,Love the Widget Pro — shipping was fast.,2024-08-03

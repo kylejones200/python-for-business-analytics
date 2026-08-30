@@ -1,0 +1,137 @@
+version: 1
+
+# Canonical dataset registry for this book project.
+# All code listings and chapter narratives should reference datasets by these
+# names (not by ad-hoc filenames).
+datasets:
+  business_ops:
+    description: >
+      Synthetic, order-level operations data for a small direct-to-consumer
+      business (used for EDA, regression, and operational analytics).
+    path: data/business_ops.parquet
+    format: parquet
+    builder: scripts/make_data.py
+    row_count: 10000
+    primary_key: order_id
+    fields:
+      - order_id
+      - order_date
+      - customer_id
+      - product
+      - quantity
+      - unit_price_usd
+      - discount_rate
+      - gross_value_usd
+      - net_value_usd
+      - promised_ship_days
+      - actual_ship_days
+      - satisfaction
+    chapters:
+      - "2.0"
+      - "5.0"
+      - "7.0"
+
+  business_customers:
+    description: >
+      Synthetic customer master table with churn-related signals (segment,
+      adoption, NPS, churn probability and churn outcome).
+    path: data/business_customers.parquet
+    format: parquet
+    builder: scripts/make_data.py
+    row_count: 2000
+    primary_key: customer_id
+    fields:
+      - customer_id
+      - signup_date
+      - segment
+      - industry
+      - region
+      - mrr_usd
+      - nps
+      - adoption
+      - onboarding_complete
+      - churn_prob
+      - churned
+      - churn_date
+    chapters:
+      - "2.0"
+      - "4.0"
+      - "10.0"
+
+  business_tickets:
+    description: >
+      Synthetic customer support / operations ticket log (useful for
+      classification, text analytics, and service KPI examples).
+    path: data/business_tickets.parquet
+    format: parquet
+    builder: scripts/make_data.py
+    row_count: 5000
+    primary_key: ticket_id
+    fields:
+      - ticket_id
+      - customer_id
+      - order_id
+      - created_at
+      - resolved_at
+      - topic
+      - priority
+      - channel
+      - resolve_hours
+      - sla_target_hours
+      - sla_breached
+      - text
+      - agent_name
+    chapters:
+      - "6.0"
+
+  reviews:
+    description: >
+      Short synthetic product reviews with star ratings (for NLP / sentiment
+      analysis examples).
+    path: data/reviews.csv
+    format: csv
+    builder: scripts/make_reviews.py
+    row_count: 2000
+    fields:
+      - review_id
+      - product
+      - rating
+      - text
+      - date
+    chapters:
+      - "nlp_section"
+
+  fred_series:
+    description: >
+      Cached Federal Reserve Economic Data (FRED) series (no API key required
+      when using pandas-datareader). Kept small for reproducibility.
+    path: data/fred_series.parquet
+    format: parquet
+    builder: scripts/fetch_fred.py
+    series:
+      - UNRATE
+      - CPIAUCSL
+      - DGS10
+    chapters:
+      - "7.0"
+
+  zip_income:
+    description: >
+      ZIP-level income table keyed by ZIP code (joinable to zip_geometry).
+    path: data/zip_income.parquet
+    format: parquet
+    builder: scripts/make_data.py
+    fields:
+      - zip
+      - median_income_usd
+    chapters:
+      - "8.0"
+
+  zip_geometry:
+    description: >
+      ZIP code geometry (GeoJSON) for spatial analytics examples.
+    path: data/zip_geometry.geojson
+    format: geojson
+    builder: scripts/fetch_zip_geometry.py
+    chapters:
+      - "8.0"
