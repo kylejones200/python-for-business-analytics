@@ -1,22 +1,28 @@
 """
 
-This script demonstrates creating horizontal bar charts with conditional coloring and reference lines.
-Readers learn to visualize categorical comparisons and highlight values relative to targets.
+This script demonstrates creating horizontal bar charts with conditional
+coloring and reference lines. Readers learn to visualize categorical
+comparisons and highlight values relative to targets.
 """
+
 import logging
 import os
 from pathlib import Path
 
 import sys
+
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from minimalist_style import set_minimalist_style, remove_chartjunk
 import matplotlib.pyplot as plt
 
 logger = logging.getLogger(__name__)
 
+
 def main():
     """Create horizontal bar chart with conditional coloring."""
-    logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+    logging.basicConfig(
+        level=logging.INFO, format='%(levelname)s: %(message)s'
+    )
 
     # Example: Employee satisfaction by department
     departments = [
@@ -81,8 +87,11 @@ def main():
     # Save figure before showing
     img_dir = Path(__file__).resolve().parents[2] / "img"
     img_dir.mkdir(exist_ok=True)
-    plt.savefig(img_dir / "ch3_satisfaction_bar.png", dpi=150, bbox_inches="tight")
+    plt.savefig(
+        img_dir / "ch3_satisfaction_bar.png", dpi=150, bbox_inches="tight"
+    )
     logger.info(f"Saved figure to {img_dir / 'ch3_satisfaction_bar.png'}")
+
 
 if __name__ == "__main__":
     main()

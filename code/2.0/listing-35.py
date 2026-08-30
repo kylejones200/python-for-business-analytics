@@ -14,10 +14,16 @@ df = load_frame("business_customers")
 simple = ols("mrr_usd ~ nps", data=df).fit()
 with_segment = ols("mrr_usd ~ nps + C(segment)", data=df).fit()
 print("MRR ~ NPS")
-print("coef={:.2f} p={:.4f} R2={:.4f}".format(
-    simple.params["nps"], simple.pvalues["nps"], simple.rsquared
-))
+print(
+    "coef={:.2f} p={:.4f} R2={:.4f}".format(
+        simple.params["nps"], simple.pvalues["nps"], simple.rsquared
+    )
+)
 print("MRR ~ NPS + segment")
-print("nps coef={:.2f} p={:.4f} R2={:.4f}".format(
-    with_segment.params["nps"], with_segment.pvalues["nps"], with_segment.rsquared
-))
+print(
+    "nps coef={:.2f} p={:.4f} R2={:.4f}".format(
+        with_segment.params["nps"],
+        with_segment.pvalues["nps"],
+        with_segment.rsquared,
+    )
+)

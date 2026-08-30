@@ -21,8 +21,12 @@ fig, ax = plt.subplots(figsize=(10, 4))
 ax.plot(df["Year"], signal, "o-", color="0.20", linewidth=1.2)
 for idx in change_idx:
     ax.axvline(df["Year"].iloc[idx], color="0.40", linestyle="--")
-    ax.annotate(str(int(df["Year"].iloc[idx])), (df["Year"].iloc[idx], signal[idx]),
-                textcoords="offset points", xytext=(4, 8))
+    ax.annotate(
+        str(int(df["Year"].iloc[idx])),
+        (df["Year"].iloc[idx], signal[idx]),
+        textcoords="offset points",
+        xytext=(4, 8),
+    )
 ax.set_title("Retrospective change points in yearly RIFR")
 ax.set_xlabel("Year")
 ax.set_ylabel("RIFR per 200k hours")

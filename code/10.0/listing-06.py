@@ -20,4 +20,5 @@ model2 = ARIMA(ts, order=(0, 1, 1)).fit()
 print(f"n_months={len(ts)}")
 print(f"aic_111={float(model1.aic):.2f}")
 print(f"aic_011={float(model2.aic):.2f}")
-print(f"preferred={'ARIMA(1,1,1)' if model1.aic <= model2.aic else 'ARIMA(0,1,1)'}")
+preferred = "ARIMA(1,1,1)" if model1.aic <= model2.aic else "ARIMA(0,1,1)"
+print(f"preferred={preferred}")

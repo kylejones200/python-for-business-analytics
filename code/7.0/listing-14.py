@@ -32,7 +32,9 @@ upper = forecast + 1.28 * resid_sd
 
 fig = go.Figure()
 fig.add_trace(
-    go.Scatter(x=series.index, y=series.values, mode="lines", name="Observed UNRATE")
+    go.Scatter(
+        x=series.index, y=series.values, mode="lines", name="Observed UNRATE"
+    )
 )
 fig.add_trace(
     go.Scatter(
@@ -46,7 +48,12 @@ fig.add_trace(
     )
 )
 fig.add_trace(
-    go.Scatter(x=forecast.index, y=forecast.values, mode="lines", name="12-month forecast")
+    go.Scatter(
+        x=forecast.index,
+        y=forecast.values,
+        mode="lines",
+        name="12-month forecast",
+    )
 )
 fig.update_layout(
     title="Interactive unemployment forecast (Plotly)",
@@ -61,5 +68,10 @@ html_path = img_dir / "ch7_plotly_forecast.html"
 fig.write_html(html_path, include_plotlyjs="cdn")
 print("Saved", html_path.relative_to(ROOT))
 print("Last observed UNRATE:", round(float(series.iloc[-1]), 2))
-print("Forecast horizon:", forecast.index.min().date(), "to", forecast.index.max().date())
+print(
+    "Forecast horizon:",
+    forecast.index.min().date(),
+    "to",
+    forecast.index.max().date(),
+)
 print(forecast.round(2).to_string())

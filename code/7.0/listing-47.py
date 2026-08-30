@@ -30,13 +30,22 @@ values = data["KPI_Value"]
 out = int(((values > ucl) | (values < lcl)).sum())
 
 print("Process improvement report")
-print("Period: {} to {}".format(data["Date"].min().date(), data["Date"].max().date()))
+print(
+    "Period: {} to {}".format(
+        data["Date"].min().date(), data["Date"].max().date()
+    )
+)
 print("Baseline center: {:.2f}".format(center))
 print("Baseline UCL/LCL: {:.2f} / {:.2f}".format(ucl, lcl))
 print("Points beyond baseline limits: {}".format(out))
-print("Phase means: {:.2f}, {:.2f}, {:.2f}".format(
-    float(data.iloc[:20]["KPI_Value"].mean()),
-    float(data.iloc[20:35]["KPI_Value"].mean()),
-    float(data.iloc[35:]["KPI_Value"].mean()),
-))
-print("Capability indices are not computed here because no specification limits were supplied.")
+print(
+    "Phase means: {:.2f}, {:.2f}, {:.2f}".format(
+        float(data.iloc[:20]["KPI_Value"].mean()),
+        float(data.iloc[20:35]["KPI_Value"].mean()),
+        float(data.iloc[35:]["KPI_Value"].mean()),
+    )
+)
+print(
+    "Capability indices are not computed here because no specification "
+    "limits were supplied."
+)

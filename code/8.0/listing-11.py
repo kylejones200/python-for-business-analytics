@@ -1,4 +1,4 @@
-"""Indicator kriging: probability of exceeding a threshold on projected meters."""
+"""Indicator kriging: probability of exceeding a threshold."""
 
 import sys
 from pathlib import Path
@@ -25,11 +25,22 @@ gy = np.linspace(0, 30_000, 18)
 prob = np.empty((len(gy), len(gx)))
 for i, yy in enumerate(gy):
     for j, xx in enumerate(gx):
-        prob[i, j] = ordinary_krige(x, y, indicator, xx, yy, 0.02, 0.20, 12_000.0, clip=(0.0, 1.0))
+        prob[i, j] = ordinary_krige(
+            x, y, indicator, xx, yy, 0.02, 0.20, 12_000.0, clip=(0.0, 1.0)
+        )
 
 fig, ax = plt.subplots(figsize=(6, 5))
-im = ax.imshow(prob, origin="lower", extent=[0, 30, 0, 30], cmap="RdYlGn_r", vmin=0, vmax=1)
-ax.scatter(x / 1000.0, y / 1000.0, c=indicator, cmap="RdYlGn_r", s=28, edgecolors="k")
+im = ax.imshow(
+    prob,
+    origin="lower",
+    extent=[0, 30, 0, 30],
+    cmap="RdYlGn_r",
+    vmin=0,
+    vmax=1,
+)
+ax.scatter(
+    x / 1000.0, y / 1000.0, c=indicator, cmap="RdYlGn_r", s=28, edgecolors="k"
+)
 ax.set_xlabel("Easting (km)")
 ax.set_ylabel("Northing (km)")
 ax.set_title("Indicator kriging P(value > median)")
@@ -42,4 +53,6 @@ fig.savefig(img_dir / "indicator_kriging.png", dpi=300, bbox_inches="tight")
 plt.close(fig)
 print("Saved img/indicator_kriging.png")
 print("Threshold: {:.2f}".format(threshold))
-print("Mean predicted exceedance probability: {:.3f}".format(float(prob.mean())))
+print(
+    "Mean predicted exceedance probability: {:.3f}".format(float(prob.mean()))
+)

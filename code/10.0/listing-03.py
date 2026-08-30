@@ -12,7 +12,12 @@ from bookdata import load_frame
 
 ops = load_frame("business_ops")
 ops["order_date"] = ops["order_date"].astype("datetime64[ns]")
-ts = ops.set_index("order_date")["order_id"].resample("ME").count().to_frame("orders")
+ts = (
+    ops.set_index("order_date")["order_id"]
+    .resample("ME")
+    .count()
+    .to_frame("orders")
+)
 ts = ts.iloc[1:-1]
 ts["ma_12"] = ts["orders"].rolling(window=12, min_periods=12).mean()
 

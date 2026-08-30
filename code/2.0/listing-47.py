@@ -21,7 +21,15 @@ df["satisfaction_group"] = df.groupby("month")["satisfaction"].transform(
     lambda s: s.fillna(s.median())
 )
 print(
-    df[["order_date", "month", "satisfaction", "satisfaction_mean", "satisfaction_group"]]
+    df[
+        [
+            "order_date",
+            "month",
+            "satisfaction",
+            "satisfaction_mean",
+            "satisfaction_group",
+        ]
+    ]
     .head(12)
     .round(3)
     .to_string(index=False)

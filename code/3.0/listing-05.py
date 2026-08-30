@@ -3,11 +3,13 @@
 This script demonstrates creating time series line plots with annotations.
 Readers learn to visualize temporal trends and highlight key data points.
 """
+
 import logging
 import os
 from pathlib import Path
 
 import sys
+
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import minimalist_style
 from minimalist_style import set_minimalist_style
@@ -17,9 +19,12 @@ import pandas as pd
 
 logger = logging.getLogger(__name__)
 
+
 def main():
     """Create time series line plot with annotations."""
-    logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+    logging.basicConfig(
+        level=logging.INFO, format='%(levelname)s: %(message)s'
+    )
     # Load minimalist_style module
     remove_chartjunk = minimalist_style.remove_chartjunk
 
@@ -88,7 +93,9 @@ def main():
     remove_chartjunk(ax)
     ax.set_xlabel("Month", fontsize=11)
     ax.set_ylabel("Revenue ($1000s)", fontsize=11)
-    ax.set_title("Monthly Revenue: 2-Year Trend with Seasonality", fontsize=13, pad=15)
+    ax.set_title(
+        "Monthly Revenue: 2-Year Trend with Seasonality", fontsize=13, pad=15
+    )
     ax.set_xticks(range(0, 24, 3))
     ax.set_xticklabels(
         [month_labels[i] for i in range(0, 24, 3)], rotation=45, ha="right"
@@ -99,8 +106,11 @@ def main():
     # Save figure before showing
     img_dir = Path(__file__).resolve().parents[2] / "img"
     img_dir.mkdir(exist_ok=True)
-    plt.savefig(img_dir / "ch3_revenue_trend.png", dpi=150, bbox_inches="tight")
+    plt.savefig(
+        img_dir / "ch3_revenue_trend.png", dpi=150, bbox_inches="tight"
+    )
     logger.info(f"Saved figure to {img_dir / 'ch3_revenue_trend.png'}")
+
 
 if __name__ == "__main__":
     main()

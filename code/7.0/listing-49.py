@@ -15,9 +15,13 @@ from bookhelpers import load_safety_data
 import numpy as np
 import pandas as pd
 
+
 def sse(values):
     values = np.asarray(values, dtype=float)
-    return float(np.sum((values - values.mean()) ** 2)) if len(values) else 0.0
+    return (
+        float(np.sum((values - values.mean()) ** 2)) if len(values) else 0.0
+    )
+
 
 def binary_segmentation(signal, n_bkps=3, min_size=3):
     signal = np.asarray(signal, dtype=float)
@@ -41,6 +45,7 @@ def binary_segmentation(signal, n_bkps=3, min_size=3):
         breakpoints.append(best_idx)
         breakpoints = sorted(breakpoints)
     return breakpoints[1:-1]
+
 
 df = load_safety_data()
 signal = df["RIFR_per_200k"].to_numpy()

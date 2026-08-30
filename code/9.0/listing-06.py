@@ -1,4 +1,5 @@
-"""Bayesian linear regression with Gibbs sampling and a posterior predictive check.
+"""Bayesian linear regression with Gibbs sampling and a posterior predictive
+check.
 
 PyMC 5 is the production interface for this model (import pymc as pm) and is
 listed in requirements.txt. This listing uses a conjugate normal-inverse-gamma
@@ -15,6 +16,7 @@ SEED = 9
 TRUE_ALPHA = 40.0
 TRUE_BETA = 1.60
 
+
 def rhat(chains):
     m, n = chains.shape
     chain_means = chains.mean(axis=1)
@@ -24,6 +26,7 @@ def rhat(chains):
     var_hat = ((n - 1) / n) * within + between / n
     return float(np.sqrt(var_hat / within))
 
+
 def ess(draws):
     x = np.asarray(draws) - np.mean(draws)
     if x.size < 4 or np.allclose(x.var(), 0.0):
@@ -32,6 +35,7 @@ def ess(draws):
     rho1 = min(max(rho1, -0.99), 0.99)
     tau = (1.0 + rho1) / (1.0 - rho1)
     return float(x.size / tau)
+
 
 def gibbs(x, y, rng, n_draw=4000, n_burn=1000):
     n = y.size
@@ -52,7 +56,9 @@ def gibbs(x, y, rng, n_draw=4000, n_burn=1000):
         mean_beta = (np.sum(x * (y - alpha)) / sigma2) / prec_beta
         beta = rng.normal(mean_beta, np.sqrt(1.0 / prec_beta))
         resid = y - alpha - beta * x
-        sigma2 = stats.invgamma.rvs(a0 + n / 2.0, scale=b0 + np.sum(resid**2) / 2.0, random_state=rng)
+        sigma2 = stats.invgamma.rvs(
+            a0 + n / 2.0, scale=b0 + np.sum(resid**2) / 2.0, random_state=rng
+        )
         if i >= n_burn:
             keep_alpha.append(alpha)
             keep_beta.append(beta)
@@ -62,6 +68,7 @@ def gibbs(x, y, rng, n_draw=4000, n_burn=1000):
         np.asarray(keep_beta),
         np.asarray(keep_sigma),
     )
+
 
 rng = np.random.default_rng(SEED)
 n = 250
@@ -76,7 +83,10 @@ sigma = np.concatenate([chain1[2], chain2[2]])
 
 print("estimand=posterior of the revenue-per-dollar discount slope")
 print(f"beta_mean={beta.mean():.3f}")
-print(f"beta_95ci=({np.quantile(beta, 0.025):.3f}, {np.quantile(beta, 0.975):.3f})")
+print(
+    f"beta_95ci=({np.quantile(beta, 0.025):.3f}, "
+    f"{np.quantile(beta, 0.975):.3f})"
+)
 print(f"alpha_mean={alpha.mean():.3f}")
 print(f"sigma_mean={sigma.mean():.3f}")
 print(f"rhat_beta={rhat(np.vstack([chain1[1], chain2[1]])):.3f}")
@@ -94,8 +104,17 @@ axes[0].hist(beta, bins=30, color="0.35", edgecolor="white")
 axes[0].set_xlabel("beta")
 axes[0].set_ylabel("Draws")
 axes[0].set_title("Posterior of the discount slope")
-axes[1].hist(revenue, bins=20, density=True, alpha=0.6, label="Observed", color="0.2")
-axes[1].hist(y_rep, bins=20, density=True, alpha=0.45, label="Posterior predictive", color="0.6")
+axes[1].hist(
+    revenue, bins=20, density=True, alpha=0.6, label="Observed", color="0.2"
+)
+axes[1].hist(
+    y_rep,
+    bins=20,
+    density=True,
+    alpha=0.45,
+    label="Posterior predictive",
+    color="0.6",
+)
 axes[1].set_xlabel("Revenue")
 axes[1].set_title("Posterior predictive check")
 axes[1].legend()
@@ -103,6 +122,8 @@ fig.tight_layout()
 
 img_dir = Path(__file__).resolve().parents[2] / "img"
 img_dir.mkdir(exist_ok=True)
-fig.savefig(img_dir / "ch9_bayesian_posterior.png", dpi=300, bbox_inches="tight")
+fig.savefig(
+    img_dir / "ch9_bayesian_posterior.png", dpi=300, bbox_inches="tight"
+)
 plt.close()
 print("Saved img/ch9_bayesian_posterior.png")

@@ -11,7 +11,13 @@ sys.path.insert(0, str(ROOT / "src"))
 from bookdata import load_frame
 
 df = load_frame("business_customers")
-feature_cols = ["mrr_usd", "adoption", "nps", "onboarding_complete", "segment"]
+feature_cols = [
+    "mrr_usd",
+    "adoption",
+    "nps",
+    "onboarding_complete",
+    "segment",
+]
 X = df[feature_cols].copy()
 X["onboarding_complete"] = X["onboarding_complete"].astype(int)
 y = df["churned"].astype(int)

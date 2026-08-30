@@ -29,7 +29,9 @@ fig.tight_layout()
 
 img_dir = ROOT / "img"
 img_dir.mkdir(exist_ok=True)
-fig.savefig(img_dir / "ch7_treasury_forecast.png", dpi=300, bbox_inches="tight")
+fig.savefig(
+    img_dir / "ch7_treasury_forecast.png", dpi=300, bbox_inches="tight"
+)
 plt.close(fig)
 print("Saved img/ch7_treasury_forecast.png")
 print(forecast.round(2).to_string())

@@ -15,16 +15,34 @@ import pandas as pd
 
 data = generate_kpi_data()
 limits = calculate_control_limits(data)
-out_of_control = (data["KPI_Value"] > limits["ucl"]) | (data["KPI_Value"] < limits["lcl"])
+out_of_control = (data["KPI_Value"] > limits["ucl"]) | (
+    data["KPI_Value"] < limits["lcl"]
+)
 
 fig, ax = plt.subplots(figsize=(10, 5))
-ax.plot(data["Date"], data["KPI_Value"], "o-", color="0.20", linewidth=1, markersize=4)
-ax.axhline(limits["center_line"], color="0.10", linewidth=1.5, label="Center line")
+ax.plot(
+    data["Date"],
+    data["KPI_Value"],
+    "o-",
+    color="0.20",
+    linewidth=1,
+    markersize=4,
+)
+ax.axhline(
+    limits["center_line"], color="0.10", linewidth=1.5, label="Center line"
+)
 ax.axhline(limits["ucl"], color="0.35", linestyle="--", label="UCL")
 ax.axhline(limits["lcl"], color="0.35", linestyle="--", label="LCL")
 if out_of_control.any():
-    ax.scatter(data.loc[out_of_control, "Date"], data.loc[out_of_control, "KPI_Value"],
-               color="0.05", s=80, marker="x", linewidths=2, label="Beyond control limits")
+    ax.scatter(
+        data.loc[out_of_control, "Date"],
+        data.loc[out_of_control, "KPI_Value"],
+        color="0.05",
+        s=80,
+        marker="x",
+        linewidths=2,
+        label="Beyond control limits",
+    )
 ax.set_title("Stable-process control chart")
 ax.set_xlabel("Date")
 ax.set_ylabel("KPI value")

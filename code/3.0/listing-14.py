@@ -1,13 +1,16 @@
 """
 
-This script demonstrates creating heatmaps to visualize two-dimensional data patterns.
-Readers learn to use color intensity to represent values in a matrix format.
+This script demonstrates creating heatmaps to visualize two-dimensional data
+patterns. Readers learn to use color intensity to represent values in a matrix
+format.
 """
+
 import logging
 import os
 from pathlib import Path
 
 import sys
+
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import minimalist_style
 from minimalist_style import set_minimalist_style
@@ -17,9 +20,12 @@ import matplotlib.pyplot as plt
 
 logger = logging.getLogger(__name__)
 
+
 def main():
     """Create heatmap visualization."""
-    logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+    logging.basicConfig(
+        level=logging.INFO, format='%(levelname)s: %(message)s'
+    )
     # Load minimalist_style module
 
     # Set style
@@ -81,13 +87,15 @@ def main():
         spine.set_visible(False)
     ax.set_xticks(np.arange(pivot.shape[1] + 1) - 0.5, minor=True)
     ax.set_yticks(np.arange(pivot.shape[0] + 1) - 0.5, minor=True)
-    
+
     ax.tick_params(which="minor", bottom=False, left=False)
 
     # Labels and title
     ax.set_xlabel("Month", fontsize=11)
     ax.set_ylabel("Day of Week", fontsize=11)
-    ax.set_title("Average Values by Day of Week and Month", fontsize=13, pad=15)
+    ax.set_title(
+        "Average Values by Day of Week and Month", fontsize=13, pad=15
+    )
 
     # Colorbar
     cbar = plt.colorbar(im, ax=ax)
@@ -100,6 +108,7 @@ def main():
     img_dir.mkdir(exist_ok=True)
     plt.savefig(img_dir / "ch3_heatmap.png", dpi=150, bbox_inches="tight")
     logger.info(f"Saved figure to {img_dir / 'ch3_heatmap.png'}")
+
 
 if __name__ == "__main__":
     main()

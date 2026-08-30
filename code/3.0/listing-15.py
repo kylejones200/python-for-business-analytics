@@ -3,11 +3,13 @@
 This script demonstrates creating multi-panel dashboards with shared axes.
 Readers learn to create coordinated visualizations that share time axes.
 """
+
 import logging
 import os
 from pathlib import Path
 
 import sys
+
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import minimalist_style
 from minimalist_style import set_minimalist_style
@@ -17,9 +19,12 @@ import matplotlib.pyplot as plt
 
 logger = logging.getLogger(__name__)
 
+
 def main():
     """Create multi-panel dashboard with shared axes."""
-    logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+    logging.basicConfig(
+        level=logging.INFO, format='%(levelname)s: %(message)s'
+    )
     # Load minimalist_style module
     remove_chartjunk = minimalist_style.remove_chartjunk
 
@@ -33,8 +38,12 @@ def main():
     series_data = {
         "Revenue": 100 + 2 * np.arange(100) + np.random.normal(0, 10, 100),
         "Costs": 60 + 1.5 * np.arange(100) + np.random.normal(0, 8, 100),
-        "Customers": 1000 + 10 * np.arange(100) + np.random.normal(0, 50, 100),
-        "Satisfaction": 7 + 0.01 * np.arange(100) + np.random.normal(0, 0.3, 100),
+        "Customers": 1000
+        + 10 * np.arange(100)
+        + np.random.normal(0, 50, 100),
+        "Satisfaction": 7
+        + 0.01 * np.arange(100)
+        + np.random.normal(0, 0.3, 100),
     }
 
     # Create 2x2 subplot grid
@@ -43,7 +52,9 @@ def main():
 
     colors = ["#5E81AC", "#A3BE8C", "#D08770", "#B48EAD"]
 
-    for ax, (name, values), color in zip(axes.flat, series_data.items(), colors):
+    for ax, (name, values), color in zip(
+        axes.flat, series_data.items(), colors
+    ):
         ax.plot(
             dates,
             values,
@@ -81,21 +92,34 @@ def main():
             transform=ax.transAxes,
             fontsize=10,
             verticalalignment="top",
-            bbox=dict(boxstyle="round", facecolor="white", alpha=0.7, edgecolor="none"),
+            bbox=dict(
+                boxstyle="round",
+                facecolor="white",
+                alpha=0.7,
+                edgecolor="none",
+            ),
         )
 
     # Set x-label only for bottom plots
     for ax in axes[1, :]:
         ax.set_xlabel("Date", fontsize=10)
-        plt.setp(ax.xaxis.get_majorticklabels(), rotation=45, ha="right", fontsize=8)
+        plt.setp(
+            ax.xaxis.get_majorticklabels(),
+            rotation=45,
+            ha="right",
+            fontsize=8,
+        )
 
     plt.tight_layout()
 
     # Save figure before showing
     img_dir = Path(__file__).resolve().parents[2] / "img"
     img_dir.mkdir(exist_ok=True)
-    plt.savefig(img_dir / "ch3_metrics_dashboard.png", dpi=150, bbox_inches="tight")
+    plt.savefig(
+        img_dir / "ch3_metrics_dashboard.png", dpi=150, bbox_inches="tight"
+    )
     logger.info(f"Saved figure to {img_dir / 'ch3_metrics_dashboard.png'}")
+
 
 if __name__ == "__main__":
     main()

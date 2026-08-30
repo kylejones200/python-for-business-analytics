@@ -1,11 +1,12 @@
 """Demonstrates plotting normal distributions with histogram overlays.
 
 This script shows how to create histograms of normally distributed data and
-overlay the theoretical probability density function. Readers learn statistical
-visualization, histogram creation, and comparing empirical distributions to
-theoretical models.
+overlay the theoretical probability density function. Readers learn
+statistical visualization, histogram creation, and comparing empirical
+distributions to theoretical models.
 
 """
+
 import logging
 import os
 from pathlib import Path
@@ -15,9 +16,10 @@ import numpy as np
 
 logger = logging.getLogger(__name__)
 
+
 def plot_norm_hist(s, mu, sigma, vline=True, title=True):
     """Plot histogram of data with theoretical normal distribution overlay.
-    
+
     Args:
         s: Array of sample data.
         mu: Mean of the distribution.
@@ -43,23 +45,23 @@ def plot_norm_hist(s, mu, sigma, vline=True, title=True):
 
     if title:
         plt.title(
-            "Normal distribution with mean: {:.02f} and StDev: {:.02f}".format(
-                mu, sigma
-            )
+            "Normal distribution with mean: {:.02f} "
+            "and StDev: {:.02f}".format(mu, sigma)
         )
+
 
 def main():
     """Main function demonstrating normal distribution visualization."""
     logging.basicConfig(level=logging.INFO, format="%(message)s")
-    
+
     # Set random seed for reproducibility
     np.random.seed(42)
-    
+
     mu, sigma = 0, 1  # mean and standard deviation
     s = np.random.normal(mu, sigma, 1000)
 
     plot_norm_hist(s, mu, sigma, vline=True, title=True)
-    
+
     # Save figure before showing
     script_path = Path(__file__)
     img_dir = script_path.parents[2] / "img"
@@ -68,5 +70,7 @@ def main():
     plt.savefig(fig_filename, dpi=300, bbox_inches="tight")
     logger.info(f"Figure saved to {fig_filename}")
     plt.close()
+
+
 if __name__ == "__main__":
     main()

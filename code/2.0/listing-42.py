@@ -1,10 +1,12 @@
 """Demonstrates missing data analysis and visualization.
 
 This script shows how to identify, summarize, and visualize missing data
-patterns in datasets. Readers learn missing data detection, summary statistics,
-and visualization tools like missingno for understanding data completeness.
+patterns in datasets. Readers learn missing data detection, summary
+statistics, and visualization tools like missingno for understanding data
+completeness.
 
 """
+
 import logging
 import os
 import sys
@@ -22,10 +24,11 @@ except ImportError:
     msno = None
     plt = None
 
+
 def main():
     """Main function demonstrating missing data analysis."""
     logging.basicConfig(level=logging.INFO, format="%(message)s")
-    
+
     ROOT = Path(__file__).resolve().parents[2]
     SRC = ROOT / "src"
     if str(SRC) not in sys.path:
@@ -54,7 +57,9 @@ def main():
     logger.info("Missing values per column:")
     logger.info(df.isnull().sum())
     logger.info(f"\nTotal missing: {df.isnull().sum().sum()}")
-    logger.info(f"Percentage missing: {df.isnull().sum().sum() / df.size * 100:.1f}%")
+    logger.info(
+        f"Percentage missing: {df.isnull().sum().sum() / df.size * 100:.1f}%"
+    )
 
     # Optional visualization (requires missingno)
     if msno is not None and plt is not None:
@@ -65,7 +70,11 @@ def main():
         fig_filename = img_dir / f"{script_path.stem}.png"
         plt.savefig(fig_filename, dpi=150, bbox_inches="tight")
         logger.info(f"Missingness matrix saved to {fig_filename}")
-        logger.info("\nNote: Install `missingno` + `matplotlib` to visualize missingness.")
+        logger.info(
+            "\nNote: Install `missingno` + `matplotlib` to visualize "
+            "missingness."
+        )
+
 
 if __name__ == "__main__":
     main()

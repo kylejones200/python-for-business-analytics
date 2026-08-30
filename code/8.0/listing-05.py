@@ -13,6 +13,7 @@ sys.path.insert(0, str(ROOT / "src"))
 
 from bookdata import load_zip_points
 
+
 def spherical_model(h, nugget, sill, range_param):
     h = np.asarray(h, dtype=float)
     gamma = np.empty_like(h)
@@ -22,6 +23,7 @@ def spherical_model(h, nugget, sill, range_param):
     )
     gamma[~mask] = sill
     return gamma
+
 
 pts = load_zip_points(crs_epsg=3081).sample(80, random_state=8)
 x = pts["easting_m"].to_numpy()
@@ -60,7 +62,11 @@ print("Range: {:.1f} m ({:.1f} km)".format(range_param, range_param / 1000.0))
 h_model = np.linspace(0, max_lag, 100)
 fig, ax = plt.subplots(figsize=(8, 5))
 ax.scatter(lags / 1000.0, gamma, s=50, label="Experimental")
-ax.plot(h_model / 1000.0, spherical_model(h_model, nugget, sill, range_param), label="Spherical model")
+ax.plot(
+    h_model / 1000.0,
+    spherical_model(h_model, nugget, sill, range_param),
+    label="Spherical model",
+)
 ax.set_xlabel("Lag distance (km)")
 ax.set_ylabel("Semivariance")
 ax.set_title("Fitted spherical variogram")

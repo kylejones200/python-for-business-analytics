@@ -50,8 +50,14 @@ fig.tight_layout()
 
 img_dir = ROOT / "img"
 img_dir.mkdir(exist_ok=True)
-fig.savefig(img_dir / "experimental_variogram.png", dpi=300, bbox_inches="tight")
+fig.savefig(
+    img_dir / "experimental_variogram.png", dpi=300, bbox_inches="tight"
+)
 plt.close(fig)
 print("Saved img/experimental_variogram.png")
-print("Half-max-distance lag cap (heuristic): {:.1f} km".format(max_lag / 1000.0))
+print(
+    "Half-max-distance lag cap (heuristic): {:.1f} km".format(
+        max_lag / 1000.0
+    )
+)
 print("Pairs in first lag:", int(n_pairs[0]))

@@ -23,6 +23,10 @@ for start, end in zip(bounds[:-1], bounds[1:]):
             int(piece["Year"].iloc[-1]),
             len(piece),
             float(piece["RIFR_per_200k"].mean()),
-            float(piece["RIFR_per_200k"].std(ddof=1)) if len(piece) > 1 else 0.0,
+            (
+                float(piece["RIFR_per_200k"].std(ddof=1))
+                if len(piece) > 1
+                else 0.0
+            ),
         )
     )

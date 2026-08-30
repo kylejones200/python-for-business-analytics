@@ -17,8 +17,13 @@ print(summary)
 
 fig, ax = plt.subplots(figsize=(8, 3))
 ax.axis("off")
-cell = [[idx, f"{row['count']:.0f}", f"{row['mean']:.3f}"] for idx, row in summary.iterrows()]
-ax.table(cellText=cell, colLabels=["industry", "count", "share"], loc="center")
+cell = [
+    [idx, f"{row['count']:.0f}", f"{row['mean']:.3f}"]
+    for idx, row in summary.iterrows()
+]
+ax.table(
+    cellText=cell, colLabels=["industry", "count", "share"], loc="center"
+)
 fig.tight_layout()
 img = ROOT / "img" / "ch2_industry_indicators.png"
 fig.savefig(img, dpi=300, bbox_inches="tight")

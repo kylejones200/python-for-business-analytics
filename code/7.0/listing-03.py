@@ -20,4 +20,9 @@ df = (
 )
 
 print(df.head(10).round(2).to_string())
-print("Rows:", len(df), "mean daily net value:", round(df["net_value_usd"].mean(), 2))
+print(
+    "Rows:",
+    len(df),
+    "mean daily net value:",
+    round(df["net_value_usd"].mean(), 2),
+)

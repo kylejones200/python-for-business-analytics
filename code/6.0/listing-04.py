@@ -35,7 +35,11 @@ if not model_path.exists():
     preprocess = ColumnTransformer(
         transformers=[
             ("num", SimpleImputer(strategy="median"), numeric_features),
-            ("cat", OneHotEncoder(handle_unknown="ignore"), categorical_features),
+            (
+                "cat",
+                OneHotEncoder(handle_unknown="ignore"),
+                categorical_features,
+            ),
         ]
     )
     pipeline = Pipeline(

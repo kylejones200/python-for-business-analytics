@@ -8,8 +8,9 @@ import statsmodels.formula.api as smf
 SEED = 9
 TRUE_EFFECT = 1.60
 
+
 def loyalty_iv(rng, n=2500):
-    """Competitor promotions shift discount depth; demand shocks confound OLS."""
+    """Promotions shift discount depth; demand shocks confound OLS."""
     competitor_promo = rng.normal(0.0, 1.0, size=n)
     demand_shock = rng.normal(0.0, 1.0, size=n)
     accounts = rng.normal(0.0, 1.0, size=n)
@@ -36,6 +37,7 @@ def loyalty_iv(rng, n=2500):
         }
     )
 
+
 def twosls(y, X, Z):
     """2SLS with residuals formed from the original endogenous regressors."""
     Pz = Z @ np.linalg.inv(Z.T @ Z) @ Z.T
@@ -48,21 +50,24 @@ def twosls(y, X, Z):
     se = np.sqrt(np.diag(vcov))
     return beta, se
 
+
 rng = np.random.default_rng(SEED)
 df = loyalty_iv(rng)
 
 ols = smf.ols("revenue ~ discount + accounts", data=df).fit()
-print("estimand=LATE for accounts whose discount moves with competitor promotions")
+print(
+    "estimand=LATE for accounts whose discount moves with competitor "
+    "promotions"
+)
 print(f"ols_discount={float(ols.params['discount']):.3f}")
-print(f"ols_95ci=({ols.conf_int().loc['discount', 0]:.3f}, {ols.conf_int().loc['discount', 1]:.3f})")
+print(
+    f"ols_95ci=({ols.conf_int().loc['discount', 0]:.3f}, "
+    f"{ols.conf_int().loc['discount', 1]:.3f})"
+)
 
 first = smf.ols("discount ~ competitor_promo + accounts", data=df).fit()
 restricted = smf.ols("discount ~ accounts", data=df).fit()
-f_excl = (
-    (restricted.ssr - first.ssr)
-    / 1
-    / (first.ssr / first.df_resid)
-)
+f_excl = (restricted.ssr - first.ssr) / 1 / (first.ssr / first.df_resid)
 print(f"first_stage_coef={float(first.params['competitor_promo']):.3f}")
 print(f"first_stage_f={float(f_excl):.2f}")
 

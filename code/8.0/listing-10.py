@@ -27,7 +27,9 @@ surface = np.empty((len(gy), len(gx)))
 for i, yy in enumerate(gy):
     for j, xx in enumerate(gx):
         trend = float(np.dot(beta, [1.0, xx, yy]))
-        surface[i, j] = trend + ordinary_krige(x, y, resid, xx, yy, 2.0, 12.0, 12_000.0)
+        surface[i, j] = trend + ordinary_krige(
+            x, y, resid, xx, yy, 2.0, 12.0, 12_000.0
+        )
 
 print("Linear drift coefficients:", np.round(beta, 6))
 print("Residual mean after trend: {:.3f}".format(float(resid.mean())))

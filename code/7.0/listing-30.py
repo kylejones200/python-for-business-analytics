@@ -28,5 +28,10 @@ df["rolling_min_7"] = df["sales"].rolling(window=7, min_periods=1).min()
 df["rolling_max_7"] = df["sales"].rolling(window=7, min_periods=1).max()
 df["expanding_mean"] = df["sales"].expanding().mean()
 
-print(df[["date", "sales", "rolling_mean_7", "rolling_std_7"]].tail().round(2).to_string(index=False))
+print(
+    df[["date", "sales", "rolling_mean_7", "rolling_std_7"]]
+    .tail()
+    .round(2)
+    .to_string(index=False)
+)
 print("Rolling windows use only data up to the current row.")

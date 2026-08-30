@@ -18,4 +18,7 @@ df["mrr_clean"] = (
 )
 print(df[["mrr_text", "mrr_clean"]].head())
 print("cleaned dtype:", df["mrr_clean"].dtype)
-print("matches original:", bool((df["mrr_clean"] - df["mrr_usd"]).abs().max() < 1e-8))
+print(
+    "matches original:",
+    bool((df["mrr_clean"] - df["mrr_usd"]).abs().max() < 1e-8),
+)

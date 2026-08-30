@@ -16,7 +16,9 @@ resid = observed - predicted
 
 fig, axes = plt.subplots(1, 2, figsize=(9, 4))
 axes[0].scatter(observed, predicted, s=35)
-lo, hi = float(min(observed.min(), predicted.min())), float(max(observed.max(), predicted.max()))
+lo, hi = float(min(observed.min(), predicted.min())), float(
+    max(observed.max(), predicted.max())
+)
 axes[0].plot([lo, hi], [lo, hi], "k--")
 axes[0].set_xlabel("Observed")
 axes[0].set_ylabel("Predicted")
@@ -28,7 +30,11 @@ fig.tight_layout()
 
 img_dir = Path(__file__).resolve().parents[2] / "img"
 img_dir.mkdir(exist_ok=True)
-fig.savefig(img_dir / "ch8_plotsmith_style_residuals.png", dpi=300, bbox_inches="tight")
+fig.savefig(
+    img_dir / "ch8_plotsmith_style_residuals.png",
+    dpi=300,
+    bbox_inches="tight",
+)
 plt.close(fig)
 print("Saved img/ch8_plotsmith_style_residuals.png")
 print("Residual mean: {:.2f}".format(float(resid.mean())))

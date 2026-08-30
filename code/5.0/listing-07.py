@@ -32,7 +32,9 @@ plt.tight_layout()
 
 img_dir = ROOT / "img"
 img_dir.mkdir(exist_ok=True)
-plt.savefig(img_dir / "ch5_regression_scatter.png", dpi=300, bbox_inches="tight")
+plt.savefig(
+    img_dir / "ch5_regression_scatter.png", dpi=300, bbox_inches="tight"
+)
 plt.close()
 
 r2 = r2_score(ops_y_test, ops_y_pred)

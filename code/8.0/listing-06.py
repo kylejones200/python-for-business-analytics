@@ -16,6 +16,7 @@ sys.path.insert(0, str(ROOT / "src"))
 
 from bookdata import require_dataset
 
+
 def spherical_gamma(h, nugget, psill, rng):
     h = np.asarray(h, dtype=float)
     out = np.full_like(h, nugget + psill, dtype=float)
@@ -24,6 +25,7 @@ def spherical_gamma(h, nugget, psill, rng):
     out[mask] = nugget + psill * (1.5 * hr - 0.5 * hr**3)
     out[h == 0] = 0.0
     return out
+
 
 def ordinary_krige(x, y, z, x0, y0, nugget, psill, rng):
     n = len(z)
@@ -43,6 +45,7 @@ def ordinary_krige(x, y, z, x0, y0, nugget, psill, rng):
     var = float(np.dot(w, b))
     return pred, max(var, 0.0)
 
+
 rng = np.random.default_rng(8)
 try:
     import geopandas as gpd
@@ -56,7 +59,12 @@ except Exception:
     y = 1_000_000 + rng.uniform(0, 80_000, size=60)
 
 x0, y0 = x.mean(), y.mean()
-z = 65000 + 0.15 * (x - x0) + 0.08 * (y - y0) + rng.normal(0, 4000, size=len(x))
+z = (
+    65000
+    + 0.15 * (x - x0)
+    + 0.08 * (y - y0)
+    + rng.normal(0, 4000, size=len(x))
+)
 nugget, psill, vrange = 2.0e6, 1.8e7, 35000.0
 
 gx = np.linspace(x.min(), x.max(), 25)
@@ -65,10 +73,14 @@ pred = np.empty((len(gy), len(gx)))
 svar = np.empty_like(pred)
 for i, yy in enumerate(gy):
     for j, xx in enumerate(gx):
-        pred[i, j], svar[i, j] = ordinary_krige(x, y, z, xx, yy, nugget, psill, vrange)
+        pred[i, j], svar[i, j] = ordinary_krige(
+            x, y, z, xx, yy, nugget, psill, vrange
+        )
 
 fig, axes = plt.subplots(1, 3, figsize=(12, 4))
-sc = axes[0].scatter((x - x.min()) / 1000.0, (y - y.min()) / 1000.0, c=z, s=35, cmap="viridis")
+sc = axes[0].scatter(
+    (x - x.min()) / 1000.0, (y - y.min()) / 1000.0, c=z, s=35, cmap="viridis"
+)
 axes[0].set_title("Sample")
 axes[0].set_xlabel("Easting (km)")
 axes[0].set_ylabel("Northing (km)")
@@ -76,7 +88,9 @@ fig.colorbar(sc, ax=axes[0], fraction=0.046)
 im1 = axes[1].imshow(pred, origin="lower", cmap="viridis", aspect="auto")
 axes[1].set_title("Ordinary kriging prediction")
 fig.colorbar(im1, ax=axes[1], fraction=0.046)
-im2 = axes[2].imshow(np.sqrt(svar), origin="lower", cmap="Reds", aspect="auto")
+im2 = axes[2].imshow(
+    np.sqrt(svar), origin="lower", cmap="Reds", aspect="auto"
+)
 axes[2].set_title("Model std. deviation")
 fig.colorbar(im2, ax=axes[2], fraction=0.046)
 fig.tight_layout()
@@ -87,4 +101,6 @@ fig.savefig(img_dir / "kriging_results.png", dpi=300, bbox_inches="tight")
 plt.close(fig)
 print("Saved img/kriging_results.png")
 print("Grid mean prediction: {:.0f}".format(float(np.mean(pred))))
-print("Kriging variance is model variance, not a generic confidence interval.")
+print(
+    "Kriging variance is model variance, not a generic confidence interval."
+)

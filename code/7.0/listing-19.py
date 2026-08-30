@@ -1,4 +1,4 @@
-"""Decompose daily order volume into trend, weekly seasonality, and residual."""
+"""Decompose daily order volume into trend, season, and residual."""
 
 import sys
 from pathlib import Path
@@ -29,8 +29,18 @@ fig.tight_layout()
 
 img_dir = ROOT / "img"
 img_dir.mkdir(exist_ok=True)
-fig.savefig(img_dir / "ch7_model_components.png", dpi=300, bbox_inches="tight")
+fig.savefig(
+    img_dir / "ch7_model_components.png", dpi=300, bbox_inches="tight"
+)
 plt.close(fig)
 print("Saved img/ch7_model_components.png")
-print("Trend at last available date:", round(float(decomp.trend.dropna().iloc[-1]), 2))
-print("Seasonal range:", round(float(decomp.seasonal.min()), 2), "to", round(float(decomp.seasonal.max()), 2))
+print(
+    "Trend at last available date:",
+    round(float(decomp.trend.dropna().iloc[-1]), 2),
+)
+print(
+    "Seasonal range:",
+    round(float(decomp.seasonal.min()), 2),
+    "to",
+    round(float(decomp.seasonal.max()), 2),
+)

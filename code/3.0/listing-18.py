@@ -1,13 +1,16 @@
 """
 
-This script demonstrates creating small multiples (facet plots) for comparing multiple series.
-Readers learn to create grid layouts of similar plots for easy comparison.
+This script demonstrates creating small multiples (facet plots) for comparing
+multiple series. Readers learn to create grid layouts of similar plots for
+easy comparison.
 """
+
 import logging
 import os
 from pathlib import Path
 
 import sys
+
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import minimalist_style
 from minimalist_style import set_minimalist_style
@@ -16,9 +19,12 @@ import matplotlib.pyplot as plt
 
 logger = logging.getLogger(__name__)
 
+
 def main():
     """Create small multiples visualization."""
-    logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+    logging.basicConfig(
+        level=logging.INFO, format='%(levelname)s: %(message)s'
+    )
     # Load minimalist_style module
     remove_chartjunk = minimalist_style.remove_chartjunk
 
@@ -52,7 +58,14 @@ def main():
         sales = 20 + trend * months + seasonality + noise
 
         # Plot
-        ax.plot(months, sales, color="#5E81AC", linewidth=2, marker="o", markersize=4)
+        ax.plot(
+            months,
+            sales,
+            color="#5E81AC",
+            linewidth=2,
+            marker="o",
+            markersize=4,
+        )
         ax.fill_between(months, sales, alpha=0.2, color="#5E81AC")
 
         # Formatting
@@ -71,8 +84,11 @@ def main():
     # Save figure before showing
     img_dir = Path(__file__).resolve().parents[2] / "img"
     img_dir.mkdir(exist_ok=True)
-    plt.savefig(img_dir / "ch3_small_multiples.png", dpi=150, bbox_inches="tight")
+    plt.savefig(
+        img_dir / "ch3_small_multiples.png", dpi=150, bbox_inches="tight"
+    )
     logger.info(f"Saved figure to {img_dir / 'ch3_small_multiples.png'}")
+
 
 if __name__ == "__main__":
     main()

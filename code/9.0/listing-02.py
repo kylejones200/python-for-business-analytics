@@ -12,6 +12,7 @@ CUTOFF = 8000.0
 BANDWIDTH = 2000.0
 TRUE_LOCAL = 22.0
 
+
 def loyalty_cutoff(rng, n=4000):
     """Next-quarter revenue around a trailing-spend eligibility cutoff."""
     spend = rng.normal(CUTOFF, 2200.0, size=n)
@@ -25,12 +26,20 @@ def loyalty_cutoff(rng, n=4000):
         + rng.normal(0.0, 16.0, size=n)
     )
     return pd.DataFrame(
-        {"spend": spend, "treated": treated, "centered": centered, "revenue": revenue}
+        {
+            "spend": spend,
+            "treated": treated,
+            "centered": centered,
+            "revenue": revenue,
+        }
     )
+
 
 def local_linear(frame, h):
     window = frame.loc[frame["centered"].abs() <= h].copy()
-    model = smf.ols("revenue ~ treated + centered + treated:centered", data=window).fit()
+    model = smf.ols(
+        "revenue ~ treated + centered + treated:centered", data=window
+    ).fit()
     ci = model.conf_int().loc["treated"]
     return {
         "h": h,
@@ -40,6 +49,7 @@ def local_linear(frame, h):
         "ci_low": float(ci[0]),
         "ci_high": float(ci[1]),
     }
+
 
 rng = np.random.default_rng(SEED)
 df = loyalty_cutoff(rng)

@@ -21,7 +21,14 @@ last["duration"] = last["cycle"]
 last["event"] = last["failed"]
 
 print("Unit-level survival table:")
-print(last[["unit", "duration", "event", "RUL", "sensor_11"]].head(8).round(2).to_string(index=False))
-print("Observed failures:", int(last["event"].sum()), "of", len(last), "units")
+print(
+    last[["unit", "duration", "event", "RUL", "sensor_11"]]
+    .head(8)
+    .round(2)
+    .to_string(index=False)
+)
+print(
+    "Observed failures:", int(last["event"].sum()), "of", len(last), "units"
+)
 print("Median duration:", float(last["duration"].median()))
 print("Median RUL at last observed cycle:", float(last["RUL"].median()))

@@ -33,6 +33,10 @@ plt.legend()
 plt.tight_layout()
 img_dir = ROOT / "img"
 img_dir.mkdir(exist_ok=True)
-plt.savefig(img_dir / "ch10_operational_demand_forecast.png", dpi=300, bbox_inches="tight")
+plt.savefig(
+    img_dir / "ch10_operational_demand_forecast.png",
+    dpi=300,
+    bbox_inches="tight",
+)
 plt.close()
 print("Saved img/ch10_operational_demand_forecast.png")

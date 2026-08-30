@@ -15,7 +15,9 @@ df = load_frame("fred_series")
 df["date"] = pd.to_datetime(df["date"])
 series = df.set_index("date")["UNRATE"].dropna()
 
-ax = series.plot(figsize=(10, 4), title="U.S. civilian unemployment rate (UNRATE)")
+ax = series.plot(
+    figsize=(10, 4), title="U.S. civilian unemployment rate (UNRATE)"
+)
 ax.set_ylabel("Percent")
 plt.tight_layout()
 

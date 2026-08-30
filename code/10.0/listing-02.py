@@ -27,6 +27,8 @@ fig.set_size_inches(10, 7)
 fig.tight_layout()
 img_dir = ROOT / "img"
 img_dir.mkdir(exist_ok=True)
-fig.savefig(img_dir / "ch10_seasonal_decomposition.png", dpi=300, bbox_inches="tight")
+fig.savefig(
+    img_dir / "ch10_seasonal_decomposition.png", dpi=300, bbox_inches="tight"
+)
 plt.close()
 print("Saved img/ch10_seasonal_decomposition.png")

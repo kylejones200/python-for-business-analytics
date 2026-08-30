@@ -5,6 +5,7 @@ import itertools
 import numpy as np
 import pandas as pd
 
+
 def apriori_itemsets(df_encoded, min_support):
     """Return frequent itemsets from a one-hot basket matrix."""
     if not 0 <= min_support <= 1:
@@ -25,11 +26,15 @@ def apriori_itemsets(df_encoded, min_support):
                 supports[frozenset(combo)] = sup
 
     return pd.DataFrame(
-        [{"support": sup, "itemsets": itemset} for itemset, sup in supports.items()]
+        [
+            {"support": sup, "itemsets": itemset}
+            for itemset, sup in supports.items()
+        ]
     ).sort_values(["support"], ascending=False, ignore_index=True)
 
+
 def association_rules_simple(frequent_itemsets, min_confidence):
-    """Build rules with consequent support and lift = confidence / support(Z)."""
+    """Build rules with consequent support and lift."""
     if not 0 <= min_confidence <= 1:
         raise ValueError("min_confidence must be in [0, 1].")
 
@@ -78,6 +83,7 @@ def association_rules_simple(frequent_itemsets, min_confidence):
         ["lift", "confidence"], ascending=False, ignore_index=True
     )
 
+
 rng = np.random.default_rng(42)
 products = [
     "Bread",
@@ -108,8 +114,21 @@ df_encoded = (pd.crosstab(df["TransactionID"], df["Product"]) > 0).astype(int)
 frequent_itemsets = apriori_itemsets(df_encoded, min_support=0.05)
 rules = association_rules_simple(frequent_itemsets, min_confidence=0.7)
 
+# Same reason as the rule table below: sort the item sets for display so the
+# printed output does not depend on Python's hash seed.
+top_sets = frequent_itemsets.head(8).copy()
+top_sets["itemsets"] = top_sets["itemsets"].map(
+    lambda items: ", ".join(sorted(items))
+)
+
 print("Frequent itemsets (top 8):")
-print(frequent_itemsets.head(8).to_string(index=False))
+print(top_sets.to_string(index=False))
+# Format the item sets for display only. A frozenset prints in hash order,
+# which differs between runs and would make this table irreproducible.
+top = rules.head(8).copy()
+for column in ("antecedents", "consequents"):
+    top[column] = top[column].map(lambda items: ", ".join(sorted(items)))
+
 print("Association rules (top 8):")
-print(rules.head(8).to_string(index=False))
+print(top.to_string(index=False))
 print(f"Rules with lift: {len(rules)}")

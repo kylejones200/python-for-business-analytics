@@ -12,6 +12,7 @@ sys.path.insert(0, str(ROOT / "src"))
 
 from bookdata import load_frame
 
+
 def ts_panels(series, title, filename):
     fig, axes = plt.subplots(3, 1, figsize=(10, 8))
     axes[0].plot(series.index, series.values, color="0.20", linewidth=1.0)
@@ -23,15 +24,30 @@ def ts_panels(series, title, filename):
     fig.savefig(filename, dpi=300, bbox_inches="tight")
     plt.close(fig)
 
+
 ops = load_frame("business_ops")
 ops["order_date"] = pd.to_datetime(ops["order_date"])
-series = ops.set_index("order_date")["net_value_usd"].resample("D").sum().asfreq("D").fillna(0.0)
+series = (
+    ops.set_index("order_date")["net_value_usd"]
+    .resample("D")
+    .sum()
+    .asfreq("D")
+    .fillna(0.0)
+)
 diffed = series.diff().dropna()
 
 img_dir = ROOT / "img"
 img_dir.mkdir(exist_ok=True)
-ts_panels(series, "Original daily net order value", img_dir / "ch7_stationarity_before.png")
-ts_panels(diffed, "First difference of daily net order value", img_dir / "ch7_stationarity_after.png")
+ts_panels(
+    series,
+    "Original daily net order value",
+    img_dir / "ch7_stationarity_before.png",
+)
+ts_panels(
+    diffed,
+    "First difference of daily net order value",
+    img_dir / "ch7_stationarity_after.png",
+)
 print("Saved img/ch7_stationarity_before.png")
 print("Saved img/ch7_stationarity_after.png")
 print("Original last value:", round(float(series.iloc[-1]), 2))

@@ -25,9 +25,13 @@ for k in range(0, 6):
     rss = sum(sse(signal[a:b]) for a, b in zip(bounds[:-1], bounds[1:]))
     score = rss + penalty * k
     years = [int(df["Year"].iloc[i]) for i in bounds[1:-1]]
-    print("k={}: RSS={:.2f} score={:.2f} years={}".format(k, rss, score, years))
+    print(
+        "k={}: RSS={:.2f} score={:.2f} years={}".format(k, rss, score, years)
+    )
     if score < best[0]:
         best = (score, k, years)
 
 print("Penalty-selected k={}: years={}".format(best[1], best[2]))
-print("This selection uses the full series. Do not treat it as a forecast test.")
+print(
+    "This selection uses the full series. Do not treat it as a forecast test."
+)

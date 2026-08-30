@@ -1,13 +1,16 @@
 """
 
-This script demonstrates creating box plots to compare distributions across groups.
-Readers learn to visualize distributions, identify outliers, and compare groups.
+This script demonstrates creating box plots to compare distributions across
+groups. Readers learn to visualize distributions, identify outliers, and
+compare groups.
 """
+
 import logging
 import os
 from pathlib import Path
 
 import sys
+
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import minimalist_style
 from minimalist_style import set_minimalist_style
@@ -16,9 +19,12 @@ import numpy as np
 
 logger = logging.getLogger(__name__)
 
+
 def main():
     """Create box plot comparing distributions across groups."""
-    logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+    logging.basicConfig(
+        level=logging.INFO, format='%(levelname)s: %(message)s'
+    )
     # Load minimalist_style module
     minimalist_boxplot = minimalist_style.minimalist_boxplot
 
@@ -62,17 +68,22 @@ def main():
     # Save figure before showing
     img_dir = Path(__file__).resolve().parents[2] / "img"
     img_dir.mkdir(exist_ok=True)
-    plt.savefig(img_dir / "ch3_performance_boxplot.png", dpi=150, bbox_inches="tight")
+    plt.savefig(
+        img_dir / "ch3_performance_boxplot.png", dpi=150, bbox_inches="tight"
+    )
     logger.info(f"Saved figure to {img_dir / 'ch3_performance_boxplot.png'}")
 
     # Log summary statistics
     logger.info("\nPerformance Summary:")
     for label, times in zip(labels, data):
+        spread = np.abs(times - np.median(times))
+        n_outliers = len(times[spread > 2 * np.std(times)])
         logger.info(
             f"{label:10s}: Median={np.median(times):.1f}ms, "
             f"IQR={np.percentile(times, 75)-np.percentile(times, 25):.1f}ms, "
-            f"Outliers={len(times[np.abs(times - np.median(times)) > 2*np.std(times)])}"
+            f"Outliers={n_outliers}"
         )
+
 
 if __name__ == "__main__":
     main()

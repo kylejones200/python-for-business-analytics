@@ -13,7 +13,9 @@ from bookdata import load_frame
 df = load_frame("business_customers")
 n = int(len(df))
 count = int(df["churned"].sum())
-stat, pvalue = proportions_ztest(count, n, value=0.12, alternative="two-sided")
+stat, pvalue = proportions_ztest(
+    count, n, value=0.12, alternative="two-sided"
+)
 ci_low, ci_high = proportion_confint(count, n, alpha=0.05, method="wilson")
 
 print(f"n={n}")
@@ -30,7 +32,10 @@ z2, p2 = proportions_ztest(
     [int(off.sum()), int(on.sum())],
     [int(len(off)), int(len(on))],
 )
-print(f"not_onboarded_n={int(len(off))} not_onboarded_churn={float(off.mean()):.4f}")
+print(
+    f"not_onboarded_n={int(len(off))} "
+    f"not_onboarded_churn={float(off.mean()):.4f}"
+)
 print(f"onboarded_n={int(len(on))} onboarded_churn={float(on.mean()):.4f}")
 print(f"two_proportion_z={float(z2):.3f}")
 print(f"two_proportion_p={float(p2):.4f}")

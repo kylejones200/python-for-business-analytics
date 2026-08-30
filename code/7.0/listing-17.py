@@ -23,7 +23,9 @@ series = (
     .fillna(0)
 )
 
-fit = ExponentialSmoothing(series, trend="add", seasonal="add", seasonal_periods=7).fit()
+fit = ExponentialSmoothing(
+    series, trend="add", seasonal="add", seasonal_periods=7
+).fit()
 forecast = fit.forecast(30)
 
 fig, ax = plt.subplots(figsize=(10, 4))
@@ -36,7 +38,11 @@ fig.tight_layout()
 
 img_dir = ROOT / "img"
 img_dir.mkdir(exist_ok=True)
-fig.savefig(img_dir / "ch7_seasonal_exponential_smoothing.png", dpi=300, bbox_inches="tight")
+fig.savefig(
+    img_dir / "ch7_seasonal_exponential_smoothing.png",
+    dpi=300,
+    bbox_inches="tight",
+)
 plt.close(fig)
 print("Saved img/ch7_seasonal_exponential_smoothing.png")
 print("Mean daily orders:", round(float(series.mean()), 2))

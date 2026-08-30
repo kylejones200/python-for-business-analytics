@@ -12,7 +12,11 @@ from sklearn.metrics import (
     confusion_matrix,
     roc_auc_score,
 )
-from sklearn.model_selection import StratifiedKFold, cross_val_score, train_test_split
+from sklearn.model_selection import (
+    StratifiedKFold,
+    cross_val_score,
+    train_test_split,
+)
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder
 

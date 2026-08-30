@@ -22,7 +22,9 @@ series = (
     .fillna(0)
 )
 
-fit = ExponentialSmoothing(series, trend="add", seasonal="add", seasonal_periods=7).fit()
+fit = ExponentialSmoothing(
+    series, trend="add", seasonal="add", seasonal_periods=7
+).fit()
 forecast = fit.forecast(90)
 
 fig, ax = plt.subplots(figsize=(10, 4))
@@ -35,7 +37,9 @@ fig.tight_layout()
 
 img_dir = ROOT / "img"
 img_dir.mkdir(exist_ok=True)
-fig.savefig(img_dir / "ch7_order_volume_forecast.png", dpi=300, bbox_inches="tight")
+fig.savefig(
+    img_dir / "ch7_order_volume_forecast.png", dpi=300, bbox_inches="tight"
+)
 plt.close(fig)
 print("Saved img/ch7_order_volume_forecast.png")
 print("90-day forecast total orders:", round(float(forecast.sum()), 1))

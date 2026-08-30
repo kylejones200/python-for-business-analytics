@@ -24,4 +24,10 @@ img = ROOT / "img" / "ch2_mrr_by_segment.png"
 fig.savefig(img, dpi=300, bbox_inches="tight")
 plt.close(fig)
 print("Saved", img.name)
-print(df.groupby("segment")["mrr_usd"].median().reindex(order).round(0).to_string())
+print(
+    df.groupby("segment")["mrr_usd"]
+    .median()
+    .reindex(order)
+    .round(0)
+    .to_string()
+)

@@ -24,9 +24,13 @@ sizes = [10, 16, 22, 28, 36, 45]
 holdout_r2 = []
 for n_train in sizes:
     use = train_pool[:n_train]
-    pred = ordinary_krige_points(x[use], y[use], z[use], x[test_idx], y[test_idx], 3.0, 20.0, 12_000.0)
+    pred = ordinary_krige_points(
+        x[use], y[use], z[use], x[test_idx], y[test_idx], 3.0, 20.0, 12_000.0
+    )
     obs = z[test_idx]
-    r2 = 1.0 - float(np.sum((obs - pred) ** 2) / np.sum((obs - obs.mean()) ** 2))
+    r2 = 1.0 - float(
+        np.sum((obs - pred) ** 2) / np.sum((obs - obs.mean()) ** 2)
+    )
     holdout_r2.append(r2)
     print("n_train={} holdout R^2={:.3f}".format(n_train, r2))
 

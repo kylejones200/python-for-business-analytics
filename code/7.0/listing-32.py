@@ -25,5 +25,10 @@ df["diff_1"] = df["sales"].diff(1)
 df["diff_2"] = df["sales"].diff(2)
 df["pct_change_1"] = df["sales"].pct_change(1) * 100
 
-print(df[["date", "sales", "diff_1", "pct_change_1"]].tail().round(2).to_string(index=False))
+print(
+    df[["date", "sales", "diff_1", "pct_change_1"]]
+    .tail()
+    .round(2)
+    .to_string(index=False)
+)
 print("Differencing uses only past values.")

@@ -8,6 +8,7 @@ unit-cycle-sensor layout so the examples run offline.
 import numpy as np
 import pandas as pd
 
+
 def make_synthetic_turbofan(n_units=40, seed=7):
     rng = np.random.default_rng(seed)
     rows = []
@@ -32,9 +33,12 @@ def make_synthetic_turbofan(n_units=40, seed=7):
     df["RUL"] = df["true_life"] - df["cycle"]
     return df
 
+
 df = make_synthetic_turbofan()
 print(df.head().round(2).to_string(index=False))
 print("Units:", df["unit"].nunique(), "rows:", len(df))
 print("Failed units:", int(df.groupby("unit")["failed"].max().sum()))
 print("Censored units:", int((df.groupby("unit")["failed"].max() == 0).sum()))
-print("This table is synthetic. Cite NASA/CMAPSS for the original experiment.")
+print(
+    "This table is synthetic. Cite NASA/CMAPSS for the original experiment."
+)

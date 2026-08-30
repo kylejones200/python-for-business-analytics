@@ -19,11 +19,14 @@ from bookhelpers import spherical_gamma
 
 from bookdata import load_zip_points
 
+
 def ordinary_krige_points(x_tr, y_tr, z_tr, x_te, y_te, nugget, psill, rng):
     preds = []
     for x0, y0 in zip(x_te, y_te):
         n = len(z_tr)
-        d_obs = distance_matrix(np.column_stack([x_tr, y_tr]), np.column_stack([x_tr, y_tr]))
+        d_obs = distance_matrix(
+            np.column_stack([x_tr, y_tr]), np.column_stack([x_tr, y_tr])
+        )
         A = np.ones((n + 1, n + 1))
         A[:n, :n] = spherical_gamma(d_obs, nugget, psill, rng)
         A[-1, -1] = 0.0
@@ -37,6 +40,7 @@ def ordinary_krige_points(x_tr, y_tr, z_tr, x_te, y_te, nugget, psill, rng):
         preds.append(float(np.dot(w[:n], z_tr)))
     return np.asarray(preds)
 
+
 def metrics(obs, pred):
     resid = obs - pred
     mae = float(np.mean(np.abs(resid)))
@@ -45,6 +49,7 @@ def metrics(obs, pred):
     ss_tot = float(np.sum((obs - obs.mean()) ** 2))
     r2 = 1.0 - ss_res / ss_tot if ss_tot > 0 else float("nan")
     return mae, rmse, r2
+
 
 pts = load_zip_points(crs_epsg=3081).sample(40, random_state=8)
 x = pts["easting_m"].to_numpy()
@@ -55,8 +60,14 @@ nugget, psill, vrange = 2.0e6, 1.8e7, 35000.0
 loo_pred = np.empty(len(z))
 for i in range(len(z)):
     loo_pred[i] = ordinary_krige_points(
-        np.delete(x, i), np.delete(y, i), np.delete(z, i),
-        np.array([x[i]]), np.array([y[i]]), nugget, psill, vrange
+        np.delete(x, i),
+        np.delete(y, i),
+        np.delete(z, i),
+        np.array([x[i]]),
+        np.array([y[i]]),
+        nugget,
+        psill,
+        vrange,
     )[0]
 loo_mae, loo_rmse, loo_r2 = metrics(z, loo_pred)
 
@@ -64,11 +75,21 @@ loo_mae, loo_rmse, loo_r2 = metrics(z, loo_pred)
 east_cut = np.quantile(x, 0.67)
 train = x < east_cut
 test = ~train
-block_pred = ordinary_krige_points(x[train], y[train], z[train], x[test], y[test], nugget, psill, vrange)
+block_pred = ordinary_krige_points(
+    x[train], y[train], z[train], x[test], y[test], nugget, psill, vrange
+)
 blk_mae, blk_rmse, blk_r2 = metrics(z[test], block_pred)
 
-print("LOO-CV  MAE={:.0f} RMSE={:.0f} R^2={:.3f}".format(loo_mae, loo_rmse, loo_r2))
-print("Block holdout MAE={:.0f} RMSE={:.0f} R^2={:.3f}".format(blk_mae, blk_rmse, blk_r2))
+print(
+    "LOO-CV  MAE={:.0f} RMSE={:.0f} R^2={:.3f}".format(
+        loo_mae, loo_rmse, loo_r2
+    )
+)
+print(
+    "Block holdout MAE={:.0f} RMSE={:.0f} R^2={:.3f}".format(
+        blk_mae, blk_rmse, blk_r2
+    )
+)
 print("R^2 can be negative on held-out predictions.")
 
 fig, axes = plt.subplots(1, 2, figsize=(10, 4))
@@ -87,6 +108,8 @@ fig.tight_layout()
 
 img_dir = ROOT / "img"
 img_dir.mkdir(exist_ok=True)
-fig.savefig(img_dir / "kriging_crossvalidation.png", dpi=300, bbox_inches="tight")
+fig.savefig(
+    img_dir / "kriging_crossvalidation.png", dpi=300, bbox_inches="tight"
+)
 plt.close(fig)
 print("Saved img/kriging_crossvalidation.png")

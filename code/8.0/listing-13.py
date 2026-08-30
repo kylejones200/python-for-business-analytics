@@ -23,15 +23,26 @@ x = rng.uniform(0, 30_000, 48)
 y = rng.uniform(0, 30_000, 48)
 z = 80 + 0.0008 * x + rng.normal(0, 6, 48)
 train = x < np.quantile(x, 0.7)
-z_pred, stds = ordinary_krige_points(x[train], y[train], z[train], x[~train], y[~train],
-                                      4.0, 30.0, 12_000.0, return_std=True)
+z_pred, stds = ordinary_krige_points(
+    x[train],
+    y[train],
+    z[train],
+    x[~train],
+    y[~train],
+    4.0,
+    30.0,
+    12_000.0,
+    return_std=True,
+)
 z_test = z[~train]
 resid = z_test - z_pred
 r2 = 1.0 - float(np.sum(resid**2) / np.sum((z_test - z_test.mean()) ** 2))
 
 fig, axes = plt.subplots(1, 3, figsize=(12, 4))
 axes[0].scatter(z_test, z_pred, s=40)
-lo, hi = float(min(z_test.min(), z_pred.min())), float(max(z_test.max(), z_pred.max()))
+lo, hi = float(min(z_test.min(), z_pred.min())), float(
+    max(z_test.max(), z_pred.max())
+)
 axes[0].plot([lo, hi], [lo, hi], "k--")
 axes[0].set_title("Predicted vs observed")
 axes[1].hist(resid, bins=10, color="0.55", edgecolor="white")
@@ -42,7 +53,9 @@ fig.tight_layout()
 
 img_dir = Path(__file__).resolve().parents[2] / "img"
 img_dir.mkdir(exist_ok=True)
-fig.savefig(img_dir / "performance_dashboard.png", dpi=300, bbox_inches="tight")
+fig.savefig(
+    img_dir / "performance_dashboard.png", dpi=300, bbox_inches="tight"
+)
 plt.close(fig)
 print("Saved img/performance_dashboard.png")
 print("Holdout R^2: {:.3f}".format(r2))

@@ -21,9 +21,16 @@ median_imp = SimpleImputer(strategy="median")
 out = pd.DataFrame(
     {
         "satisfaction": df["satisfaction"],
-        "satisfaction_mean": mean_imp.fit_transform(df[["satisfaction"]]).ravel(),
-        "satisfaction_median": median_imp.fit_transform(df[["satisfaction"]]).ravel(),
+        "satisfaction_mean": mean_imp.fit_transform(
+            df[["satisfaction"]]
+        ).ravel(),
+        "satisfaction_median": median_imp.fit_transform(
+            df[["satisfaction"]]
+        ).ravel(),
     }
 )
 print(out.head(12).round(3).to_string(index=False))
-print("Missing satisfaction before imputation:", int(df["satisfaction"].isna().sum()))
+print(
+    "Missing satisfaction before imputation:",
+    int(df["satisfaction"].isna().sum()),
+)

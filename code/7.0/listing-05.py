@@ -13,7 +13,13 @@ from bookdata import load_frame
 
 ops = load_frame("business_ops")
 ops["order_date"] = pd.to_datetime(ops["order_date"])
-series = ops.set_index("order_date")["net_value_usd"].resample("D").sum().asfreq("D").fillna(0.0)
+series = (
+    ops.set_index("order_date")["net_value_usd"]
+    .resample("D")
+    .sum()
+    .asfreq("D")
+    .fillna(0.0)
+)
 
 img_dir = ROOT / "img"
 img_dir.mkdir(exist_ok=True)
@@ -21,8 +27,20 @@ img_dir.mkdir(exist_ok=True)
 for window in (5, 30, 90):
     ma = series.rolling(window=window, min_periods=1).mean()
     fig, ax = plt.subplots(figsize=(10, 4))
-    ax.plot(series.index, series.values, color="0.55", linewidth=0.8, label="Daily net value")
-    ax.plot(ma.index, ma.values, color="0.15", linewidth=2.0, label=f"{window}-day moving average")
+    ax.plot(
+        series.index,
+        series.values,
+        color="0.55",
+        linewidth=0.8,
+        label="Daily net value",
+    )
+    ax.plot(
+        ma.index,
+        ma.values,
+        color="0.15",
+        linewidth=2.0,
+        label=f"{window}-day moving average",
+    )
     ax.set_xlabel("Date")
     ax.set_ylabel("Net value (USD)")
     ax.set_title(f"Daily net order value with a {window}-day moving average")

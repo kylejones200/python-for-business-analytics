@@ -18,5 +18,8 @@ not_onboarded = df.loc[~df["onboarding_complete"], "adoption_gap"]
 
 result = stats.ttest_ind(onboarded, not_onboarded, equal_var=False)
 print(f"n_onboarded={len(onboarded)} n_not_onboarded={len(not_onboarded)}")
-print(f"mean_onboarded={onboarded.mean():.4f} mean_not={not_onboarded.mean():.4f}")
+print(
+    f"mean_onboarded={onboarded.mean():.4f} "
+    f"mean_not={not_onboarded.mean():.4f}"
+)
 print(f"statistic={result.statistic:.6f} pvalue={result.pvalue:.6f}")

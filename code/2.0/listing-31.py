@@ -18,7 +18,10 @@ print(counts)
 fig, ax = plt.subplots(figsize=(9, 2.8))
 ax.axis("off")
 cols = list(counts.columns)
-rows = [[idx] + [str(int(counts.loc[idx, c])) for c in cols] for idx in counts.index]
+rows = [
+    [idx] + [str(int(counts.loc[idx, c])) for c in cols]
+    for idx in counts.index
+]
 ax.table(cellText=rows, colLabels=[""] + cols, loc="center")
 fig.tight_layout()
 img = ROOT / "img" / "ch2_pivot_count_industry.png"

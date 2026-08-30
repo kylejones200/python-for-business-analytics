@@ -42,7 +42,10 @@ X_fe = sm.add_constant(pd.concat([X, dummies], axis=1)).astype(float)
 fe = sm.OLS(df["revenue"], X_fe).fit()
 print("estimand=within-entity association of promo and support with revenue")
 print(f"fe_promo={float(fe.params['promo']):.3f}")
-print(f"fe_promo_95ci=({fe.conf_int().loc['promo', 0]:.3f}, {fe.conf_int().loc['promo', 1]:.3f})")
+print(
+    f"fe_promo_95ci=({fe.conf_int().loc['promo', 0]:.3f}, "
+    f"{fe.conf_int().loc['promo', 1]:.3f})"
+)
 print(f"fe_support={float(fe.params['support']):.3f}")
 print(
     f"fe_support_95ci=({fe.conf_int().loc['support', 0]:.3f}, "
@@ -50,14 +53,20 @@ print(
 )
 
 X_re = sm.add_constant(df[["promo", "support"]]).astype(float)
-re = MixedLM(df["revenue"], X_re, groups=df["entity_id"]).fit(reml=False, disp=False)
+re = MixedLM(df["revenue"], X_re, groups=df["entity_id"]).fit(
+    reml=False, disp=False
+)
 print(f"re_promo={float(re.params['promo']):.3f}")
 print(f"re_support={float(re.params['support']):.3f}")
 
 b_fe = fe.params[["promo", "support"]].to_numpy()
 b_re = re.params[["promo", "support"]].to_numpy()
-V_fe = fe.cov_params().loc[["promo", "support"], ["promo", "support"]].to_numpy()
-V_re = re.cov_params().loc[["promo", "support"], ["promo", "support"]].to_numpy()
+V_fe = (
+    fe.cov_params().loc[["promo", "support"], ["promo", "support"]].to_numpy()
+)
+V_re = (
+    re.cov_params().loc[["promo", "support"], ["promo", "support"]].to_numpy()
+)
 diff = b_fe - b_re
 V = V_fe - V_re
 stat = float(diff.T @ np.linalg.pinv(V) @ diff)

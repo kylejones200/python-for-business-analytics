@@ -15,9 +15,18 @@ df = load_frame("business_ops")[["order_date", "satisfaction"]].copy()
 df["order_date"] = pd.to_datetime(df["order_date"])
 df.loc[10:250, "satisfaction"] = np.nan
 df["satisfaction_missing"] = df["satisfaction"].isna().astype(int)
-df["satisfaction_imputed"] = df["satisfaction"].fillna(df["satisfaction"].mean())
+df["satisfaction_imputed"] = df["satisfaction"].fillna(
+    df["satisfaction"].mean()
+)
 print(
-    df[["order_date", "satisfaction", "satisfaction_imputed", "satisfaction_missing"]]
+    df[
+        [
+            "order_date",
+            "satisfaction",
+            "satisfaction_imputed",
+            "satisfaction_missing",
+        ]
+    ]
     .head(15)
     .round(3)
     .to_string(index=False)

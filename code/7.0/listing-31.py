@@ -34,5 +34,9 @@ df["month_cos"] = np.cos(2 * np.pi * df["month"] / 12)
 df["day_sin"] = np.sin(2 * np.pi * df["day_of_week"] / 7)
 df["day_cos"] = np.cos(2 * np.pi * df["day_of_week"] / 7)
 
-print(df[["date", "day_of_week", "is_weekend", "month", "month_sin"]].head().to_string(index=False))
+print(
+    df[["date", "day_of_week", "is_weekend", "month", "month_sin"]]
+    .head()
+    .to_string(index=False)
+)
 print("Weekend share:", round(float(df["is_weekend"].mean()), 3))

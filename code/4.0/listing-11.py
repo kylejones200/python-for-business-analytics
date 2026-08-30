@@ -19,7 +19,9 @@ groups = [
 ]
 for flag, label, color in groups:
     values = df.loc[df["onboarding_complete"] == flag, "adoption_gap"]
-    plt.hist(values, bins=20, density=True, alpha=0.55, color=color, label=label)
+    plt.hist(
+        values, bins=20, density=True, alpha=0.55, color=color, label=label
+    )
 
 plt.xlabel("Adoption gap (1 - adoption)")
 plt.ylabel("Density")
@@ -28,6 +30,10 @@ plt.tight_layout()
 
 img_dir = ROOT / "img"
 img_dir.mkdir(exist_ok=True)
-plt.savefig(img_dir / "ch4_adoption_gap_by_onboarding.png", dpi=300, bbox_inches="tight")
+plt.savefig(
+    img_dir / "ch4_adoption_gap_by_onboarding.png",
+    dpi=300,
+    bbox_inches="tight",
+)
 plt.close()
 print("Saved img/ch4_adoption_gap_by_onboarding.png")

@@ -5,6 +5,7 @@ sample size increases. Readers learn statistical convergence, sample mean and
 standard deviation calculations, and visualization of normal distributions.
 
 """
+
 import logging
 import os
 from pathlib import Path
@@ -14,13 +15,14 @@ import numpy as np
 
 logger = logging.getLogger(__name__)
 
+
 def main():
     """Main function demonstrating normal distribution with large samples."""
     logging.basicConfig(level=logging.INFO, format="%(message)s")
-    
+
     # Set random seed for reproducibility
     np.random.seed(42)
-    
+
     mu, sigma = 50, 10  # mean and standard deviation
     n = 100000
     s = np.random.normal(mu, sigma, n)
@@ -33,7 +35,9 @@ def main():
     count, bins, ignored = plt.hist(s, 30, density=True, alpha=0.3)
     plt.plot(
         bins,
-        1 / (sigma * np.sqrt(2 * np.pi)) * np.exp(-((bins - mu) ** 2) / (2 * sigma**2)),
+        1
+        / (sigma * np.sqrt(2 * np.pi))
+        * np.exp(-((bins - mu) ** 2) / (2 * sigma**2)),
         linewidth=2,
         color="r",
     )
@@ -42,9 +46,11 @@ def main():
     plt.axvline(lline, color="g")
     plt.axvline(uline, color="g")
     plt.title(
-        "Normal distribution with mean: {:.02f} and StDev: {:.02f}".format(mu, sigma)
+        "Normal distribution with mean: {:.02f} and StDev: {:.02f}".format(
+            mu, sigma
+        )
     )
-    
+
     # Save figure before showing
     script_path = Path(__file__)
     img_dir = script_path.parents[2] / "img"
@@ -53,5 +59,7 @@ def main():
     plt.savefig(fig_filename, dpi=300, bbox_inches="tight")
     logger.info(f"Figure saved to {fig_filename}")
     plt.close()
+
+
 if __name__ == "__main__":
     main()

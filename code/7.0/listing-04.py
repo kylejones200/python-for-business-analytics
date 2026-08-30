@@ -29,7 +29,15 @@ plt.tight_layout()
 
 img_dir = ROOT / "img"
 img_dir.mkdir(exist_ok=True)
-plt.savefig(img_dir / "ch7_daily_net_order_value.png", dpi=300, bbox_inches="tight")
+plt.savefig(
+    img_dir / "ch7_daily_net_order_value.png", dpi=300, bbox_inches="tight"
+)
 plt.close()
 print("Saved img/ch7_daily_net_order_value.png")
-print("Days:", len(df), "min/max:", float(df["net_value_usd"].min()), float(df["net_value_usd"].max()))
+print(
+    "Days:",
+    len(df),
+    "min/max:",
+    float(df["net_value_usd"].min()),
+    float(df["net_value_usd"].max()),
+)

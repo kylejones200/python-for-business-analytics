@@ -29,7 +29,9 @@ products = [
 ]
 rows = []
 for tid in range(1, 301):
-    basket = set(rng.choice(products, size=int(rng.integers(1, 5)), replace=False))
+    basket = set(
+        rng.choice(products, size=int(rng.integers(1, 5)), replace=False)
+    )
     if rng.random() < 0.20:
         basket.update({"Diapers", "Beer"})
     if rng.random() < 0.25:
@@ -37,7 +39,10 @@ for tid in range(1, 301):
     rows.extend({"TransactionID": tid, "Product": p} for p in sorted(basket))
 
 df_encoded = (
-    pd.crosstab(pd.DataFrame(rows)["TransactionID"], pd.DataFrame(rows)["Product"]) > 0
+    pd.crosstab(
+        pd.DataFrame(rows)["TransactionID"], pd.DataFrame(rows)["Product"]
+    )
+    > 0
 ).astype(int)
 rules = association_rules_simple(
     apriori_itemsets(df_encoded, min_support=0.05), min_confidence=0.7
@@ -62,12 +67,16 @@ nx.draw(
     font_size=8,
     edge_color="0.4",
 )
-nx.draw_networkx_edge_labels(G, pos, edge_labels=nx.get_edge_attributes(G, "weight"))
+nx.draw_networkx_edge_labels(
+    G, pos, edge_labels=nx.get_edge_attributes(G, "weight")
+)
 plt.axis("off")
 
 img_dir = Path(__file__).resolve().parents[2] / "img"
 img_dir.mkdir(exist_ok=True)
-plt.savefig(img_dir / "ch6_association_rules.png", dpi=300, bbox_inches="tight")
+plt.savefig(
+    img_dir / "ch6_association_rules.png", dpi=300, bbox_inches="tight"
+)
 plt.close()
 
 print("Saved img/ch6_association_rules.png")

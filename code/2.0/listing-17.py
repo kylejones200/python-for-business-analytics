@@ -23,6 +23,8 @@ grid = sns.pairplot(df, plot_kws={"s": 8, "alpha": 0.3, "color": "0.35"})
 
 img_dir = ROOT / "img"
 img_dir.mkdir(exist_ok=True)
-grid.savefig(img_dir / "ch2_pairplot_measures.png", dpi=150, bbox_inches="tight")
+grid.savefig(
+    img_dir / "ch2_pairplot_measures.png", dpi=150, bbox_inches="tight"
+)
 plt.close(grid.figure)
 print("Saved img/ch2_pairplot_measures.png")

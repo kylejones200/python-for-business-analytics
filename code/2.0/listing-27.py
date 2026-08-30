@@ -25,7 +25,9 @@ for idx in display.index:
     row = display.loc[idx]
     f_val = "" if pd.isna(row["F"]) else f"{row['F']:.1f}"
     p_val = "" if pd.isna(row["PR(>F)"]) else f"{row['PR(>F)']:.4f}"
-    rows.append([idx, f"{row['sum_sq']:.3e}", f"{row['df']:.0f}", f_val, p_val])
+    rows.append(
+        [idx, f"{row['sum_sq']:.3e}", f"{row['df']:.0f}", f_val, p_val]
+    )
 
 fig, ax = plt.subplots(figsize=(8, 2.4))
 ax.axis("off")
@@ -39,4 +41,8 @@ img = ROOT / "img" / "ch2_mrr_anova.png"
 fig.savefig(img, dpi=300, bbox_inches="tight")
 plt.close(fig)
 print("Saved", img.name)
-print("F={:.1f} p={:.4f}".format(table.loc["C(segment)", "F"], table.loc["C(segment)", "PR(>F)"]))
+print(
+    "F={:.1f} p={:.4f}".format(
+        table.loc["C(segment)", "F"], table.loc["C(segment)", "PR(>F)"]
+    )
+)

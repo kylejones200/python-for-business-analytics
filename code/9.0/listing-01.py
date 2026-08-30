@@ -11,8 +11,9 @@ SEED = 35
 TREAT_MONTH = 13
 TRUE_EFFECT = 18.0
 
+
 def loyalty_panel(rng):
-    """Region-month revenue after a loyalty-discount rollout in two regions."""
+    """Region-month revenue after a discount rollout in two regions."""
     regions = ["West", "Northeast", "South", "Midwest"]
     treated = {"West", "Northeast"}
     markets = []
@@ -24,7 +25,9 @@ def loyalty_panel(rng):
         fe = rng.normal(0.0, 4.0)
         for month in range(1, 25):
             trend = 0.45 * month
-            tau = TRUE_EFFECT if (is_treated and month >= TREAT_MONTH) else 0.0
+            tau = (
+                TRUE_EFFECT if (is_treated and month >= TREAT_MONTH) else 0.0
+            )
             revenue = 120.0 + fe + trend + tau + rng.normal(0.0, 3.5)
             rows.append(
                 {
@@ -37,6 +40,7 @@ def loyalty_panel(rng):
                 }
             )
     return pd.DataFrame(rows)
+
 
 rng = np.random.default_rng(SEED)
 df = loyalty_panel(rng)

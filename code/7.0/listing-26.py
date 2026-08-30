@@ -11,6 +11,7 @@ sys.path.insert(0, str(ROOT / "src"))
 
 from bookdata import load_frame
 
+
 def test_stationarity(timeseries, title):
     result = adfuller(timeseries.dropna(), autolag="AIC")
     print("ADF test for", title)
@@ -21,10 +22,20 @@ def test_stationarity(timeseries, title):
     if result[1] <= 0.05:
         print("Reject the unit-root null at 5%. The series looks stationary.")
     else:
-        print("Do not reject the unit-root null at 5%. The series looks non-stationary.")
+        print(
+            "Do not reject the unit-root null at 5%. The series looks "
+            "non-stationary."
+        )
     return result[1]
+
 
 ops = load_frame("business_ops")
 ops["order_date"] = pd.to_datetime(ops["order_date"])
-series = ops.set_index("order_date")["net_value_usd"].resample("D").sum().asfreq("D").fillna(0.0)
+series = (
+    ops.set_index("order_date")["net_value_usd"]
+    .resample("D")
+    .sum()
+    .asfreq("D")
+    .fillna(0.0)
+)
 test_stationarity(series, "daily net order value")

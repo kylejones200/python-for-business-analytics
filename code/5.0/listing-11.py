@@ -1,4 +1,4 @@
-"""Map categorical customer attributes with multiple correspondence analysis."""
+"""Map categorical attributes with multiple correspondence analysis."""
 
 import sys
 from pathlib import Path
@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src"))
 
 from bookdata import load_frame
+
 
 def multiple_correspondence_analysis(frame, n_components=2):
     """Correspondence analysis on the full indicator matrix (standard MCA)."""
@@ -26,10 +27,13 @@ def multiple_correspondence_analysis(frame, n_components=2):
     col_w = 1.0 / np.sqrt(col_mass)
     standardized = row_w * residuals * col_w
     U, singular_values, _ = np.linalg.svd(standardized, full_matrices=False)
-    row_coords = (row_w * U[:, :n_components]) * singular_values[:n_components]
+    row_coords = (row_w * U[:, :n_components]) * singular_values[
+        :n_components
+    ]
     inertia = singular_values**2
     shares = inertia / inertia.sum()
     return row_coords, shares, indicator.columns
+
 
 df = load_frame("business_customers")
 cats = df[["segment", "region", "industry"]].copy()

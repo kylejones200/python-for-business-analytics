@@ -19,7 +19,10 @@ print("completed overall: {:.4f}".format(df["onboarding_complete"].mean()))
 fig, ax = plt.subplots(figsize=(7, 2.4))
 ax.axis("off")
 cols = ["False", "True"]
-rows = [[idx] + [f"{tab.loc[idx, c]:.3f}" for c in [False, True]] for idx in tab.index]
+rows = [
+    [idx] + [f"{tab.loc[idx, c]:.3f}" for c in [False, True]]
+    for idx in tab.index
+]
 ax.table(cellText=rows, colLabels=["segment"] + cols, loc="center")
 fig.tight_layout()
 img = ROOT / "img" / "ch2_crosstab_onboarding.png"

@@ -1,4 +1,4 @@
-"""Draw a correlation heatmap of the customer measures and the churn outcome."""
+"""Draw a correlation heatmap of the measures and the churn outcome."""
 
 import sys
 from pathlib import Path
@@ -21,12 +21,22 @@ corr = frame.corr()
 print(corr.round(2))
 
 fig, ax = plt.subplots(figsize=(7, 6))
-sns.heatmap(corr, annot=True, fmt=".2f", linewidth=0.5, cmap="rocket",
-            vmin=-1, vmax=1, ax=ax)
+sns.heatmap(
+    corr,
+    annot=True,
+    fmt=".2f",
+    linewidth=0.5,
+    cmap="rocket",
+    vmin=-1,
+    vmax=1,
+    ax=ax,
+)
 fig.tight_layout()
 
 img_dir = ROOT / "img"
 img_dir.mkdir(exist_ok=True)
-fig.savefig(img_dir / "ch2_correlation_heatmap.png", dpi=150, bbox_inches="tight")
+fig.savefig(
+    img_dir / "ch2_correlation_heatmap.png", dpi=150, bbox_inches="tight"
+)
 plt.close(fig)
 print("Saved img/ch2_correlation_heatmap.png")

@@ -31,7 +31,13 @@ fig.tight_layout()
 
 img_dir = ROOT / "img"
 img_dir.mkdir(exist_ok=True)
-fig.savefig(img_dir / "spatial_data_visualization.png", dpi=300, bbox_inches="tight")
+fig.savefig(
+    img_dir / "spatial_data_visualization.png", dpi=300, bbox_inches="tight"
+)
 plt.close(fig)
 print("Saved img/spatial_data_visualization.png")
-print("n={}, mean income={:.0f}, coordinates in EPSG:3081 meters".format(len(x), float(z.mean())))
+print(
+    "n={}, mean income={:.0f}, coordinates in EPSG:3081 meters".format(
+        len(x), float(z.mean())
+    )
+)

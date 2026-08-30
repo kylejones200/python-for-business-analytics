@@ -1,4 +1,4 @@
-"""Create lag features from daily net order value without using future values."""
+"""Create lag features from daily net order value, without leakage."""
 
 import sys
 from pathlib import Path

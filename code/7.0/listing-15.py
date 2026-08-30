@@ -22,7 +22,9 @@ plt.tight_layout()
 
 img_dir = ROOT / "img"
 img_dir.mkdir(exist_ok=True)
-plt.savefig(img_dir / "ch7_filtered_timeseries.png", dpi=300, bbox_inches="tight")
+plt.savefig(
+    img_dir / "ch7_filtered_timeseries.png", dpi=300, bbox_inches="tight"
+)
 plt.close()
 print("Saved img/ch7_filtered_timeseries.png")
 print("2018-2022 min/max:", float(window.min()), float(window.max()))

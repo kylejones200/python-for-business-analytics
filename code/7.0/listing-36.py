@@ -17,6 +17,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
+
 def kaplan_meier(durations, event_observed):
     durations = np.asarray(durations, dtype=float)
     event_observed = np.asarray(event_observed, dtype=int)
@@ -36,11 +37,14 @@ def kaplan_meier(durations, event_observed):
         surv.append(float(s))
     return np.array(times), np.array(surv)
 
+
 units = unit_level(make_synthetic_turbofan())
 times, survival = kaplan_meier(units["duration"], units["event"])
 
 fig, ax = plt.subplots(figsize=(8, 5))
-ax.step(times, survival, where="post", linewidth=2, label="Kaplan-Meier estimate")
+ax.step(
+    times, survival, where="post", linewidth=2, label="Kaplan-Meier estimate"
+)
 ax.set_xlabel("Cycles")
 ax.set_ylabel("Survival probability")
 ax.set_title("Kaplan-Meier curve for synthetic turbofan units")
@@ -52,5 +56,12 @@ img_dir.mkdir(exist_ok=True)
 fig.savefig(img_dir / "ch7_kaplan_meier.png", dpi=300, bbox_inches="tight")
 plt.close(fig)
 print("Saved img/ch7_kaplan_meier.png")
-print("Units:", len(units), "events:", int(units["event"].sum()), "censored:", int((units["event"] == 0).sum()))
+print(
+    "Units:",
+    len(units),
+    "events:",
+    int(units["event"].sum()),
+    "censored:",
+    int((units["event"] == 0).sum()),
+)
 print("Survival at last event time: {:.3f}".format(float(survival[-1])))
