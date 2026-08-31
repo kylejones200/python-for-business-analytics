@@ -1,13 +1,15 @@
-"""Demonstrates game loop logic with input validation and conditional branching.
+"""Game loop logic with input validation and conditional branching.
+Demonstrates game loop logic with input validation and conditional branching.
 
 This script shows the core game loop for a number guessing game, demonstrating
 while loops, exception handling for input validation, and conditional logic.
-Readers learn to structure interactive game loops and handle user input errors.
+Readers learn to structure interactive game loops and handle user input
+errors.
 
-Chapter: Getting Started with Python for Analysis
-Source: 1.0.tex
-Extracted listing: 42
+Chapter: Getting Started with Python for Analysis Source: 1.0.tex Extracted
+listing: 42
 """
+
 import logging
 import random
 import sys
@@ -21,11 +23,15 @@ def main():
     # Check if stdin is a TTY (interactive terminal)
     if not sys.stdin.isatty():
         logger.info("Non-interactive mode: skipping interactive game loop")
-        logger.info("This listing requires interactive input. Run interactively to play.")
+        logger.info(
+            "This listing requires interactive input. Run interactively to "
+            "play."
+        )
         return
-    
+
     # Initialize game variables
     import random
+
     random.seed(42)
     secret_number = random.randint(1, 20)
     name = "Player"  # Default name, can be set interactively
@@ -53,8 +59,11 @@ def main():
             # They got it!
             won = True
             logger.info(f"\nCongratulations, {name}!")
-            logger.info(f"You guessed the number {secret_number} in {attempts} tries!")
+            logger.info(
+                f"You guessed the number {secret_number} in {attempts} tries!"
+            )
             break
+
 
 if __name__ == "__main__":
     main()

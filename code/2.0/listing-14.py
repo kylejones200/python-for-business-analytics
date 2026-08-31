@@ -8,6 +8,7 @@ Chapter: Understanding Data Before Modeling
 Source: 2.0.tex
 Extracted listing: 14
 """
+
 import logging
 
 logger = logging.getLogger(__name__)
@@ -19,21 +20,50 @@ def main():
     # Create example DataFrame with missing values
     import pandas as pd
     import numpy as np
+
     np.random.seed(42)
     dates = pd.date_range('2023-01-01', periods=10, freq='D')
-    df = pd.DataFrame({
-        'Date': dates,
-        'Sales': [100, np.nan, 120, np.nan, 110, 130, np.nan, 140, 150, 160],
-        'Income': [1000, 1200, np.nan, 1400, 1500, np.nan, 1700, 1800, 1900, 2000]
-    })
-    
+    df = pd.DataFrame(
+        {
+            'Date': dates,
+            'Sales': [
+                100,
+                np.nan,
+                120,
+                np.nan,
+                110,
+                130,
+                np.nan,
+                140,
+                150,
+                160,
+            ],
+            'Income': [
+                1000,
+                1200,
+                np.nan,
+                1400,
+                1500,
+                np.nan,
+                1700,
+                1800,
+                1900,
+                2000,
+            ],
+        }
+    )
+
     # Drop rows with any missing values
     df_clean = df.dropna()
-    logger.info(f"Dropped {len(df) - len(df_clean)} rows with any missing values")
+    logger.info(
+        f"Dropped {len(df) - len(df_clean)} rows with any missing values"
+    )
 
     # Drop rows where specific columns have missing values
     df_clean = df.dropna(subset=["Sales", "Date"])
-    logger.info(f"Dropped {len(df) - len(df_clean)} rows with missing Sales or Date")
+    logger.info(
+        f"Dropped {len(df) - len(df_clean)} rows with missing Sales or Date"
+    )
 
     # Impute with mean or median
     if "Income" in df.columns:
@@ -48,6 +78,7 @@ def main():
 
     # Check for missing values
     logger.info("Missing values after imputation:\n%s", df.isnull().sum())
+
 
 if __name__ == "__main__":
     main()
